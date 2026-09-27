@@ -1,0 +1,2127 @@
+{
+  "provider": "overpass",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query": {
+    "latitude": 12.9320495,
+    "longitude": 77.6842915,
+    "categories": null
+  },
+  "captured_at": "2026-09-27T10:58:45.062805+00:00",
+  "key": "overpass-35c4c05b84785d857898ff7a",
+  "payload": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-09-27T10:57:51Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 253514986,
+        "lat": 12.9385595,
+        "lon": 77.707137,
+        "tags": {
+          "alt_name": "Bellandur Road",
+          "internet_access": "no",
+          "name": "Belandur Road",
+          "name:kn": "\u0cac\u0cc6\u0cb3\u0c82\u0ca6\u0cc2\u0cb0\u0cc1 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "network": "IR",
+          "operator": "SWR",
+          "platforms": "2",
+          "railway": "halt",
+          "ref": "BLRR",
+          "wikidata": "Q63369374",
+          "wikipedia": "en:Belandur Road railway station"
+        }
+      },
+      {
+        "type": "node",
+        "id": 267214379,
+        "lat": 12.9134182,
+        "lon": 77.6774852,
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Clinic"
+        }
+      },
+      {
+        "type": "node",
+        "id": 307401529,
+        "lat": 12.9263714,
+        "lon": 77.6765455,
+        "tags": {
+          "addr:city": "Belandur, Bangalore",
+          "addr:full": "74/1, Bellandur, Ring Road, Varthur",
+          "addr:housenumber": "74/1",
+          "addr:postcode": "560037",
+          "addr:state": "Karnataka",
+          "addr:street": "Outer Ring Road",
+          "amenity": "hospital",
+          "email": "whitefield@theapolloclinic.com",
+          "healthcare": "hospital",
+          "name": "Apollo Hospital",
+          "name:kn": "\u0c85\u0caa\u0cca\u0cb2\u0ccb \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "phone": "+91-80-40222555",
+          "website": "http://www.apolloclinicbangalore.com/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1693120843,
+        "lat": 12.9267954,
+        "lon": 77.6699091,
+        "tags": {
+          "amenity": "hospital",
+          "designation": "Hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "level": "2",
+          "name": "Sunny Medicals Hospital Clinic",
+          "source": "Survey",
+          "wheelchair": "limited",
+          "wheelchair:description": "Steps at entrace to building, lift to hospital"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2412945505,
+        "lat": 12.9352602,
+        "lon": 77.6911411,
+        "tags": {
+          "bench": "yes",
+          "bin": "no",
+          "bus": "yes",
+          "highway": "bus_stop",
+          "lit": "yes",
+          "name": "New Horizon College",
+          "network": "BMTC",
+          "network:wikidata": "Q3345039",
+          "public_transport": "platform",
+          "shelter": "yes",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2623332318,
+        "lat": 12.9231571,
+        "lon": 77.6728066,
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Narayana Hrudayalaya Dental Clinic",
+          "name:kn": "\u0ca8\u0cbe\u0cb0\u0cbe\u0caf\u0ca3 \u0cb9\u0cc3\u0ca6\u0caf\u0cbe\u0cb2\u0caf \u0ca6\u0c82\u0ca4 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3170437443,
+        "lat": 12.9354523,
+        "lon": 77.6909776,
+        "tags": {
+          "bench": "yes",
+          "bin": "yes",
+          "bus": "yes",
+          "check_date:shelter": "2026-07-08",
+          "highway": "bus_stop",
+          "name": "New Horizon College",
+          "network": "BMTC",
+          "network:wikidata": "Q3345039",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3170450633,
+        "lat": 12.931626,
+        "lon": 77.6871127,
+        "tags": {
+          "bus": "yes",
+          "highway": "bus_stop",
+          "name": "Devarabeesanahalli",
+          "name:kn": "\u0ca6\u0cc7\u0cb5\u0cb0\u0cac\u0cc0\u0cb8\u0ca8\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf",
+          "network": "BMTC",
+          "network:wikidata": "Q3345039",
+          "operator": "BMTC",
+          "public_transport": "platform"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3170450634,
+        "lat": 12.9320446,
+        "lon": 77.6871801,
+        "tags": {
+          "bench": "yes",
+          "bus": "yes",
+          "highway": "bus_stop",
+          "name": "Deverabeesanahalli",
+          "name:kn": "\u0ca6\u0cc7\u0cb5\u0cb0\u0cac\u0cc0\u0cb8\u0ca8\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf",
+          "network": "BMTC",
+          "network:wikidata": "Q3345039",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3170452368,
+        "lat": 12.9280325,
+        "lon": 77.6811709,
+        "tags": {
+          "alt_name": "Devarabeesanahalli",
+          "bench": "yes",
+          "bus": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "Ecospace",
+          "name:en": "Ecospace",
+          "network": "BMTC",
+          "network:wikidata": "Q3345039",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3170452369,
+        "lat": 12.9283411,
+        "lon": 77.6811574,
+        "tags": {
+          "bench": "yes",
+          "bus": "yes",
+          "highway": "bus_stop",
+          "name": "Ecospace",
+          "network": "BMTC",
+          "network:wikidata": "Q3345039",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3477797688,
+        "lat": 12.9241818,
+        "lon": 77.6737518,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "446/21 Above Vijaya Bank, Opposite To Amba Bajaja Showroom",
+          "addr:postcode": "560103",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Nelivigi Eye Hospital",
+          "operator:type": "private",
+          "source": "OpenGovernmentData",
+          "website": "https://www.nelivigieyehospital.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3541798347,
+        "lat": 12.9517397,
+        "lon": 77.6994832,
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "level": "1",
+          "name": "Sanghi Medical Centre (P) Ltd"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4440829279,
+        "lat": 12.911533,
+        "lon": 77.6764094,
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:postcode": "560035",
+          "addr:street": "Kasvanahalli Road, Behind State Bank of Mysore, Sarjapur Road, Kaikondrahalli",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Stanford Speciality Hospital",
+          "phone": "080 6566 6689"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4440931106,
+        "lat": 12.9124371,
+        "lon": 77.6813917,
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:housenumber": "No.7/1",
+          "addr:postcode": "560035",
+          "addr:street": "Sarjapur Road",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "name": "Dr Mohan Nursing Home",
+          "phone": "+91-80-42119084"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4440939217,
+        "lat": 12.9072384,
+        "lon": 77.6755805,
+        "tags": {
+          "addr:city": "Bengaluru",
+          "addr:housenumber": "4/21",
+          "addr:postcode": "560035",
+          "addr:street": "Kasavanahalli Road",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Sparsh Clinic",
+          "phone": "+91-99000 19567"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4441670838,
+        "lat": 12.9121008,
+        "lon": 77.6820003,
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:housenumber": "No. 65/1, 1st Floor",
+          "addr:postcode": "560035",
+          "addr:street": "Doddakannelli,\u00a0Sarjapur Road",
+          "amenity": "hospital",
+          "healthcare:speciality": "general;dermatology;clinic",
+          "name": "Naadi Ayurveda Center",
+          "operator": "Kotakkal Arya Vaidyashala",
+          "phone": "+91-9980016089"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4441681632,
+        "lat": 12.9217604,
+        "lon": 77.6618321,
+        "tags": {
+          "addr:city": "Bengaluru",
+          "addr:postcode": "560103",
+          "addr:street": "Service Rd, Agara, Iblur Village, Bellandur",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Kottakkal Arya Vaidya Sala",
+          "phone": "+91-80 6450 4434",
+          "website": "https://aryavaidyasala.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4441938603,
+        "lat": 12.9122002,
+        "lon": 77.6818637,
+        "tags": {
+          "addr:city": "bangaluru",
+          "addr:housenumber": "65",
+          "addr:postcode": "560035",
+          "addr:street": "Sarjapur Main Rd, Kaikondrahalli",
+          "amenity": "hospital",
+          "name": "The Family Doctor & The Family Pharma",
+          "phone": "+91-80 2574 6204",
+          "website": "https://www.thefamilydoctor.co.in/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4443782275,
+        "lat": 12.9236532,
+        "lon": 77.6914948,
+        "tags": {
+          "addr:city": "Bengaluru",
+          "addr:postcode": "560103",
+          "addr:street": "Panathur, Chandana, Devarabisanahalli, Bellandur,",
+          "amenity": "school",
+          "name": "Government Higher Primary School Devarabisanahalli",
+          "operator": "Panathur"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4445167354,
+        "lat": 12.9179831,
+        "lon": 77.6691258,
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:postcode": "560034",
+          "addr:street": "Sarjapur Main Rd, Bellandur",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Dr Rachna - Homeopathy",
+          "phone": "+9195909 10963"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4447105943,
+        "lat": 12.9370295,
+        "lon": 77.6873802,
+        "tags": {
+          "addr:street": "Panathur, Chandana, Bengaluru karnataka",
+          "amenity": "school",
+          "name": "Government Higher Primary School",
+          "name:kn": "\u0caa\u0ca3\u0ca4\u0cc2\u0cb0\u0cc1 \u0cb8\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0cbf \u0cb9\u0cbf\u0cb0\u0cbf\u0caf \u0caa\u0ccd\u0cb0\u0cbe\u0ca5\u0cae\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4474824189,
+        "lat": 12.9474274,
+        "lon": 77.6808752,
+        "tags": {
+          "amenity": "school",
+          "name": "Prasad Vidya Mandir",
+          "name:en": "Prasad Vidya Mandir",
+          "name:kn": "\u0caa\u0ccd\u0cb0\u0cb8\u0cbe\u0ca6 \u0cb5\u0cbf\u0ca6\u0ccd\u0caf \u0cae\u0c82\u0ca6\u0cbf\u0cb0"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4474836390,
+        "lat": 12.9480263,
+        "lon": 77.6817564,
+        "tags": {
+          "amenity": "school",
+          "name": "Prasad Vidya Mandir",
+          "name:en": "Prasad Vidya Mandir",
+          "name:kn": "\u0caa\u0ccd\u0cb0\u0cb8\u0cbe\u0ca6 \u0cb5\u0cbf\u0ca6\u0ccd\u0caf \u0cae\u0c82\u0ca6\u0cbf\u0cb0"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6094890251,
+        "lat": 12.9274741,
+        "lon": 77.6719868,
+        "tags": {
+          "leisure": "park",
+          "name": "Children's Park"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9830781726,
+        "lat": 12.9365283,
+        "lon": 77.7046741,
+        "tags": {
+          "amenity": "hospital",
+          "name": "Maya Hospital"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10137293053,
+        "lat": 12.9263862,
+        "lon": 77.6766068,
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Apollo Pharmacy"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13460414201,
+        "lat": 12.9306649,
+        "lon": 77.6760591,
+        "tags": {
+          "amenity": "school",
+          "education": "school",
+          "name": "Bellandur Government School"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13666515767,
+        "lat": 12.932315,
+        "lon": 77.6852483,
+        "tags": {
+          "addr:city": "Bengaluru",
+          "addr:district": "BENGALURU URBAN",
+          "addr:postcode": "560103",
+          "addr:street": "akra World Hospital - SY NO 52/2, 52/3, Devarabeesanahalli, Varthur Hobli Opp Intel, Outer Ring Rd, Marathahalli",
+          "alt_name": "Dr Ramesh Dalwai",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "orthopaedic_surgeon;pine_surgery",
+          "name": "Sakra World Hospital",
+          "website": "https://www.dalwaispine.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14170477502,
+        "lat": 12.9324666,
+        "lon": 77.6853621,
+        "tags": {
+          "addr:city": "Bengaluru",
+          "addr:district": "Bengaluru",
+          "addr:postcode": "560103",
+          "addr:street": "Sakra World Hospital, Devarabisanahalli, Bellandu",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "orthopaedic_spine_surgeon",
+          "name": "Dr Ramesh Dalwai Spine Surgeon",
+          "website": "https://www.dalwaispine.com/"
+        }
+      },
+      {
+        "type": "way",
+        "id": 114922746,
+        "center": {
+          "lat": 12.9329837,
+          "lon": 77.6927659
+        },
+        "tags": {
+          "dual_carriageway": "yes",
+          "highway": "primary",
+          "maxspeed:type": "IN-KA:urban",
+          "name": "New Horizon College Road",
+          "name:etymology:wikidata": "Q7008837",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 230206695,
+        "center": {
+          "lat": 12.9147515,
+          "lon": 77.6789706
+        },
+        "tags": {
+          "amenity": "school",
+          "name": "St. Peter's School",
+          "name:kn": "\u0cb8\u0cc7\u0c82\u0c9f\u0ccd \u0caa\u0cc0\u0c9f\u0cb0\u0ccd \u0cb6\u0cbe\u0cb2\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 350098025,
+        "center": {
+          "lat": 12.9293077,
+          "lon": 77.681234
+        },
+        "tags": {
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 350098026,
+        "center": {
+          "lat": 12.9242361,
+          "lon": 77.681696
+        },
+        "tags": {
+          "layer": "-1",
+          "tunnel": "yes",
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 367594183,
+        "center": {
+          "lat": 12.9322626,
+          "lon": 77.6799602
+        },
+        "tags": {
+          "natural": "water"
+        }
+      },
+      {
+        "type": "way",
+        "id": 377103305,
+        "center": {
+          "lat": 12.9346252,
+          "lon": 77.6900816
+        },
+        "tags": {
+          "dual_carriageway": "yes",
+          "highway": "trunk",
+          "int_ref": "AH43",
+          "lanes": "3",
+          "lit": "yes",
+          "maxheight": "5.5",
+          "maxspeed": "60",
+          "name": "Outer Ring Road",
+          "name:kn": "\u0cb9\u0cca\u0cb0 \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "official_name": "KC Reddy Ring Road",
+          "official_name:etymology:wikidata": "Q6323235",
+          "official_name:kn": "\u0c95\u0ccd\u0c9a\u0ccd \u0cb0\u0cc6\u0ca1\u0ccd\u0ca1\u0cbf \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6\u0ca8\u0ccd\u0c9f\u0ccd",
+          "oneway": "yes",
+          "ref": "NH44;NH48",
+          "ref:old": "NH7",
+          "ref_1": "NH48",
+          "short_name": "ORR",
+          "sidewalk": "no",
+          "source:official_name": "https://timesofindia.indiatimes.com/city/bengaluru/kc-reddy-vartula-raste-30km-orr-stretch-named-after-first-mysore-cm/articleshow/107002205.cms",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 377104670,
+        "center": {
+          "lat": 12.9291944,
+          "lon": 77.6831181
+        },
+        "tags": {
+          "bicycle": "no",
+          "dual_carriageway": "yes",
+          "embankment": "yes",
+          "highway": "trunk",
+          "horse": "no",
+          "int_ref": "AH43",
+          "lanes": "3",
+          "lit": "yes",
+          "loc_name": "Outer Ring Road",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Outer Ring Road",
+          "name:kn": "\u0cb9\u0cca\u0cb0 \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "official_name": "KC Reddy Ring Road",
+          "official_name:etymology:wikidata": "Q6323235",
+          "official_name:kn": "\u0c95\u0ccd\u0c9a\u0ccd \u0cb0\u0cc6\u0ca1\u0ccd\u0ca1\u0cbf \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6\u0ca8\u0ccd\u0c9f\u0ccd",
+          "oneway": "yes",
+          "ref": "NH44;NH48",
+          "ref:old": "NH7",
+          "ref_1": "NH48",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "source:official_name": "https://timesofindia.indiatimes.com/city/bengaluru/kc-reddy-vartula-raste-30km-orr-stretch-named-after-first-mysore-cm/articleshow/107002205.cms",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 377104672,
+        "center": {
+          "lat": 12.9280615,
+          "lon": 77.6807146
+        },
+        "tags": {
+          "bicycle": "yes",
+          "cycleway": "no",
+          "dual_carriageway": "yes",
+          "foot": "no",
+          "highway": "trunk",
+          "horse": "no",
+          "int_ref": "AH43",
+          "lanes": "3",
+          "lit": "yes",
+          "maxheight": "5.5",
+          "maxspeed": "60",
+          "name": "Outer Ring Road",
+          "name:kn": "\u0cb9\u0cca\u0cb0 \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "official_name": "KC Reddy Ring Road",
+          "official_name:etymology:wikidata": "Q6323235",
+          "official_name:kn": "\u0c95\u0ccd\u0c9a\u0ccd \u0cb0\u0cc6\u0ca1\u0ccd\u0ca1\u0cbf \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6\u0ca8\u0ccd\u0c9f\u0ccd",
+          "old_ref": "NH7",
+          "oneway": "yes",
+          "ref": "NH44;NH48",
+          "ref:old": "NH7",
+          "ref_1": "NH48",
+          "short_name": "ORR",
+          "sidewalk": "no",
+          "source:official_name": "https://timesofindia.indiatimes.com/city/bengaluru/kc-reddy-vartula-raste-30km-orr-stretch-named-after-first-mysore-cm/articleshow/107002205.cms",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 377104675,
+        "center": {
+          "lat": 12.926276,
+          "lon": 77.676967
+        },
+        "tags": {
+          "alt_name": "Srinagar - Kanyakumari Highway",
+          "alt_name_1": "Delhi - Chennai Highway",
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "trunk",
+          "horse": "no",
+          "int_ref": "AH43",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "loc_name": "Outer Ring Road",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Outer Ring Road",
+          "name:kn": "\u0cb9\u0cca\u0cb0 \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "official_name": "KC Reddy Ring Road",
+          "official_name:etymology:wikidata": "Q6323235",
+          "official_name:kn": "\u0c95\u0ccd\u0c9a\u0ccd \u0cb0\u0cc6\u0ca1\u0ccd\u0ca1\u0cbf \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6\u0ca8\u0ccd\u0c9f\u0ccd",
+          "oneway": "yes",
+          "ref": "NH44;NH48",
+          "ref:old": "NH7",
+          "ref_1": "NH48",
+          "short_name": "ORR",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "source:official_name": "https://timesofindia.indiatimes.com/city/bengaluru/kc-reddy-vartula-raste-30km-orr-stretch-named-after-first-mysore-cm/articleshow/107002205.cms",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 380929043,
+        "center": {
+          "lat": 12.9279384,
+          "lon": 77.6808668
+        },
+        "tags": {
+          "dual_carriageway": "yes",
+          "highway": "trunk",
+          "int_ref": "AH43",
+          "lanes": "3",
+          "lit": "yes",
+          "maxheight": "5.5",
+          "maxspeed": "60",
+          "name": "Outer Ring Road",
+          "name:kn": "\u0cb9\u0cca\u0cb0 \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "official_name": "KC Reddy Ring Road",
+          "official_name:etymology:wikidata": "Q6323235",
+          "official_name:kn": "\u0c95\u0ccd\u0c9a\u0ccd \u0cb0\u0cc6\u0ca1\u0ccd\u0ca1\u0cbf \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6\u0ca8\u0ccd\u0c9f\u0ccd",
+          "oneway": "yes",
+          "ref": "NH44;NH48",
+          "ref:old": "NH7",
+          "ref_1": "NH48",
+          "short_name": "ORR",
+          "sidewalk": "no",
+          "source:official_name": "https://timesofindia.indiatimes.com/city/bengaluru/kc-reddy-vartula-raste-30km-orr-stretch-named-after-first-mysore-cm/articleshow/107002205.cms",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 380929045,
+        "center": {
+          "lat": 12.9290818,
+          "lon": 77.6832622
+        },
+        "tags": {
+          "bicycle": "no",
+          "dual_carriageway": "yes",
+          "embankment": "yes",
+          "highway": "trunk",
+          "horse": "no",
+          "int_ref": "AH43",
+          "lanes": "3",
+          "lit": "yes",
+          "loc_name": "Outer Ring Road",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Outer Ring Road",
+          "official_name": "KC Reddy Ring Road",
+          "official_name:etymology:wikidata": "Q6323235",
+          "official_name:kn": "\u0c95\u0ccd\u0c9a\u0ccd \u0cb0\u0cc6\u0ca1\u0ccd\u0ca1\u0cbf \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6\u0ca8\u0ccd\u0c9f\u0ccd",
+          "oneway": "yes",
+          "ref": "NH44;NH48",
+          "ref:old": "NH7",
+          "ref_1": "NH48",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "source:official_name": "https://timesofindia.indiatimes.com/city/bengaluru/kc-reddy-vartula-raste-30km-orr-stretch-named-after-first-mysore-cm/articleshow/107002205.cms",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 380929048,
+        "center": {
+          "lat": 12.9261014,
+          "lon": 77.6770565
+        },
+        "tags": {
+          "alt_name": "Srinagar - Kanyakumari Highway",
+          "alt_name_1": "Delhi - Chennai Highway",
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "trunk",
+          "horse": "no",
+          "int_ref": "AH43",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "loc_name": "Outer Ring Road",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Outer Ring Road",
+          "name:kn": "\u0cb9\u0cca\u0cb0 \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "official_name": "KC Reddy Ring Road",
+          "official_name:etymology:wikidata": "Q6323235",
+          "official_name:kn": "\u0c95\u0ccd\u0c9a\u0ccd \u0cb0\u0cc6\u0ca1\u0ccd\u0ca1\u0cbf \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6\u0ca8\u0ccd\u0c9f\u0ccd",
+          "oneway": "yes",
+          "ref": "NH44;NH48",
+          "ref:old": "NH7",
+          "ref_1": "NH48",
+          "short_name": "ORR",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "source:official_name": "https://timesofindia.indiatimes.com/city/bengaluru/kc-reddy-vartula-raste-30km-orr-stretch-named-after-first-mysore-cm/articleshow/107002205.cms",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 380929051,
+        "center": {
+          "lat": 12.9346018,
+          "lon": 77.6903074
+        },
+        "tags": {
+          "dual_carriageway": "yes",
+          "highway": "trunk",
+          "int_ref": "AH43",
+          "lanes": "3",
+          "lit": "yes",
+          "maxheight": "default",
+          "maxspeed": "60",
+          "name": "Outer Ring Road",
+          "name:kn": "\u0cb9\u0cca\u0cb0 \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "official_name": "KC Reddy Ring Road",
+          "official_name:etymology:wikidata": "Q6323235",
+          "official_name:kn": "\u0c95\u0ccd\u0c9a\u0ccd \u0cb0\u0cc6\u0ca1\u0ccd\u0ca1\u0cbf \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6\u0ca8\u0ccd\u0c9f\u0ccd",
+          "oneway": "yes",
+          "ref": "NH44;NH48",
+          "ref:old": "NH7",
+          "ref_1": "NH48",
+          "short_name": "ORR",
+          "sidewalk": "no",
+          "source:official_name": "https://timesofindia.indiatimes.com/city/bengaluru/kc-reddy-vartula-raste-30km-orr-stretch-named-after-first-mysore-cm/articleshow/107002205.cms",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 450523548,
+        "center": {
+          "lat": 12.9164427,
+          "lon": 77.6774446
+        },
+        "tags": {
+          "amenity": "school"
+        }
+      },
+      {
+        "type": "way",
+        "id": 450584253,
+        "center": {
+          "lat": 12.9427633,
+          "lon": 77.6904335
+        },
+        "tags": {
+          "natural": "water",
+          "water": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 450584276,
+        "center": {
+          "lat": 12.935172,
+          "lon": 77.6801681
+        },
+        "tags": {
+          "waterway": "river"
+        }
+      },
+      {
+        "type": "way",
+        "id": 450595902,
+        "center": {
+          "lat": 12.9471736,
+          "lon": 77.6809614
+        },
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:postcode": "560037",
+          "addr:street": "Yemalur Main Rd, Yemalur, Bellandur",
+          "amenity": "school",
+          "name": "Government Primary School",
+          "name:kn": "\u0cb8\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0cbf \u0caa\u0ccd\u0cb0\u0cbe\u0ca5\u0cae\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 472629013,
+        "center": {
+          "lat": 12.940351,
+          "lon": 77.6943279
+        },
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 610471335,
+        "center": {
+          "lat": 12.9179135,
+          "lon": 77.6722553
+        },
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "gynaecology",
+          "name": "Motherhood"
+        }
+      },
+      {
+        "type": "way",
+        "id": 611385979,
+        "center": {
+          "lat": 12.9199685,
+          "lon": 77.6652549
+        },
+        "tags": {
+          "amenity": "hospital",
+          "check_date": "2025-02-12",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Manipal Hospitals",
+          "name:kn": "\u0cae\u0ca3\u0cbf\u0caa\u0cbe\u0cb2 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "payment:cash": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "source": "survey",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 613474107,
+        "center": {
+          "lat": 12.9135595,
+          "lon": 77.6795552
+        },
+        "tags": {
+          "addr:city": "Bengaluru",
+          "addr:housenumber": "66",
+          "addr:postcode": "560034",
+          "addr:street": "Kaikondrahalli, Sarjapur Road",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Suvarnamukhi",
+          "name:kn": "\u0cb8\u0cc1\u0cb5\u0cb0\u0ccd\u0ca3\u0cae\u0cc1\u0c96\u0cbf \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "phone": "+91 98451 26869"
+        }
+      },
+      {
+        "type": "way",
+        "id": 628233550,
+        "center": {
+          "lat": 12.9347569,
+          "lon": 77.683469
+        },
+        "tags": {
+          "access": "private",
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 631580848,
+        "center": {
+          "lat": 12.9322182,
+          "lon": 77.6853258
+        },
+        "tags": {
+          "addr:housenumber": "52/2, 52/3",
+          "addr:street": "Kariammana Agrahara Road",
+          "amenity": "hospital",
+          "check_date": "2025-09-03",
+          "contact:phone": "080 4962 4962",
+          "contact:website": "https://www.sakraworldhospital.com/",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "dermatology;otolaryngology;urology;blood_check;cardiology;intensive;diabetology;orthopaedics;cardiothoracic_surgery;gynaecology;paediatrics;emergency;general;dentistry;dental_oral_maxillo_facial_surgery;rheumatology;anaesthetics;plastic_surgery;dialysis",
+          "name": "Sakra World",
+          "opening_hours": "24/7",
+          "operator:type": "private",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:qr_code": "yes",
+          "payment:upi": "yes",
+          "wheelchair": "yes",
+          "wikidata": "Q134999916"
+        }
+      },
+      {
+        "type": "way",
+        "id": 729512556,
+        "center": {
+          "lat": 12.926575,
+          "lon": 77.6716971
+        },
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:postcode": "560103",
+          "addr:street": "GreenGlen Layout",
+          "leisure": "park",
+          "name": "Joggers Park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1061038559,
+        "center": {
+          "lat": 12.9338818,
+          "lon": 77.6975708
+        },
+        "tags": {
+          "amenity": "school",
+          "check_date": "2023-04-05",
+          "email": "principal@newhorizongurukul.in",
+          "name": "New Horizon Gurukul",
+          "opening_hours": "Mo-Sa 08:15-16:00; Su,PH off",
+          "phone": "+91 80 4814 7031; +91 96633 97146",
+          "source": "survey",
+          "website": "https://newhorizongurukul.in",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1061038565,
+        "center": {
+          "lat": 12.9356402,
+          "lon": 77.6984479
+        },
+        "tags": {
+          "addr:city": "Kadubeesinhalli",
+          "addr:housenumber": "77/7,Panathur VillageRoad, Kadabisanahalli,, Behind Cessna Business Park,, Kaverappa Layout",
+          "addr:postcode": "560103",
+          "addr:street": "Panathur Main Road",
+          "amenity": "school",
+          "check_date": "2025-06-21",
+          "name": "Geetanjali Olympiad School",
+          "name:kn": "\u0c97\u0cbf\u0cd5\u0ca4\u0cbe\u0c82\u0c9c\u0cb2\u0cbf \u0c92\u0cb2\u0cbf\u0c82\u0caa\u0cbf\u0caf\u0cbe\u0ca1\u0ccd \u0cb8\u0ccd\u0c95\u0cc2\u0cb2\u0ccd"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1061038569,
+        "center": {
+          "lat": 12.9381431,
+          "lon": 77.7015238
+        },
+        "tags": {
+          "addr:postcode": "560103",
+          "addr:street": "Panathur Main Rd, Munnireddy Layout",
+          "amenity": "school",
+          "check_date": "2025-09-03",
+          "email": "communications.oisptr@orchids.edu.in",
+          "name": "Orchids The International School, Panathur",
+          "opening_hours": "Mo-Su 09:00-18:30",
+          "operator": "Orchids International School",
+          "phone": "+91 88888 88999",
+          "school:gender": "mixed",
+          "website": "https://www.orchidsinternationalschool.com/bangalore-branches/panathur-road/"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1061283230,
+        "center": {
+          "lat": 12.937533,
+          "lon": 77.7001967
+        },
+        "tags": {
+          "addr:city": "Bengaluru",
+          "addr:postcode": "560103",
+          "addr:street": "Panathur Main Road",
+          "amenity": "school",
+          "name": "Vibgyor Roots And Rise School",
+          "religion": "none"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1062970359,
+        "center": {
+          "lat": 12.934221,
+          "lon": 77.6906367
+        },
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "maxspeed:type": "IN-KA:urban",
+          "name": "New Horizon College Road",
+          "name:etymology:wikidata": "Q7008837",
+          "oneway": "yes",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1062970360,
+        "center": {
+          "lat": 12.9325451,
+          "lon": 77.6929279
+        },
+        "tags": {
+          "dual_carriageway": "yes",
+          "highway": "primary",
+          "name": "New Horizon College Road",
+          "name:etymology:wikidata": "Q7008837",
+          "oneway": "yes",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1066848432,
+        "center": {
+          "lat": 12.931011,
+          "lon": 77.6956947
+        },
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1071044455,
+        "center": {
+          "lat": 12.9244197,
+          "lon": 77.6724971
+        },
+        "tags": {
+          "amenity": "hospital",
+          "check_date": "2025-02-12",
+          "healthcare": "hospital",
+          "healthcare:speciality": "maternity",
+          "name": "Cloudnine",
+          "payment:cash": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1071242274,
+        "center": {
+          "lat": 12.9266151,
+          "lon": 77.6735425
+        },
+        "tags": {
+          "amenity": "school",
+          "name": "Narayana e-Techno School - Bellandur"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1071257248,
+        "center": {
+          "lat": 12.9124863,
+          "lon": 77.6765573
+        },
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "BN Specialty Hospital"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1075372138,
+        "center": {
+          "lat": 12.9362537,
+          "lon": 77.6996347
+        },
+        "tags": {
+          "amenity": "school",
+          "building": "school",
+          "building:levels": "1",
+          "name": "Sri Sri Ravishankar Balmandir"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1092680599,
+        "center": {
+          "lat": 12.9377282,
+          "lon": 77.6921678
+        },
+        "tags": {
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1186655037,
+        "center": {
+          "lat": 12.9227863,
+          "lon": 77.6785698
+        },
+        "tags": {
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1188323418,
+        "center": {
+          "lat": 12.940911,
+          "lon": 77.6874982
+        },
+        "tags": {
+          "natural": "water"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1188323419,
+        "center": {
+          "lat": 12.9419396,
+          "lon": 77.6867416
+        },
+        "tags": {
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1193177992,
+        "center": {
+          "lat": 12.9156928,
+          "lon": 77.6752029
+        },
+        "tags": {
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Cloud Nine",
+          "note": "Emergency ward and lab open 24x7",
+          "opening_hours": "Mo-Sa 08:00-20:00, Su 10:00-12:00, 16:00-18:00",
+          "operator": "Cloud Nine Care",
+          "operator:type": "private",
+          "phone": "+91 99728 99728",
+          "website": "https://www.cloudninecare.com/centre/sarjapur-road"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1196486571,
+        "center": {
+          "lat": 12.9300445,
+          "lon": 77.690722
+        },
+        "tags": {
+          "access": "permit",
+          "addr:city": "Devarabisanahalli, Bellandur, Bengaluru, Karnataka 560103",
+          "addr:district": "Bellandur",
+          "addr:housenumber": "12",
+          "addr:postcode": "560103",
+          "addr:street": "2",
+          "leisure": "park",
+          "name": "Quest Garden",
+          "operator": "Embassy Tech Village",
+          "operator:type": "private"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1196486572,
+        "center": {
+          "lat": 12.929697,
+          "lon": 77.6922799
+        },
+        "tags": {
+          "access": "private",
+          "full_name": "Embassy Tech Village Central Park",
+          "leisure": "park",
+          "name": "ETV Central Park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1197583718,
+        "center": {
+          "lat": 12.9438375,
+          "lon": 77.6760946
+        },
+        "tags": {
+          "addr:city": "Bengaluru",
+          "addr:housenumber": "16",
+          "addr:postcode": "560037",
+          "amenity": "school",
+          "name": "Neev Academy",
+          "phone": "+91 8032568780"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1212112580,
+        "center": {
+          "lat": 12.9308118,
+          "lon": 77.6901546
+        },
+        "tags": {
+          "access": "private",
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1212362556,
+        "center": {
+          "lat": 12.9229095,
+          "lon": 77.6815943
+        },
+        "tags": {
+          "access": "private",
+          "leisure": "park",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1212362557,
+        "center": {
+          "lat": 12.9229214,
+          "lon": 77.6807836
+        },
+        "tags": {
+          "access": "private",
+          "leisure": "park",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1212362558,
+        "center": {
+          "lat": 12.9229553,
+          "lon": 77.6801972
+        },
+        "tags": {
+          "access": "private",
+          "leisure": "park",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1212362559,
+        "center": {
+          "lat": 12.9220017,
+          "lon": 77.6808591
+        },
+        "tags": {
+          "access": "private",
+          "leisure": "park",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1212362576,
+        "center": {
+          "lat": 12.9313141,
+          "lon": 77.6907647
+        },
+        "tags": {
+          "access": "private",
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1215354174,
+        "center": {
+          "lat": 12.9272975,
+          "lon": 77.6790814
+        },
+        "tags": {
+          "alt_name": "Srinagar - Kanyakumari Highway",
+          "alt_name_1": "Delhi - Chennai Highway",
+          "bicycle": "yes",
+          "cycleway": "no",
+          "embankment": "yes",
+          "foot": "no",
+          "highway": "trunk",
+          "horse": "no",
+          "int_ref": "AH43",
+          "lanes": "3",
+          "lit": "yes",
+          "maxspeed": "60",
+          "name": "Outer Ring Road",
+          "name:kn": "\u0cb9\u0cca\u0cb0 \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "official_name": "KC Reddy Ring Road",
+          "official_name:etymology:wikidata": "Q6323235",
+          "official_name:kn": "\u0c95\u0ccd\u0c9a\u0ccd \u0cb0\u0cc6\u0ca1\u0ccd\u0ca1\u0cbf \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6\u0ca8\u0ccd\u0c9f\u0ccd",
+          "old_ref": "NH7",
+          "oneway": "yes",
+          "ref": "NH44;NH48",
+          "ref:old": "NH7",
+          "ref_1": "NH48",
+          "short_name": "ORR",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "source:official_name": "https://timesofindia.indiatimes.com/city/bengaluru/kc-reddy-vartula-raste-30km-orr-stretch-named-after-first-mysore-cm/articleshow/107002205.cms",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1215354175,
+        "center": {
+          "lat": 12.9271292,
+          "lon": 77.6791844
+        },
+        "tags": {
+          "alt_name": "Srinagar - Kanyakumari Highway",
+          "alt_name_1": "Delhi - Chennai Highway",
+          "embankment": "yes",
+          "highway": "trunk",
+          "int_ref": "AH43",
+          "lanes": "3",
+          "lit": "yes",
+          "maxspeed": "60",
+          "name": "Outer Ring Road",
+          "name:kn": "\u0cb9\u0cca\u0cb0 \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "official_name": "KC Reddy Ring Road",
+          "official_name:etymology:wikidata": "Q6323235",
+          "official_name:kn": "\u0c95\u0ccd\u0c9a\u0ccd \u0cb0\u0cc6\u0ca1\u0ccd\u0ca1\u0cbf \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6\u0ca8\u0ccd\u0c9f\u0ccd",
+          "oneway": "yes",
+          "ref": "NH44;NH48",
+          "ref:old": "NH7",
+          "ref_1": "NH48",
+          "short_name": "ORR",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "source:official_name": "https://timesofindia.indiatimes.com/city/bengaluru/kc-reddy-vartula-raste-30km-orr-stretch-named-after-first-mysore-cm/articleshow/107002205.cms",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1239003788,
+        "center": {
+          "lat": 12.9311924,
+          "lon": 77.6865654
+        },
+        "tags": {
+          "dual_carriageway": "yes",
+          "embankment": "yes",
+          "highway": "trunk",
+          "int_ref": "AH43",
+          "lanes": "3",
+          "lit": "yes",
+          "maxheight": "default",
+          "maxspeed": "20",
+          "name": "Outer Ring Road",
+          "name:kn": "\u0cb9\u0cca\u0cb0 \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "official_name": "KC Reddy Ring Road",
+          "official_name:etymology:wikidata": "Q6323235",
+          "official_name:kn": "\u0c95\u0ccd\u0c9a\u0ccd \u0cb0\u0cc6\u0ca1\u0ccd\u0ca1\u0cbf \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6\u0ca8\u0ccd\u0c9f\u0ccd",
+          "oneway": "yes",
+          "ref": "NH44;NH48",
+          "ref:old": "NH7",
+          "ref_1": "NH48",
+          "short_name": "ORR",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "source:official_name": "https://timesofindia.indiatimes.com/city/bengaluru/kc-reddy-vartula-raste-30km-orr-stretch-named-after-first-mysore-cm/articleshow/107002205.cms",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1239003789,
+        "center": {
+          "lat": 12.9312762,
+          "lon": 77.6863993
+        },
+        "tags": {
+          "dual_carriageway": "yes",
+          "embankment": "yes",
+          "highway": "trunk",
+          "int_ref": "AH43",
+          "lanes": "3",
+          "lit": "yes",
+          "maxspeed": "60",
+          "name": "Outer Ring Road",
+          "name:kn": "\u0cb9\u0cca\u0cb0 \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "official_name": "KC Reddy Ring Road",
+          "official_name:etymology:wikidata": "Q6323235",
+          "official_name:kn": "\u0c95\u0ccd\u0c9a\u0ccd \u0cb0\u0cc6\u0ca1\u0ccd\u0ca1\u0cbf \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6\u0ca8\u0ccd\u0c9f\u0ccd",
+          "oneway": "yes",
+          "ref": "NH44;NH48",
+          "ref:old": "NH7",
+          "ref_1": "NH48",
+          "short_name": "ORR",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "source:official_name": "https://timesofindia.indiatimes.com/city/bengaluru/kc-reddy-vartula-raste-30km-orr-stretch-named-after-first-mysore-cm/articleshow/107002205.cms",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1239003798,
+        "center": {
+          "lat": 12.9301089,
+          "lon": 77.6851536
+        },
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "dual_carriageway": "yes",
+          "highway": "trunk",
+          "horse": "no",
+          "int_ref": "AH43",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "loc_name": "Outer Ring Road",
+          "maxspeed": "60",
+          "maxweight:signed": "no",
+          "name": "Outer Ring Road",
+          "name:kn": "\u0cb9\u0cca\u0cb0 \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "official_name": "KC Reddy Ring Road",
+          "official_name:etymology:wikidata": "Q6323235",
+          "official_name:kn": "\u0c95\u0ccd\u0c9a\u0ccd \u0cb0\u0cc6\u0ca1\u0ccd\u0ca1\u0cbf \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6\u0ca8\u0ccd\u0c9f\u0ccd",
+          "oneway": "yes",
+          "ref": "NH44;NH48",
+          "ref:old": "NH7",
+          "ref_1": "NH48",
+          "short_name": "ORR",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "source:official_name": "https://timesofindia.indiatimes.com/city/bengaluru/kc-reddy-vartula-raste-30km-orr-stretch-named-after-first-mysore-cm/articleshow/107002205.cms",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1239003799,
+        "center": {
+          "lat": 12.930265,
+          "lon": 77.6850689
+        },
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "dual_carriageway": "yes",
+          "highway": "trunk",
+          "horse": "no",
+          "int_ref": "AH43",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "loc_name": "Outer Ring Road",
+          "maxspeed": "50",
+          "maxweight:signed": "no",
+          "name": "Outer Ring Road",
+          "name:kn": "\u0cb9\u0cca\u0cb0 \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "official_name": "KC Reddy Ring Road",
+          "official_name:etymology:wikidata": "Q6323235",
+          "official_name:kn": "\u0c95\u0ccd\u0c9a\u0ccd \u0cb0\u0cc6\u0ca1\u0ccd\u0ca1\u0cbf \u0cb5\u0cb0\u0ccd\u0ca4\u0cc1\u0cb2 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6\u0ca8\u0ccd\u0c9f\u0ccd",
+          "oneway": "yes",
+          "ref": "NH44;NH48",
+          "ref:old": "NH7",
+          "ref_1": "NH48",
+          "short_name": "ORR",
+          "sidewalk": "no",
+          "smoothness": "good",
+          "source:official_name": "https://timesofindia.indiatimes.com/city/bengaluru/kc-reddy-vartula-raste-30km-orr-stretch-named-after-first-mysore-cm/articleshow/107002205.cms",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1242730689,
+        "center": {
+          "lat": 12.9303072,
+          "lon": 77.6913712
+        },
+        "tags": {
+          "access": "private",
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1242730690,
+        "center": {
+          "lat": 12.9303069,
+          "lon": 77.6913711
+        },
+        "tags": {
+          "natural": "water",
+          "water": "pond"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1242730691,
+        "center": {
+          "lat": 12.9301217,
+          "lon": 77.6915882
+        },
+        "tags": {
+          "natural": "water",
+          "water": "pond"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1242730692,
+        "center": {
+          "lat": 12.9300233,
+          "lon": 77.691714
+        },
+        "tags": {
+          "natural": "water",
+          "water": "pond"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1243254563,
+        "center": {
+          "lat": 12.9234495,
+          "lon": 77.6873047
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Deverabisanahalli Lake Park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1243270183,
+        "center": {
+          "lat": 12.9288421,
+          "lon": 77.6790631
+        },
+        "tags": {
+          "fixme": "Alignment of section under ORR",
+          "layer": "-1",
+          "tunnel": "yes",
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1245237770,
+        "center": {
+          "lat": 12.9401711,
+          "lon": 77.6798108
+        },
+        "tags": {
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1245237771,
+        "center": {
+          "lat": 12.9381754,
+          "lon": 77.679012
+        },
+        "tags": {
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1248868626,
+        "center": {
+          "lat": 12.9408253,
+          "lon": 77.6930493
+        },
+        "tags": {
+          "access": "private",
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1257688041,
+        "center": {
+          "lat": 12.9332814,
+          "lon": 77.6823421
+        },
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1257688047,
+        "center": {
+          "lat": 12.9309591,
+          "lon": 77.6791296
+        },
+        "tags": {
+          "access": "private",
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1259323929,
+        "center": {
+          "lat": 12.9299951,
+          "lon": 77.671195
+        },
+        "tags": {
+          "natural": "water",
+          "water": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1274663099,
+        "center": {
+          "lat": 12.929957,
+          "lon": 77.6701877
+        },
+        "tags": {
+          "boat": "no",
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1290198690,
+        "center": {
+          "lat": 12.9202359,
+          "lon": 77.6674739
+        },
+        "tags": {
+          "addr:city": "Bengaluru",
+          "addr:housenumber": "3/4",
+          "addr:postcode": "560103",
+          "addr:street": "Sarjapura Road",
+          "amenity": "hospital",
+          "email": "queries@rainbowhospitals.in",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "gynaecology;child_psychiatry;paediatrics;otolaryngology;fertility;neonatology;vascular_surgery;physiatry",
+          "name": "Rainbow Childrens Hospital",
+          "name:kn": "\u0cb0\u0cc8\u0ca8\u0ccd\u0cac\u0ccb \u0cae\u0c95\u0ccd\u0c95\u0cb3 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "phone": "+91 08062261218",
+          "website": "https://www.rainbowhospitals.in/"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1296398951,
+        "center": {
+          "lat": 12.9306999,
+          "lon": 77.6807989
+        },
+        "tags": {
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1296398952,
+        "center": {
+          "lat": 12.9301267,
+          "lon": 77.6809899
+        },
+        "tags": {
+          "tunnel": "culvert",
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1296416058,
+        "center": {
+          "lat": 12.9245909,
+          "lon": 77.6793243
+        },
+        "tags": {
+          "natural": "water",
+          "water": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1296416079,
+        "center": {
+          "lat": 12.918331,
+          "lon": 77.6799134
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Saul Kere Park",
+          "opening_hours": "Mo-Su 05:30-9:30,16:30-18:30"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1300187542,
+        "center": {
+          "lat": 12.9293773,
+          "lon": 77.6812341
+        },
+        "tags": {
+          "natural": "water",
+          "water": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1314592447,
+        "center": {
+          "lat": 12.9411959,
+          "lon": 77.6894707
+        },
+        "tags": {
+          "layer": "-1",
+          "tunnel": "culvert",
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1314592448,
+        "center": {
+          "lat": 12.940829,
+          "lon": 77.6897954
+        },
+        "tags": {
+          "layer": "-1",
+          "tunnel": "culvert",
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1328053428,
+        "center": {
+          "lat": 12.941339,
+          "lon": 77.6810318
+        },
+        "tags": {
+          "layer": "-1",
+          "tunnel": "culvert",
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1333116509,
+        "center": {
+          "lat": 12.9398675,
+          "lon": 77.6858039
+        },
+        "tags": {
+          "natural": "water"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1365463943,
+        "center": {
+          "lat": 12.9369128,
+          "lon": 77.685073
+        },
+        "tags": {
+          "amenity": "school",
+          "name": "Patel Public School"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1365463970,
+        "center": {
+          "lat": 12.9365078,
+          "lon": 77.6794988
+        },
+        "tags": {
+          "natural": "water"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1409994942,
+        "center": {
+          "lat": 12.9316228,
+          "lon": 77.6811475
+        },
+        "tags": {
+          "waterway": "river"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1409994943,
+        "center": {
+          "lat": 12.9310927,
+          "lon": 77.6798734
+        },
+        "tags": {
+          "waterway": "river"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1409994954,
+        "center": {
+          "lat": 12.9306092,
+          "lon": 77.6784884
+        },
+        "tags": {
+          "layer": "-1",
+          "tunnel": "culvert",
+          "waterway": "river"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1409994955,
+        "center": {
+          "lat": 12.9311324,
+          "lon": 77.6775102
+        },
+        "tags": {
+          "waterway": "river"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1409994956,
+        "center": {
+          "lat": 12.9309453,
+          "lon": 77.6776338
+        },
+        "tags": {
+          "natural": "water"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1409994957,
+        "center": {
+          "lat": 12.941571,
+          "lon": 77.6863828
+        },
+        "tags": {
+          "waterway": "river"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1409994958,
+        "center": {
+          "lat": 12.9388634,
+          "lon": 77.6823735
+        },
+        "tags": {
+          "natural": "water",
+          "water": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1426810494,
+        "center": {
+          "lat": 12.9400753,
+          "lon": 77.6890487
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Open Area"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1521295529,
+        "center": {
+          "lat": 12.9224268,
+          "lon": 77.6856576
+        },
+        "tags": {
+          "layer": "-1",
+          "tunnel": "culvert",
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1521295530,
+        "center": {
+          "lat": 12.9224459,
+          "lon": 77.6858591
+        },
+        "tags": {
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1521295532,
+        "center": {
+          "lat": 12.9225075,
+          "lon": 77.6844891
+        },
+        "tags": {
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1528352414,
+        "center": {
+          "lat": 12.9238946,
+          "lon": 77.6891173
+        },
+        "tags": {
+          "layer": "-1",
+          "tunnel": "culvert",
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1528352425,
+        "center": {
+          "lat": 12.9231521,
+          "lon": 77.6887602
+        },
+        "tags": {
+          "intermittent": "yes",
+          "name": "Kalyani",
+          "natural": "water",
+          "water": "pond"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1531239207,
+        "center": {
+          "lat": 12.9318458,
+          "lon": 77.6783866
+        },
+        "tags": {
+          "access": "private",
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1551018246,
+        "center": {
+          "lat": 12.9391726,
+          "lon": 77.6916406
+        },
+        "tags": {
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1551018247,
+        "center": {
+          "lat": 12.9403339,
+          "lon": 77.6906636
+        },
+        "tags": {
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1558462278,
+        "center": {
+          "lat": 12.9307761,
+          "lon": 77.6848295
+        },
+        "tags": {
+          "layer": "-1",
+          "tunnel": "yes",
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1558462279,
+        "center": {
+          "lat": 12.9304412,
+          "lon": 77.6828872
+        },
+        "tags": {
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1558462283,
+        "center": {
+          "lat": 12.9308396,
+          "lon": 77.6852593
+        },
+        "tags": {
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "relation",
+        "id": 17083842,
+        "center": {
+          "lat": 12.9234468,
+          "lon": 77.6872922
+        },
+        "tags": {
+          "alt_name": "Devarabisanahalli Lake",
+          "name": "Deverabisanahalli Lake",
+          "name:kn": "\u0ca6\u0cc7\u0cb5\u0cb0 \u0cac\u0cbf\u0cb8\u0ca8\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf \u0c95\u0cc6\u0cb0\u0cc6",
+          "natural": "water",
+          "type": "multipolygon",
+          "water": "lake"
+        }
+      },
+      {
+        "type": "relation",
+        "id": 19751547,
+        "center": {
+          "lat": 12.936231,
+          "lon": 77.6614871
+        },
+        "tags": {
+          "alt_name": "Bellandur Tank",
+          "name": "Bellandur Lake",
+          "name:de": "Bellandursee",
+          "name:kn": "\u0cac\u0cc6\u0cb3\u0ccd\u0cb3\u0c82\u0ca6\u0cc2\u0cb0\u0cc1 \u0c95\u0cc6\u0cb0\u0cc6",
+          "natural": "water",
+          "note": "Rejuvenation and desilting ongoing as of 2026 April",
+          "type": "multipolygon",
+          "water": "lake",
+          "wikidata": "Q4883488",
+          "wikimedia_commons": "Category:Bellandur Lake",
+          "wikipedia": "en:Bellandur Lake"
+        }
+      }
+    ]
+  }
+}

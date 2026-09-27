@@ -1,0 +1,115 @@
+{
+  "provider": "nominatim",
+  "endpoint": "https://nominatim.openstreetmap.org/search",
+  "query": {
+    "query": "Jayanagar, Bengaluru",
+    "limit": 5
+  },
+  "captured_at": "2026-09-27T10:53:55.708621+00:00",
+  "key": "nominatim-ffa065afb9e5d79ebe5a9e32",
+  "payload": [
+    {
+      "place_id": 250464569,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 429853334,
+      "lat": "12.9292731",
+      "lon": "77.5824229",
+      "class": "place",
+      "type": "suburb",
+      "place_rank": 19,
+      "importance": 0.14673761120012202,
+      "addresstype": "suburb",
+      "name": "Jayanagar",
+      "display_name": "Jayanagar, Tilak Nagara, Bengaluru South City Corporation, Bengaluru, Bangalore South, Bengaluru Urban, Karnataka, 560011, India",
+      "address": {
+        "suburb": "Jayanagar",
+        "city_district": "Bengaluru South City Corporation",
+        "city": "Bengaluru",
+        "county": "Bangalore South",
+        "state_district": "Bengaluru Urban",
+        "state": "Karnataka",
+        "ISO3166-2-lvl4": "IN-KA",
+        "postcode": "560011",
+        "country": "India",
+        "country_code": "in"
+      },
+      "boundingbox": [
+        "12.9092731",
+        "12.9492731",
+        "77.5624229",
+        "77.6024229"
+      ]
+    },
+    {
+      "place_id": 253921750,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1565099131,
+      "lat": "12.9295069",
+      "lon": "77.5801653",
+      "class": "railway",
+      "type": "stop",
+      "place_rank": 30,
+      "importance": 7.094453345536e-05,
+      "addresstype": "railway",
+      "name": "Jayanagar",
+      "display_name": "Jayanagar, Rashtriya Vidyalaya Road, Byrasandra, Bengaluru South City Corporation, Bengaluru, Bangalore South, Bengaluru Urban, Karnataka, 560011, India",
+      "address": {
+        "railway": "Jayanagar",
+        "road": "Rashtriya Vidyalaya Road",
+        "suburb": "Byrasandra",
+        "city_district": "Bengaluru South City Corporation",
+        "city": "Bengaluru",
+        "county": "Bangalore South",
+        "state_district": "Bengaluru Urban",
+        "state": "Karnataka",
+        "ISO3166-2-lvl4": "IN-KA",
+        "postcode": "560011",
+        "country": "India",
+        "country_code": "in"
+      },
+      "boundingbox": [
+        "12.9294569",
+        "12.9295569",
+        "77.5801153",
+        "77.5802153"
+      ]
+    },
+    {
+      "place_id": 253921776,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6432710296,
+      "lat": "12.9295069",
+      "lon": "77.5801439",
+      "class": "railway",
+      "type": "station",
+      "place_rank": 30,
+      "importance": 7.094453345536e-05,
+      "addresstype": "railway",
+      "name": "Jayanagar",
+      "display_name": "Jayanagar, Rashtriya Vidyalaya Road, Byrasandra, Bengaluru South City Corporation, Bengaluru, Bangalore South, Bengaluru Urban, Karnataka, 560011, India",
+      "address": {
+        "railway": "Jayanagar",
+        "road": "Rashtriya Vidyalaya Road",
+        "suburb": "Byrasandra",
+        "city_district": "Bengaluru South City Corporation",
+        "city": "Bengaluru",
+        "county": "Bangalore South",
+        "state_district": "Bengaluru Urban",
+        "state": "Karnataka",
+        "ISO3166-2-lvl4": "IN-KA",
+        "postcode": "560011",
+        "country": "India",
+        "country_code": "in"
+      },
+      "boundingbox": [
+        "12.9245069",
+        "12.9345069",
+        "77.5751439",
+        "77.5851439"
+      ]
+    }
+  ]
+}

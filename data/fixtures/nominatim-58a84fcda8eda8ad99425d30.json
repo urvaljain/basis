@@ -1,0 +1,101 @@
+{
+  "provider": "nominatim",
+  "endpoint": "https://nominatim.openstreetmap.org/search",
+  "query": {
+    "query": "Indore",
+    "limit": 5
+  },
+  "captured_at": "2026-09-27T11:57:22.707753+00:00",
+  "key": "nominatim-58a84fcda8eda8ad99425d30",
+  "payload": [
+    {
+      "place_id": 247743131,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 245709027,
+      "lat": "22.7203616",
+      "lon": "75.8681996",
+      "class": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.5544087255063135,
+      "addresstype": "city",
+      "name": "Indore",
+      "display_name": "Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India",
+      "address": {
+        "city": "Indore",
+        "county": "Juni Indore Tahsil",
+        "state_district": "Indore",
+        "state": "Madhya Pradesh",
+        "ISO3166-2-lvl4": "IN-MP",
+        "postcode": "452001",
+        "country": "India",
+        "country_code": "in"
+      },
+      "boundingbox": [
+        "22.5603616",
+        "22.8803616",
+        "75.7081996",
+        "76.0281996"
+      ]
+    },
+    {
+      "place_id": 247699952,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 1976160,
+      "lat": "22.7108119",
+      "lon": "75.8076918",
+      "class": "boundary",
+      "type": "administrative",
+      "place_rank": 10,
+      "importance": 0.4873744466777523,
+      "addresstype": "state_district",
+      "name": "Indore",
+      "display_name": "Indore, Madhya Pradesh, India",
+      "address": {
+        "state_district": "Indore",
+        "state": "Madhya Pradesh",
+        "ISO3166-2-lvl4": "IN-MP",
+        "country": "India",
+        "country_code": "in"
+      },
+      "boundingbox": [
+        "22.3321365",
+        "23.0892215",
+        "75.4230682",
+        "76.2472777"
+      ]
+    },
+    {
+      "place_id": 247526014,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 316417076,
+      "lat": "22.6666672",
+      "lon": "75.7499980",
+      "class": "place",
+      "type": "county",
+      "place_rank": 12,
+      "importance": 0.2400617418173495,
+      "addresstype": "county",
+      "name": "Indore",
+      "display_name": "Indore, Madhya Pradesh, 451225, India",
+      "address": {
+        "county": "Indore",
+        "state_district": "Indore",
+        "state": "Madhya Pradesh",
+        "ISO3166-2-lvl4": "IN-MP",
+        "postcode": "451225",
+        "country": "India",
+        "country_code": "in"
+      },
+      "boundingbox": [
+        "21.9666672",
+        "23.3666672",
+        "75.0499980",
+        "76.4499980"
+      ]
+    }
+  ]
+}

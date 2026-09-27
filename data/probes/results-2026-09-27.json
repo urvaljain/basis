@@ -1,0 +1,73 @@
+{
+  "probed_at": "2026-09-27",
+  "site": [
+    12.9320495,
+    77.6842915
+  ],
+  "nominatim_geocoding": {
+    "ok": true,
+    "lat": 12.9320495,
+    "lon": 77.6842915,
+    "display_name": "Bellandur, Bengaluru East City Corporation, Bengaluru, Bangalore East, Bengaluru Urban, Karnataka, India",
+    "bbox": [
+      "12.9225853",
+      "12.9414258",
+      "77.6677817",
+      "77.6904750"
+    ],
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "note": "ODbL. 1 req/s. User-Agent required."
+  },
+  "overpass_osm": {
+    "ok": true,
+    "mirror_used": "https://overpass-api.de/api/interpreter",
+    "attempts": [
+      "https://overpass-api.de/api/interpreter -> OK"
+    ],
+    "total_features": 59,
+    "nodes": 11,
+    "ways": 48,
+    "osm_base_timestamp": "2026-09-27T09:37:51Z",
+    "note": "ODbL. Crowd-sourced: completeness varies by area and must be disclosed. Public instances return 504 under load \u2014 mirrors and retries are mandatory, not defensive."
+  },
+  "open_meteo_archive": {
+    "ok": true,
+    "requested": [
+      12.9320495,
+      77.6842915
+    ],
+    "grid_centroid": [
+      12.899824,
+      77.65667
+    ],
+    "grid_drift_km": 4.71,
+    "model_elevation_m": 875.0,
+    "days_returned": 366,
+    "annual_precip_mm_2024": 1009.9,
+    "note": "ERA5 reanalysis on a ~9km grid. Free for non-commercial use. The drift above is why the UI must show the grid point, not the site point."
+  },
+  "opentopodata_srtm": {
+    "ok": true,
+    "elevations_m": [
+      881.0,
+      880.0
+    ],
+    "local_relief_m": 1.0,
+    "note": "SRTM 30m. 1000 calls/day, 100 locations/call. 30m postings cannot resolve plot-level grade."
+  },
+  "absent_structured_sources": {
+    "ok": true,
+    "portals_reachable": {
+      "data.gov.in": "HTTP 403",
+      "bhuvan (ISRO)": "HTTP 200 \u2014 portal reachable"
+    },
+    "no_parcel_level_api_found_for": [
+      "zoning / land-use class per parcel",
+      "FAR, setbacks, coverage per plot",
+      "valley-zone / eco-sensitive overlay",
+      "official flood hazard layer (Bengaluru)",
+      "parcel geometry / ownership"
+    ],
+    "note": "Portals exist; neither exposes a parcel-level zoning endpoint. This is the finding that pushes the product toward the document layer."
+  }
+}

@@ -1,0 +1,382 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  BASIS — design tokens
+
+  Two ideas carry the whole visual language.
+
+  1. COLOUR ENCODES EPISTEMIC STATUS, AND NOTHING ELSE.
+     Every hue in this file means one thing: how much a statement can be relied on. A fact
+     is uncoloured — certainty needs no decoration, and reserving neutral for it makes the
+     coloured states read as qualifications rather than emphasis. Inference is blue,
+     assumption amber, recommendation teal, conflict ember, unreadable violet. No colour is
+     ever used for branding, mood or hierarchy, because a reader who learns the code must be
+     able to trust it everywhere.
+
+  2. THE DOCUMENT HAS ITS OWN VOICE.
+     Anything quoted from the source renders on a warm "paper" surface in a serif face.
+     Anything Basis says renders on the dark chrome in the UI sans. The reader can always
+     tell, at a glance and without reading a label, which words are the regulation's and
+     which are the machine's. In a product whose argument is that AI claims must be
+     checkable, that distinction earns its place as a primitive rather than a flourish.
+
+  Dark by default, and only dark. The core interaction is scanning dense structured evidence
+  and comparing states, not reading long prose; a single theme executed properly beats a
+  toggle executed twice. The paper surfaces carry the long-form reading.
+*/
+
+:root {
+  /* Chrome — the system's own surface */
+  --bg: #0a0c0f;
+  --bg-raised: #10141a;
+  --bg-panel: #141920;
+  --bg-hover: #1a2029;
+  --border: #222a35;
+  --border-strong: #2f3a48;
+
+  /* Text */
+  --text: #e8ebef;
+  --text-secondary: #9aa4b2;
+  --text-tertiary: #6b7685;
+  --text-faint: #4a5462;
+
+  /* Paper — the document's surface. Warm, to read as "not the machine". */
+  --paper: #f5f2ec;
+  --paper-dim: #e8e4db;
+  --paper-text: #1f1c17;
+  --paper-muted: #5c564c;
+  --paper-mark: #ffe9a8;
+
+  /* Epistemic status */
+  --fact: #e8ebef;
+  --fact-dim: #2f3a48;
+  --inference: #6aa6ff;
+  --inference-dim: #17283f;
+  --assumption: #e0a63c;
+  --assumption-dim: #33280f;
+  --recommendation: #4fc1a6;
+  --recommendation-dim: #10302a;
+  --conflict: #e8734a;
+  --conflict-dim: #331a11;
+  --unreadable: #a78bfa;
+  --unreadable-dim: #241a3d;
+
+  --focus: #6aa6ff;
+
+  --font-ui: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --font-source: "Source Serif 4", Georgia, "Times New Roman", serif;
+}
+
+* {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  /* Nothing in this product should scroll sideways. Dense tables opt in locally with
+     overflow-x-auto on their own container. */
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-size: 14px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "cv02", "cv03", "cv04", "ss01";
+}
+
+::selection {
+  background: rgba(106, 166, 255, 0.28);
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* Scrollbars: present but quiet. Dense panels need them legible. */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 5px;
+  border: 2px solid var(--bg);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3d4a5c;
+}
+
+@layer components {
+  /* ---------------------------------------------------------------- surfaces */
+
+  .panel {
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+  }
+
+  .panel-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* The document's voice. Everything quoted from the source lives here. */
+  .paper {
+    background: var(--paper);
+    color: var(--paper-text);
+    font-family: var(--font-source);
+    font-size: 14.5px;
+    line-height: 1.62;
+    border-radius: 4px;
+    padding: 14px 16px;
+  }
+
+  .paper mark {
+    background: var(--paper-mark);
+    color: inherit;
+    padding: 0 1px;
+    border-radius: 2px;
+  }
+
+  /* ------------------------------------------------------- epistemic markers
+
+     The left rule carries the meaning: solid for measured, dashed for derived,
+     dotted for assumed. The border style is legible without colour, which keeps the
+     distinction available to colour-blind readers and in print.
+  */
+
+  .stmt {
+    position: relative;
+    padding: 10px 12px 10px 14px;
+    border-left: 3px solid var(--fact-dim);
+    background: var(--bg-raised);
+    border-radius: 0 4px 4px 0;
+  }
+
+  .stmt-fact {
+    border-left-style: solid;
+    border-left-color: var(--fact-dim);
+  }
+  .stmt-inference {
+    border-left-style: dashed;
+    border-left-color: var(--inference);
+    background: linear-gradient(90deg, var(--inference-dim) 0%, var(--bg-raised) 42%);
+  }
+  .stmt-assumption {
+    border-left-style: dotted;
+    border-left-color: var(--assumption);
+    background: linear-gradient(90deg, var(--assumption-dim) 0%, var(--bg-raised) 42%);
+  }
+  .stmt-recommendation {
+    border-left-style: solid;
+    border-left-color: var(--recommendation);
+    background: linear-gradient(90deg, var(--recommendation-dim) 0%, var(--bg-raised) 42%);
+  }
+
+  /* ------------------------------------------------------------------ labels */
+
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    white-space: nowrap;
+  }
+
+  .tag-fact {
+    color: var(--text-secondary);
+    border-color: var(--border-strong);
+  }
+  .tag-inference {
+    color: var(--inference);
+    border-color: color-mix(in srgb, var(--inference) 35%, transparent);
+    background: var(--inference-dim);
+  }
+  .tag-assumption {
+    color: var(--assumption);
+    border-color: color-mix(in srgb, var(--assumption) 35%, transparent);
+    background: var(--assumption-dim);
+  }
+  .tag-recommendation {
+    color: var(--recommendation);
+    border-color: color-mix(in srgb, var(--recommendation) 35%, transparent);
+    background: var(--recommendation-dim);
+  }
+  .tag-conflict {
+    color: var(--conflict);
+    border-color: color-mix(in srgb, var(--conflict) 35%, transparent);
+    background: var(--conflict-dim);
+  }
+  .tag-unreadable {
+    color: var(--unreadable);
+    border-color: color-mix(in srgb, var(--unreadable) 35%, transparent);
+    background: var(--unreadable-dim);
+  }
+
+  /* Citation reference — monospaced so it reads as a coordinate, and clickable. */
+  .cite {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--inference);
+    text-decoration: none;
+    border-bottom: 1px dotted color-mix(in srgb, var(--inference) 50%, transparent);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .cite:hover {
+    color: #a3c8ff;
+    border-bottom-style: solid;
+  }
+
+  /* A caveat is never decorative and never collapsible. */
+  .caveat {
+    display: flex;
+    gap: 7px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--assumption);
+    background: var(--assumption-dim);
+    border: 1px solid color-mix(in srgb, var(--assumption) 22%, transparent);
+    border-radius: 4px;
+    padding: 8px 10px;
+  }
+
+  .caveat-severe {
+    color: var(--conflict);
+    background: var(--conflict-dim);
+    border-color: color-mix(in srgb, var(--conflict) 24%, transparent);
+  }
+
+  /* --------------------------------------------------------------- controls */
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 5px;
+    border: 1px solid var(--border-strong);
+    background: var(--bg-raised);
+    color: var(--text);
+    cursor: pointer;
+    transition: background 120ms ease, border-color 120ms ease;
+  }
+  .btn:hover:not(:disabled) {
+    background: var(--bg-hover);
+    border-color: #3d4a5c;
+  }
+  .btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+  }
+
+  .btn-primary {
+    background: var(--inference);
+    border-color: var(--inference);
+    color: #06121f;
+    font-weight: 600;
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: #86b8ff;
+    border-color: #86b8ff;
+  }
+
+  .input {
+    width: 100%;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px 12px;
+    background: var(--bg);
+    border: 1px solid var(--border-strong);
+    border-radius: 5px;
+    color: var(--text);
+  }
+  .input::placeholder {
+    color: var(--text-faint);
+  }
+  .input:focus {
+    border-color: var(--focus);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(106, 166, 255, 0.14);
+  }
+
+  /* -------------------------------------------------------------- utilities */
+
+  .label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+
+  .mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .hairline {
+    height: 1px;
+    background: var(--border);
+    border: 0;
+    margin: 0;
+  }
+}
+
+/* Skeletons: a shimmer that suggests structure rather than a spinner that suggests nothing. */
+@keyframes shimmer {
+  0% {
+    background-position: -420px 0;
+  }
+  100% {
+    background-position: 420px 0;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--bg-raised) 0%, #1c232c 50%, var(--bg-raised) 100%);
+  background-size: 840px 100%;
+  animation: shimmer 1.4s infinite linear;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "provider": "opentopodata-srtm30m",
+  "endpoint": "https://api.opentopodata.org/v1/srtm30m",
+  "query": {
+    "latitude": 22.7203616,
+    "longitude": 75.8681996,
+    "radius_m": 400
+  },
+  "captured_at": "2026-09-27T11:57:23.790482+00:00",
+  "key": "opentopodata-srtm30m-ecf62f75dbab2ac2debfc8c3",
+  "payload": {
+    "results": [
+      {
+        "dataset": "srtm30m",
+        "elevation": 554.0,
+        "location": {
+          "lat": 22.7203616,
+          "lng": 75.8681996
+        }
+      },
+      {
+        "dataset": "srtm30m",
+        "elevation": 551.0,
+        "location": {
+          "lat": 22.723965,
+          "lng": 75.8682
+        }
+      },
+      {
+        "dataset": "srtm30m",
+        "elevation": 554.0,
+        "location": {
+          "lat": 22.722884,
+          "lng": 75.870985
+        }
+      },
+      {
+        "dataset": "srtm30m",
+        "elevation": 560.0,
+        "location": {
+          "lat": 22.720362,
+          "lng": 75.872178
+        }
+      },
+      {
+        "dataset": "srtm30m",
+        "elevation": 557.0,
+        "location": {
+          "lat": 22.717839,
+          "lng": 75.870985
+        }
+      },
+      {
+        "dataset": "srtm30m",
+        "elevation": 554.0,
+        "location": {
+          "lat": 22.716758,
+          "lng": 75.8682
+        }
+      },
+      {
+        "dataset": "srtm30m",
+        "elevation": 555.0,
+        "location": {
+          "lat": 22.717839,
+          "lng": 75.865415
+        }
+      },
+      {
+        "dataset": "srtm30m",
+        "elevation": 552.0,
+        "location": {
+          "lat": 22.720362,
+          "lng": 75.864221
+        }
+      },
+      {
+        "dataset": "srtm30m",
+        "elevation": 552.0,
+        "location": {
+          "lat": 22.722884,
+          "lng": 75.865415
+        }
+      }
+    ],
+    "status": "OK"
+  }
+}

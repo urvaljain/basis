@@ -1,0 +1,76 @@
+{
+  "provider": "nominatim",
+  "endpoint": "https://nominatim.openstreetmap.org/search",
+  "query": {
+    "query": "Bellandur, Bengaluru",
+    "limit": 5
+  },
+  "captured_at": "2026-09-27T10:58:41.648079+00:00",
+  "key": "nominatim-cf1db814695486e9d65698c1",
+  "payload": [
+    {
+      "place_id": 252571853,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 19884585,
+      "lat": "12.9320495",
+      "lon": "77.6842915",
+      "class": "boundary",
+      "type": "administrative",
+      "place_rank": 20,
+      "importance": 0.1334042778667887,
+      "addresstype": "suburb",
+      "name": "Bellandur",
+      "display_name": "Bellandur, Bengaluru East City Corporation, Bengaluru, Bangalore East, Bengaluru Urban, Karnataka, India",
+      "address": {
+        "suburb": "Bellandur",
+        "city_district": "Bengaluru East City Corporation",
+        "city": "Bengaluru",
+        "county": "Bangalore East",
+        "state_district": "Bengaluru Urban",
+        "state": "Karnataka",
+        "ISO3166-2-lvl4": "IN-KA",
+        "country": "India",
+        "country_code": "in"
+      },
+      "boundingbox": [
+        "12.9225853",
+        "12.9414258",
+        "77.6677817",
+        "77.6904750"
+      ]
+    },
+    {
+      "place_id": 252234151,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 19751547,
+      "lat": "12.9371445",
+      "lon": "77.6720227",
+      "class": "water",
+      "type": "lake",
+      "place_rank": 20,
+      "importance": 0.4294069168155019,
+      "addresstype": "lake",
+      "name": "Bellandur Lake",
+      "display_name": "Bellandur Lake, Bengaluru East City Corporation, Bengaluru, Bangalore East, Bengaluru Urban, Karnataka, India",
+      "address": {
+        "lake": "Bellandur Lake",
+        "city_district": "Bengaluru East City Corporation",
+        "city": "Bengaluru",
+        "county": "Bangalore East",
+        "state_district": "Bengaluru Urban",
+        "state": "Karnataka",
+        "ISO3166-2-lvl4": "IN-KA",
+        "country": "India",
+        "country_code": "in"
+      },
+      "boundingbox": [
+        "12.9278660",
+        "12.9445961",
+        "77.6430676",
+        "77.6799066"
+      ]
+    }
+  ]
+}

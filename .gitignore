@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Secrets — never committed
+.env
+.env.*
+!.env.example
+
+# Generated artefacts
+data/corpus/*-pages/        # page images render on demand
+backend/app/eval/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db

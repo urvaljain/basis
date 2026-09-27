@@ -1,0 +1,4842 @@
+{
+  "provider": "overpass",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query": {
+    "latitude": 12.9292731,
+    "longitude": 77.5824229,
+    "categories": null
+  },
+  "captured_at": "2026-09-27T10:54:02.968872+00:00",
+  "key": "overpass-12a4df0d1b59fe015c2708a2",
+  "payload": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-09-27T10:52:51Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 303924572,
+        "lat": 12.9235041,
+        "lon": 77.5857517,
+        "tags": {
+          "amenity": "hospital",
+          "name": "Shanti Hospital",
+          "name:kn": "\u0cb6\u0cbe\u0c82\u0ca4\u0cbf \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6"
+        }
+      },
+      {
+        "type": "node",
+        "id": 308809874,
+        "lat": 12.9336915,
+        "lon": 77.583999,
+        "tags": {
+          "bus": "yes",
+          "highway": "bus_stop",
+          "name": "3rd Block Jayanagara",
+          "name:en": "3rd Block Jayanagara",
+          "name:kn": "\u0c9c\u0caf\u0ca8\u0c97\u0cb0 \u0ce9\u0ca8\u0cc7 \u0cac\u0ca1\u0cbe\u0cb5\u0ca3\u0cc6",
+          "network": "BMTC",
+          "network:wikidata": "Q3345039",
+          "operator": "BMTC",
+          "public_transport": "platform"
+        }
+      },
+      {
+        "type": "node",
+        "id": 364629422,
+        "lat": 12.9207173,
+        "lon": 77.5745968,
+        "tags": {
+          "addr:street": "Kanakapura Road",
+          "amenity": "hospital",
+          "name": "JBS Hospital",
+          "name:kn": "\u0c9c\u0cc6 \u0cac\u0cbf \u0c8e\u0cb8\u0ccd \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6"
+        }
+      },
+      {
+        "type": "node",
+        "id": 364629734,
+        "lat": 12.9231684,
+        "lon": 77.584433,
+        "tags": {
+          "amenity": "hospital",
+          "check_date": "2025-01-11",
+          "healthcare": "hospital",
+          "name": "Jayanagar heart Centre"
+        }
+      },
+      {
+        "type": "node",
+        "id": 582384953,
+        "lat": 12.9376734,
+        "lon": 77.5802836,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "202, R.V.Road",
+          "addr:postcode": "560001",
+          "addr:state": "Karnataka",
+          "addr:street": "Rashtriya Vidyalaya Road",
+          "amenity": "hospital",
+          "email": "info@Bengaluruhospital.co.in",
+          "healthcare": "hospital",
+          "name": "Bengaluru Hospital, Susruta Medical Aid AndResearch Home Limited",
+          "name:kn": "\u0cac\u0cc6\u0c82\u0c97\u0cb3\u0cc2\u0cb0\u0cc1 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "operator:type": "private",
+          "source": "OpenGovernmentData",
+          "website": "http://dpal.kar.nic.in/Kanunu%20padakosha%20PDF%20Files/Recognised%20Hospitals.pdf"
+        }
+      },
+      {
+        "type": "node",
+        "id": 665727326,
+        "lat": 12.9100629,
+        "lon": 77.5924585,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "220, 2nd phase, JP Nagar,Next to Nilgiris",
+          "addr:postcode": "560078",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "check_date": "2025-06-21",
+          "healthcare:speciality": "General Gynecology; Obstetrics; Prenatal Care; nulife clinic; Laboratory Testing and In-Office Surgery; Medical Spa for Women; Ophthalmology",
+          "name": "Divakars speciality Hospital",
+          "operator:type": "private",
+          "source": "OpenGovernmentData",
+          "website": "http://www.healthforher.in/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 691930445,
+        "lat": 12.9234317,
+        "lon": 77.5923374,
+        "tags": {
+          "amenity": "hospital",
+          "check_date": "2024-08-18",
+          "name": "BMTC Hospital",
+          "name:kn": "\u0cac\u0cbf\u0c8e\u0c82\u0c9f\u0cbf\u0cb8\u0cbf \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 769216417,
+        "lat": 12.9364329,
+        "lon": 77.583477,
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Ramakrishna Nursing Home and Hospital"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1015924266,
+        "lat": 12.9340338,
+        "lon": 77.5874849,
+        "tags": {
+          "amenity": "school",
+          "name": "Saraswati Vidya Mandir",
+          "name:kn": "\u0cb8\u0cb0\u0cb8\u0ccd\u0cb5\u0ca4\u0cbf \u0cb5\u0cbf\u0ca6\u0ccd\u0caf \u0cae\u0c82\u0ca6\u0cbf\u0cb0"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1015924294,
+        "lat": 12.9229013,
+        "lon": 77.5816474,
+        "tags": {
+          "amenity": "school",
+          "name": "Good Shepherd School"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1015924308,
+        "lat": 12.9271452,
+        "lon": 77.5778773,
+        "tags": {
+          "amenity": "school",
+          "name": "Nehru Smaraka Vidya Kendra",
+          "name:kn": "\u0ca8\u0cc6\u0cb9\u0cb0\u0cc1 \u0cb8\u0ccd\u0cae\u0cbe\u0cb0\u0c95 \u0cb5\u0cbf\u0ca6\u0ccd\u0caf \u0c95\u0cc7\u0c82\u0ca6\u0ccd\u0cb0"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1015924313,
+        "lat": 12.9387689,
+        "lon": 77.5841184,
+        "tags": {
+          "amenity": "school",
+          "name": "Community English High School"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1085786951,
+        "lat": 12.9452313,
+        "lon": 77.5861734,
+        "tags": {
+          "addr:street": "Siddapura Road",
+          "amenity": "hospital",
+          "name": "Lalbagh Nursing Home",
+          "name:kn": "\u0cb2\u0cbe\u0cb2\u0ccd\u0cac\u0cbe\u0c97\u0ccd \u0ca8\u0cb0\u0ccd\u0cb8\u0cbf\u0c82\u0c97\u0ccd \u0cb9\u0ccb\u0c82"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1272424543,
+        "lat": 12.9073391,
+        "lon": 77.5830655,
+        "tags": {
+          "addr:street": "29 Main",
+          "address": "593 14th cross 29th main",
+          "amenity": "hospital",
+          "designation": "Clinic",
+          "emergency": "no",
+          "name": "Srinivas Clinic",
+          "name:kn": "\u0cb6\u0ccd\u0cb0\u0cc0\u0ca8\u0cbf\u0cb5\u0cbe\u0cb8\u0ccd \u0c95\u0ccd\u0cb2\u0cbf\u0ca8\u0cbf\u0c95\u0ccd"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1438212033,
+        "lat": 12.9367955,
+        "lon": 77.5907094,
+        "tags": {
+          "amenity": "hospital",
+          "designation": "Sanatorium",
+          "emergency": "no",
+          "name": "SDS Tuberculosis Research Centre and Rajiv Gandhi Institute of Chest diseases",
+          "research": "medical"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1440343668,
+        "lat": 12.942614,
+        "lon": 77.5854533,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "34, 10Th Main 1st Block, Jayanagar",
+          "addr:postcode": "560011",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Maiya Multispecialty Hospital",
+          "source": "OpenGovernmentData",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1442068029,
+        "lat": 12.9367107,
+        "lon": 77.5837112,
+        "tags": {
+          "alt_name": "Madiwala Lake road",
+          "highway": "bus_stop",
+          "name": "Madavan Park, Jayanagara 3Rd Block"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1448634282,
+        "lat": 12.9330035,
+        "lon": 77.5895276,
+        "tags": {
+          "highway": "bus_stop",
+          "loc_name": "JAYANAGARA 1ST BLOCK",
+          "name": "Byrasandra",
+          "name:kn": "\u0cac\u0cc8\u0cb0\u0cb8\u0c82\u0ca6\u0ccd\u0cb0",
+          "public_transport": "platform"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1464921265,
+        "lat": 12.9126298,
+        "lon": 77.5913594,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "1635,17Th Main ( Near To Woody `S Hotel) 2nd Phase J.P. Nagar, Banglore",
+          "addr:postcode": "560078",
+          "addr:state": "Karnataka",
+          "addr:street": "17th Main Road",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Chirag Hospital and Maternity Center",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1464922039,
+        "lat": 12.929282,
+        "lon": 77.5737367,
+        "tags": {
+          "bench": "yes",
+          "bus": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "loc_name": "BANASHANKARI 2ND STAGE",
+          "name": "MM industries",
+          "name:en": "MM industries",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1466576385,
+        "lat": 12.9206648,
+        "lon": 77.5598673,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "274 / 275, M K Puttalingaiah Road, Padmanabhanagar",
+          "addr:postcode": "560073",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "name": "DG Hospital",
+          "operator:type": "private",
+          "source": "OpenGovernmentData",
+          "website": "http://dpal.kar.nic.in/Kanunu%20padakosha%20PDF%20Files/Recognised%20Hospitals.pdf"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1467778589,
+        "lat": 12.9339482,
+        "lon": 77.5664867,
+        "tags": {
+          "amenity": "school",
+          "designation": "Kamala Nehru Patashala",
+          "name": "Kamala Nehru Patashala (Emmanual English School)"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1467778591,
+        "lat": 12.9336501,
+        "lon": 77.5660602,
+        "tags": {
+          "amenity": "hospital",
+          "emergency": "yes",
+          "name": "Kangila Clinic"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1470553312,
+        "lat": 12.9333166,
+        "lon": 77.5726226,
+        "tags": {
+          "amenity": "school",
+          "name": "Sri Kumaran Children's Home"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1470553332,
+        "lat": 12.9356689,
+        "lon": 77.5699296,
+        "tags": {
+          "alt_name": "Samaja Seva Mandali Kannada Primary School",
+          "amenity": "school",
+          "name": "SSM Primary School"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1470553357,
+        "lat": 12.9329402,
+        "lon": 77.5717482,
+        "tags": {
+          "amenity": "school",
+          "name": "Kumaran Children's High School"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1470603498,
+        "lat": 12.914434,
+        "lon": 77.6050207,
+        "tags": {
+          "amenity": "hospital",
+          "designation": "Kids Care Clinic",
+          "healthcare": "hospital",
+          "name": "Kids Care Clinic"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1473296715,
+        "lat": 12.9293288,
+        "lon": 77.5877091,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "24/1-1, 14Th Main, 4Th Block East Jayanagar",
+          "addr:postcode": "560041",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "emergency": "no",
+          "name": "Jayanagar Orthopaedic Centre",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1473921774,
+        "lat": 12.9458714,
+        "lon": 77.5675192,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "No.81,Bulltemple Road,Near Ramakrishna Ashram",
+          "addr:postcode": "560019",
+          "addr:state": "Karnataka",
+          "addr:street": "Shyamaraja Iyengar Road",
+          "amenity": "hospital",
+          "emergency": "no",
+          "name": "Shekar Hospital",
+          "name:en": "Shekhar Hospital",
+          "name:hi": "\u0936\u0947\u0916\u0930 \u0939\u0949\u0938\u094d\u092a\u093f\u091f\u0932",
+          "name:kn": "\u0cb6\u0cc7\u0c96\u0cb0\u0ccd \u0cb9\u0cbe\u0cb8\u0ccd\u0caa\u0cbf\u0c9f\u0cb2\u0ccd",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1474277938,
+        "lat": 12.9135707,
+        "lon": 77.5788941,
+        "tags": {
+          "addr:street": "Ayodhyarama Road",
+          "amenity": "hospital",
+          "name": "Parimala Clinic",
+          "name:kn": "\u0caa\u0cb0\u0cbf\u0cae\u0cb3 \u0c9a\u0cbf\u0c95\u0cbf\u0ca4\u0ccd\u0cb8\u0cbe\u0cb2\u0caf"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1474458358,
+        "lat": 12.9351929,
+        "lon": 77.6086817,
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Prasad Eye Hospital"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1474472488,
+        "lat": 12.9387115,
+        "lon": 77.5937737,
+        "tags": {
+          "amenity": "hospital",
+          "description": "Patients initally should come here to scrrened to refer to the appropriate department for their disorder",
+          "emergency": "no",
+          "healthcare": "hospital",
+          "name": "NIMHANS Screening block"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1474472859,
+        "lat": 12.9388056,
+        "lon": 77.5942994,
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "NIMHANS OPD"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1474511948,
+        "lat": 12.9483598,
+        "lon": 77.5940621,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "87/2, 8Th Cross,Wilson Garden",
+          "addr:postcode": "560027",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Manjunath Hospital",
+          "name:kn": "\u0cae\u0c82\u0c9c\u0cc1\u0ca8\u0cbe\u0ca5 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1474512442,
+        "lat": 12.9484356,
+        "lon": 77.5942592,
+        "tags": {
+          "addr:street": "8th Cross",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Karthik Hospital",
+          "name:kn": "\u0c95\u0cbe\u0cb0\u0ccd\u0ca4\u0cbf\u0c95\u0ccd \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1620352034,
+        "lat": 12.9220691,
+        "lon": 77.5755122,
+        "tags": {
+          "addr:street": "Kanakapura Road",
+          "amenity": "school",
+          "building": "school",
+          "name": "JSS Composite PU College",
+          "name:kn": "\u0c9c\u0cc6\u0c8e\u0cb8\u0ccd\u0c8e\u0cb8\u0ccd \u0cb8\u0c82\u0caf\u0cc1\u0c95\u0ccd\u0ca4 \u0caa\u0ca6\u0cb5\u0cbf\u0caa\u0cc2\u0cb0\u0ccd\u0cb5 \u0c95\u0cbe\u0cb2\u0cc7\u0c9c\u0cc1"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1657121854,
+        "lat": 12.9269543,
+        "lon": 77.5885571,
+        "tags": {
+          "amenity": "school",
+          "designation": "College",
+          "name": "Bangalore Educational Society",
+          "name:kn": "\u0cac\u0cc6\u0c82\u0c97\u0cb3\u0cc2\u0cb0\u0cc1 \u0c8e\u0c9c\u0cc1\u0c95\u0cc7\u0cb6\u0ca8\u0cb2\u0ccd \u0cb8\u0cca\u0cb8\u0cc8\u0c9f\u0cbf"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1657124482,
+        "lat": 12.9282849,
+        "lon": 77.5868566,
+        "tags": {
+          "amenity": "school",
+          "name": "Bangalore High School(BHS)",
+          "name:kn": "\u0cac\u0cc6\u0c82\u0c97\u0cb3\u0cc2\u0cb0\u0cc1 \u0caa\u0ccd\u0cb0\u0ccc\u0ca1 \u0cb6\u0cbe\u0cb2\u0cc6"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1719371357,
+        "lat": 12.938312,
+        "lon": 77.5843066,
+        "tags": {
+          "addr:postcode": "560011",
+          "addr:street": "9th Main",
+          "amenity": "school",
+          "name": "Sree Rama Vidyalaya",
+          "name:kn": "\u0cb6\u0ccd\u0cb0\u0cc0 \u0cb0\u0cbe\u0cae \u0cb5\u0cbf\u0ca6\u0ccd\u0caf\u0cbe\u0cb2\u0caf"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1761876546,
+        "lat": 12.9179899,
+        "lon": 77.5920869,
+        "tags": {
+          "amenity": "school",
+          "name": "Jain Animation School"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1812673570,
+        "lat": 12.9202791,
+        "lon": 77.5598033,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "No. 277, M.K. Puttalingaiah Road, Padmanabha Nagar",
+          "addr:postcode": "560070",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "name": "Yogananda Medical and Research Centre",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1837005174,
+        "lat": 12.928997,
+        "lon": 77.5861425,
+        "tags": {
+          "bus": "yes",
+          "departures_board": "no",
+          "highway": "bus_stop",
+          "name": "Jayanagara 4th Block",
+          "name:en": "Jayanagara 4th Block",
+          "name:kn": "\u0c9c\u0caf\u0ca8\u0c97\u0cb0 \u0cea\u0ca8\u0cc7 \u0cac\u0ca1\u0cbe\u0cb5\u0ca3\u0cc6",
+          "network": "BMTC",
+          "network:wikidata": "Q3345039",
+          "operator": "BMTC",
+          "public_transport": "platform"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1905152108,
+        "lat": 12.9411061,
+        "lon": 77.5850591,
+        "tags": {
+          "amenity": "hospital",
+          "emergency": "no",
+          "name": "Kottakkal Arya Vaidya Sala",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2123630630,
+        "lat": 12.9231342,
+        "lon": 77.5642974,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "17Th, Main,27Th Cross, Banashankari 2nd Stage, South",
+          "addr:postcode": "560070",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Banashankari Referral Hospital",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2393728597,
+        "lat": 12.9309061,
+        "lon": 77.5763328,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Yediyuru",
+          "name:kn": "\u0caf\u0ca1\u0cbf\u0caf\u0cc2\u0cb0\u0cc1"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2393741749,
+        "lat": 12.9265095,
+        "lon": 77.5770854,
+        "tags": {
+          "bench": "yes",
+          "bin": "no",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "lit": "no",
+          "name": "Deepak Nursing Home",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2393842170,
+        "lat": 12.9232548,
+        "lon": 77.5888288,
+        "tags": {
+          "bus": "yes",
+          "highway": "bus_stop",
+          "name": "Jayanagara 18th Main, Jayanagara 4th T Block",
+          "operator": "BMTC",
+          "public_transport": "platform"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2393842689,
+        "lat": 12.9279734,
+        "lon": 77.587579,
+        "tags": {
+          "bench": "yes",
+          "bus": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "Jayanagara Church",
+          "name:en": "Jayanagara Church",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2394014607,
+        "lat": 12.9241286,
+        "lon": 77.583683,
+        "tags": {
+          "alt_name": "Telephone Exchange, Jayanagara 4Th Block",
+          "bench": "yes",
+          "bin": "no",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "lit": "yes",
+          "name": "Jayanagara Telephone Exchange",
+          "name:en": "Jayanagara Telephone Exchange",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2394017317,
+        "lat": 12.9364519,
+        "lon": 77.5838828,
+        "tags": {
+          "bench": "yes",
+          "bus": "yes",
+          "covered": "yes",
+          "departures_board": "realtime",
+          "highway": "bus_stop",
+          "name": "Madavan Park",
+          "name:en": "Madavan Park",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2397023017,
+        "lat": 12.9285381,
+        "lon": 77.5780714,
+        "tags": {
+          "bus": "yes",
+          "highway": "bus_stop",
+          "loc_name": "JAYANAGARA 7TH BLOCK",
+          "name": "Jayanagara 7th Block",
+          "name:kn": "\u0c9c\u0caf\u0ca8\u0c97\u0cb0 \u0cea\u0ca8\u0cc7 \u0cac\u0ca1\u0cbe\u0cb5\u0ca3\u0cc6",
+          "public_transport": "platform"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2397023289,
+        "lat": 12.9245225,
+        "lon": 77.5779753,
+        "tags": {
+          "highway": "bus_stop",
+          "loc_name": "JAYANAGARA 7TH BLOCK",
+          "name": "Jayanagara National College"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2397023776,
+        "lat": 12.9218801,
+        "lon": 77.5837308,
+        "tags": {
+          "highway": "bus_stop",
+          "loc_name": "JAYANAGARA 5TH BLOCK",
+          "name": "Jayanagara 38th Cross",
+          "name:kn": "\u0c9c\u0caf\u0ca8\u0c97\u0cb0 \u0ce7\u0ce9\u0ca8\u0cc7 \u0c85\u0ca1\u0ccd\u0ca1\u0cb0\u0cb8\u0ccd\u0ca4\u0cc6"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2397031959,
+        "lat": 12.9274405,
+        "lon": 77.5802437,
+        "tags": {
+          "highway": "bus_stop",
+          "loc_name": "Jayanagara",
+          "name": "Rose Garden",
+          "name:kn": "\u0c97\u0cc1\u0cb2\u0cbe\u0cac\u0cbf \u0c89\u0ca6\u0ccd\u0caf\u0cbe\u0ca8"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2523956870,
+        "lat": 12.9322822,
+        "lon": 77.5981308,
+        "tags": {
+          "addr:city": "Bengaluru",
+          "addr:postcode": "560041",
+          "amenity": "school",
+          "name": "New Baldwin School",
+          "name:kn": "\u0ca8\u0ccd\u0caf\u0cc2 \u0cac\u0cbe\u0cb2\u0ccd\u0ca1\u0ccd \u0cb5\u0cbf\u0ca8\u0ccd \u0cb6\u0cbe\u0cb2\u0cc6"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2649085501,
+        "lat": 12.9319304,
+        "lon": 77.5838469,
+        "tags": {
+          "bus": "yes",
+          "highway": "bus_stop",
+          "name": "Jayanagar 3rd Block",
+          "name:en": "Jayanagar 3rd Block",
+          "name:kn": "\u0c9c\u0caf\u0ca8\u0c97\u0cb0 \u0ce9\u0ca8\u0cc7 \u0cac\u0ccd\u0cb2\u0cbe\u0c95\u0ccd",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2727229639,
+        "lat": 12.9376335,
+        "lon": 77.5849914,
+        "tags": {
+          "bench": "yes",
+          "bus": "yes",
+          "departures_board": "realtime",
+          "highway": "bus_stop",
+          "name": "Jayanagar 2nd Block",
+          "name:kn": "\u0c9c\u0caf\u0ca8\u0c97\u0cb0 \u0ce8\u0ca8\u0cc7 \u0cac\u0ccd\u0cb2\u0cbe\u0c95\u0ccd",
+          "network": "BMTC",
+          "network:wikidata": "Q3345039",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2932851733,
+        "lat": 12.9169288,
+        "lon": 77.5592568,
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "No. 30, Pavana Dhama, 80 Feet Main Road,Opposite Nilgiris,Padmanabha Nagar",
+          "addr:postcode": "560070",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Dr.Agarwal's Eye Hospital Ltd, Padmanabha Nagar",
+          "operator": "Dr. Agarwal's Eye Hospital",
+          "operator:wikidata": "Q17052044",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3016090364,
+        "lat": 12.9055088,
+        "lon": 77.5858347,
+        "tags": {
+          "addr:city": "bangalore",
+          "addr:housenumber": "250",
+          "addr:postcode": "560078",
+          "addr:street": "24th Main, 5th Phase, Opp Nandini Hotel, Puttenhalli, JP Nagar",
+          "amenity": "hospital",
+          "name": "Cloud Nine Fertility",
+          "name:kn": "\u0c95\u0ccd\u0cb2\u0ccc\u0ca1\u0ccd \u0ca8\u0cc8\u0ca8\u0ccd \u0cab\u0cb0\u0ccd\u0c9f\u0cbf\u0cb2\u0cbf\u0c9f\u0cbf",
+          "phone": "080 4350 0123",
+          "source": "justdial",
+          "website": "https://www.cloudninefertility.com/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3302642058,
+        "lat": 12.916731,
+        "lon": 77.5999663,
+        "tags": {
+          "code": "JDHP",
+          "internet_access": "no",
+          "layer": "1",
+          "lit": "yes",
+          "name": "Jayadeva Hospital",
+          "name:en": "Jayadeva Hospital",
+          "name:kn": "\u0c9c\u0caf\u0ca6\u0cc7\u0cb5 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "network": "Namma Metro",
+          "network:wikidata": "Q279343",
+          "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+          "operator": "Bangalore Metro Rail Corporation Limited",
+          "platforms": "2",
+          "public_transport": "station",
+          "public_transport:version": "2",
+          "railway": "station",
+          "ref": "JDHP",
+          "shelter": "yes",
+          "start_date": "2025-08-10",
+          "station": "subway",
+          "subway": "yes",
+          "website": "https://english.brmc.co.in",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3394753831,
+        "lat": 12.9425246,
+        "lon": 77.6025303,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "1, 1st Cross, Gupta Layout,Lakksandra, Near Dairy Circle",
+          "addr:housenumber": "#1",
+          "addr:postcode": "560030",
+          "addr:state": "Karnataka",
+          "addr:street": "Bannerghatta Road",
+          "amenity": "hospital",
+          "name": "Sree Venkateshwara Speciality Hospital",
+          "name:kn": "\u0cb6\u0ccd\u0cb0\u0cc0 \u0cb5\u0cc6\u0c82\u0c95\u0c9f\u0cc6\u0cb6\u0ccd\u0cb5\u0cb0 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3401997313,
+        "lat": 12.9282918,
+        "lon": 77.583689,
+        "tags": {
+          "bus": "yes",
+          "highway": "bus_stop",
+          "name": "Jayanagara 4th Block",
+          "name:kn": "\u0c9c\u0caf\u0ca8\u0c97\u0cb0 \u0cea\u0ca8\u0cc7 \u0cac\u0ccd\u0cb2\u0cbe\u0c95\u0ccd",
+          "network": "BMTC",
+          "network:wikidata": "Q3345039",
+          "note": "For buses going to JP Nagar, Puttenahalli, Banashakari etc.",
+          "operator": "BMTC",
+          "public_transport": "platform"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3710210170,
+        "lat": 12.9474222,
+        "lon": 77.5986921,
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Krishna Nursing Home"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3719549886,
+        "lat": 12.9159249,
+        "lon": 77.5856011,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Jayanagar, J P Nagar, Bengaluru",
+          "addr:postcode": "560041",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "clinic",
+          "healthcare:speciality": "fertility",
+          "name": "Milann Fertility Center",
+          "source": "Local Knowledge",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3832803857,
+        "lat": 12.936589,
+        "lon": 77.5817339,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Vijaya High School"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4097027897,
+        "lat": 12.9292418,
+        "lon": 77.5893625,
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:district": "Bengaluru Urban",
+          "addr:housenumber": "32/29",
+          "addr:postcode": "560011",
+          "addr:street": "4th Cross Road, KV Layout, Jayanagar 4th Block",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "dental_oral_maxillo_facial_surgery",
+          "mobile": "+919481404000",
+          "name": "Gulecha Dental Care",
+          "operator": "Dr. Preeti",
+          "operator:type": "private",
+          "website": "https://www.gulechadental.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4349307192,
+        "lat": 12.9485535,
+        "lon": 77.5748248,
+        "tags": {
+          "amenity": "hospital",
+          "check_date": "2024-03-09",
+          "healthcare:speciality": "gynaecology",
+          "name": "Sagar Chandramma Hospitals",
+          "name:en": "Sagar Chandramma Hospitals"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4443301971,
+        "lat": 12.9151071,
+        "lon": 77.5624888,
+        "tags": {
+          "addr:city": "bangalore",
+          "addr:housenumber": "5",
+          "addr:postcode": "560050",
+          "addr:street": "80 feet road,banashankari",
+          "amenity": "hospital",
+          "name": "NRS Medical & Dental Specialists Centre",
+          "phone": "08026696054"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4444989840,
+        "lat": 12.9390944,
+        "lon": 77.5619057,
+        "tags": {
+          "addr:city": "bangalore",
+          "addr:housenumber": "11/2",
+          "addr:postcode": "560079",
+          "addr:street": "Magadi Main Road",
+          "amenity": "hospital",
+          "name": "Sarvodaya Hospital",
+          "name:kn": "\u0cb8\u0cb0\u0ccd\u0cb5\u0ccb\u0ca6\u0caf \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "phone": "098440 74946"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4446852004,
+        "lat": 12.9175511,
+        "lon": 77.6039486,
+        "tags": {
+          "addr:city": "Bengaluru",
+          "addr:housenumber": "57",
+          "addr:postcode": "560029",
+          "addr:street": "8th B Main Road, BTM Layout 1st Stage, KEB Colony, New Gurappana Palya, BTM Layout 1, Karnataka",
+          "amenity": "hospital",
+          "name": "Vedam Ayurveda Multispeciality Hospital",
+          "phone": "080 4120 2911",
+          "website": "https://vedamayurveda.co.in/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4446881168,
+        "lat": 12.9378359,
+        "lon": 77.5573329,
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:housenumber": "5",
+          "addr:postcode": "560050",
+          "addr:street": "80 Feet Road, 1st Stage, Srinivasa Nagar, Banashankari",
+          "amenity": "hospital",
+          "name": "\" NRS Medical & Dental Specialists Centre\"",
+          "phone": "080-26696054"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4446899253,
+        "lat": 12.9408667,
+        "lon": 77.5603657,
+        "tags": {
+          "addr:city": "bangalore",
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "#795/1, 9Th Main ,Bsk 1st, Stage,2nd Block,Hanumantha Nagar",
+          "addr:housenumber": "795/1",
+          "addr:postcode": "560050",
+          "addr:state": "Karnataka",
+          "addr:street": "9th Main, 2nd Block, Hanumantha Nagar, Near-Shaneshwara Temple Road, Banashankari 1st Stage",
+          "amenity": "hospital",
+          "name": "Medi-Tech Multi Speciality Hospital",
+          "phone": "080 2660 2910",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4447156427,
+        "lat": 12.9062193,
+        "lon": 77.580682,
+        "tags": {
+          "addr:city": "Bengaluru",
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "#726, 17Th Cross, 6Th Phase, J.P. Nagar",
+          "addr:housenumber": "5",
+          "addr:postcode": "560078",
+          "addr:state": "Karnataka",
+          "addr:street": "Outer Ring Rd, Rose Garden, JP Nagar Phase 6, JP Nagar,",
+          "amenity": "hospital",
+          "name": "Green City Hospital, Bengaluru Urban",
+          "name:kn": "\u0c97\u0ccd\u0cb0\u0cc0\u0ca8\u0ccd \u0cb8\u0cbf\u0c9f\u0cbf \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "phone": "080 2653 6222",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4447273084,
+        "lat": 12.9312101,
+        "lon": 77.5756907,
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:postcode": "560078",
+          "addr:street": "Mnr Arcade, Saraki Gate, Kanakapura Road, Saraki Gate",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Oxford Hospital",
+          "phone": "080 2245 2500",
+          "source": "justdial"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4447316956,
+        "lat": 12.9059465,
+        "lon": 77.5904192,
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:housenumber": "11/2",
+          "addr:postcode": "560078",
+          "addr:street": "8th cross, Gangadhar Nagar, 100 Feet Ring Road, J P Nagar,",
+          "amenity": "hospital",
+          "name": "R R Hospital & Trauma Centre",
+          "phone": "080 2671 8785"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4447383325,
+        "lat": 12.9039905,
+        "lon": 77.5859569,
+        "tags": {
+          "addr:city": "bangalore",
+          "addr:housenumber": "9",
+          "addr:postcode": "560078",
+          "addr:street": "24th Main Rd, KR Layout, 1st Phase, JP Nagar",
+          "amenity": "hospital",
+          "name": "M N Speciality Clinic",
+          "name:kn": "\u0c8e\u0cae\u0ccd \u0c8e\u0ca8\u0ccd \u0cb8\u0ccd\u0caa\u0cc6\u0cb6\u0cbe\u0cb2\u0cbf\u0c9f\u0cbf \u0c95\u0ccd\u0cb2\u0cbf\u0ca8\u0cbf\u0c95\u0ccd",
+          "phone": "080 2653 0121"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4448075597,
+        "lat": 12.9458746,
+        "lon": 77.5877756,
+        "tags": {
+          "addr:city": "bangalore",
+          "addr:housenumber": "58,59",
+          "addr:postcode": "560029",
+          "addr:street": "3rd Main,KEB Layout, BTM Layout  1",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "name": "Vijay Diagnostic Centre",
+          "phone": "080 2668 4260",
+          "source": "http://www.bangalorean.co.in/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4448118314,
+        "lat": 12.924274,
+        "lon": 77.5680927,
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:housenumber": "#3",
+          "addr:postcode": "560068",
+          "addr:street": "Ground Floor, 1st Phase, 2nd Stage, Oppo. Ias Colony Ground, BTM Layout, Mahadeshwara Nagar, Stage 2, BTM 2nd Stage",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "name": "Dr Lal PathLabs",
+          "phone": "080 4091 6014",
+          "source": "http://www.bangalorean.co.in/",
+          "website": "https://www.lalpathlabs.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4578753189,
+        "lat": 12.9306876,
+        "lon": 77.5794541,
+        "tags": {
+          "addr:housenumber": "46",
+          "addr:postcode": "560082",
+          "addr:street": "3 Main Road",
+          "amenity": "hospital",
+          "email": "radiologylucid@gmail.com",
+          "healthcare": "hospital",
+          "internet_access": "wlan",
+          "name": "Lucid Medical Diagnostics",
+          "opening_hours": "24/7",
+          "phone": "08049364444",
+          "website": "https://luciddiagnostics.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4609603646,
+        "lat": 12.9168014,
+        "lon": 77.5851878,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "No.25, 46th Cross, 5th Block, Jayanagar",
+          "addr:postcode": "560011",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "email": "contactus@apollocradle.com",
+          "healthcare": "hospital",
+          "name": "Apollo Bengaluru Cradle Limited, Jayanagar",
+          "operator:type": "private",
+          "source": "OpenGovernmentData",
+          "website": "https://www.apollocradle.com/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4680014207,
+        "lat": 12.9397588,
+        "lon": 77.59445,
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "yes",
+          "name": "NIMHANS - Ashwini Block"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4729472422,
+        "lat": 12.9400669,
+        "lon": 77.5931597,
+        "tags": {
+          "addr:district": "Bangalore",
+          "addr:full": "Lakkasandra, Wilson Garden, Bangalore, Karnataka, India",
+          "addr:postcode": "560029",
+          "addr:state": "Karnataka",
+          "addr:subdistrict": "Bangalore East",
+          "amenity": "hospital",
+          "contact:phone": "08026995201;08026995000;08026995202",
+          "description": "Medical Colleges Hospital",
+          "healthcare": "hospital",
+          "name": "National Institute of Mental Health and Neuro Sciences",
+          "short_name": "NIMHANS",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4729478014,
+        "lat": 12.9404277,
+        "lon": 77.5988406,
+        "tags": {
+          "amenity": "hospital",
+          "name": "NBRC(National Brain Research Center)"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4859555724,
+        "lat": 12.9290086,
+        "lon": 77.5894098,
+        "tags": {
+          "amenity": "school"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5234723863,
+        "lat": 12.9472091,
+        "lon": 77.5966914,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "196, 10Th Cross, Wilson Gardens",
+          "addr:postcode": "560027",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "V. S. Achar Multispeciality Hospital",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5234739990,
+        "lat": 12.933223,
+        "lon": 77.5842632,
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "No.1537/1, 9th Main Road, 3rd Block, Jayanagar",
+          "addr:housenumber": "1537/1",
+          "addr:postcode": "560011",
+          "addr:state": "Karnataka",
+          "addr:street": "9th Main Road",
+          "addr:suburb": "Jayanagar 3rd Block",
+          "amenity": "hospital",
+          "email": "infokpcpt@gmail.com",
+          "healthcare": "hospital",
+          "name": "Nature Cure Hospital",
+          "opening_hours": "We-Mo 07:00-12:00,13:00-18:00",
+          "operator:type": "private",
+          "phone": "+91 80 2663 1945;+91 80 2244 6035",
+          "source": "OpenGovernmentData",
+          "website": "https://www.jayanagarnaturecure.in/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5234741873,
+        "lat": 12.936571,
+        "lon": 77.5821894,
+        "tags": {
+          "highway": "bus_stop"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5265649228,
+        "lat": 12.9403849,
+        "lon": 77.5945391,
+        "tags": {
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Emergency Block , NIMHANS"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5760198239,
+        "lat": 12.9170807,
+        "lon": 77.5883015,
+        "tags": {
+          "code": "RGDT",
+          "layer": "1",
+          "lit": "yes",
+          "name": "Ragigudda",
+          "name:en": "Ragigudda",
+          "name:kn": "\u0cb0\u0cbe\u0c97\u0cbf\u0c97\u0cc1\u0ca1\u0ccd\u0ca1",
+          "network": "Namma Metro",
+          "network:wikidata": "Q279343",
+          "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+          "operator": "Bangalore Metro Rail Corporation Limited",
+          "platforms": "2",
+          "public_transport": "station",
+          "public_transport:version": "2",
+          "railway": "station",
+          "ref": "RGDT",
+          "shelter": "yes",
+          "start_date": "2025-08-10",
+          "station": "subway",
+          "subway": "yes",
+          "toilets:wheelchair": "yes",
+          "website": "https://english.brmc.co.in",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5925868185,
+        "lat": 12.9269166,
+        "lon": 77.5850456,
+        "tags": {
+          "addr:housenumber": "559",
+          "addr:postcode": "560011",
+          "addr:street": "32 Cross Road",
+          "amenity": "school",
+          "email": "support@etestzone.com",
+          "name:en": "eTestZone Educational Services Pvt Ltd",
+          "name:hi": "\u0907\u091f\u0947\u0938\u094d\u091f\u094d\u091d\u094b\u0928 \u090f\u091c\u0941\u0915\u0947\u0936\u0928\u0932 \u0938\u0930\u094d\u0935\u093f\u0938 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+          "opening_hours": "Mo-Sa 09:30-20:30; Su 10:30-13:00",
+          "operator": "Gururaj S",
+          "phone": "9945988820",
+          "website": "http://www.etestzone.com"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6349067615,
+        "lat": 12.9296754,
+        "lon": 77.5965327,
+        "tags": {
+          "amenity": "school",
+          "isced:level": "2",
+          "name": "Government Urdu Higher Primary School",
+          "name:kn": "\u0cb8\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0cbf \u0c89\u0cb0\u0ccd\u0ca6\u0cc1 \u0cb9\u0cbf\u0cb0\u0cbf\u0caf \u0caa\u0ccd\u0cb0\u0cbe\u0ca5\u0cae\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6 \u0c8e\u0cb8\u0ccd\u200c.\u0cb0\u0ccd.\u0c95\u0cc6 \u0c97\u0cbe\u0cb0\u0ccd\u0ca1\u0ca8\u0ccd",
+          "operator": "Department of Education",
+          "school": "primary"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6349080102,
+        "lat": 12.9308215,
+        "lon": 77.5756443,
+        "tags": {
+          "addr:place": "Yadiyuru",
+          "amenity": "school",
+          "isced:level": "2",
+          "name": "GKHPS Yadiyuru",
+          "name:kn": "\u0cb8\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0cbf \u0c95\u0ca8\u0ccd\u0ca8\u0ca1 \u0cb9\u0cbf\u0cb0\u0cbf\u0caf \u0caa\u0ccd\u0cb0\u0cbe\u0ca5\u0cae\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6 \u0caf\u0ca1\u0cbf\u0caf\u0cc2\u0cb0\u0cc1",
+          "operator": "Department of Education",
+          "school": "primary"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6349082322,
+        "lat": 12.9275465,
+        "lon": 77.5757852,
+        "tags": {
+          "addr:place": "Jayanagar",
+          "amenity": "school",
+          "isced:level": "2",
+          "name": "NSVK Kannada School Jayanagar",
+          "name:kn": "\u0c8e\u0ca8\u0ccd\u200c.\u0c8e\u0cb8\u0ccd\u200c.\u0cb5\u0cbf.\u0c95\u0cc6. \u0c95\u0ca8\u0ccd\u0ca8\u0ca1 \u0cb6\u0cbe\u0cb2\u0cc6 \u0c9c\u0caf\u0ca8\u0c97\u0cb0",
+          "operator": "Department of Education",
+          "school": "primary"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6349089553,
+        "lat": 12.9357317,
+        "lon": 77.57751,
+        "tags": {
+          "addr:place": "Jayanagar",
+          "amenity": "school",
+          "isced:level": "2",
+          "name": "Vijaya HPS Jayanagar",
+          "name:kn": "\u0cb5\u0cbf\u0c9c\u0caf \u0cb9\u0cbf\u0cb0\u0cbf\u0caf \u0caa\u0ccd\u0cb0\u0cbe\u0ca5\u0cae\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6 \u0c9c\u0caf\u0ca8\u0c97\u0cb0",
+          "operator": "Department of Education",
+          "school": "primary"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6349168143,
+        "lat": 12.9274871,
+        "lon": 77.5888165,
+        "tags": {
+          "addr:place": "Jayanagar",
+          "amenity": "school",
+          "isced:level": "2",
+          "name": "Panchavati Vidyamandira Jayanagar",
+          "name:kn": "\u0caa\u0c82\u0c9a\u0cb5\u0c9f\u0cbf \u0cb5\u0cbf\u0ca6\u0ccd\u0caf\u0cbe\u0cae\u0c82\u0ca6\u0cbf\u0cb0 \u0c9c\u0caf\u0ca8\u0c97\u0cb0",
+          "operator": "Department of Education",
+          "school": "primary"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6349228135,
+        "lat": 12.9197208,
+        "lon": 77.5940053,
+        "tags": {
+          "addr:place": "Puttayyana Palya",
+          "amenity": "school",
+          "isced:level": "2",
+          "name": "GHPS Puttayyana Palya",
+          "name:kn": "\u0cb8\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0cbf \u0cb9\u0cbf\u0cb0\u0cbf\u0caf \u0caa\u0ccd\u0cb0\u0cbe\u0ca5\u0cae\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6 \u0caa\u0cc1\u0c9f\u0ccd\u0c9f\u0caf\u0ccd\u0caf\u0ca8\u0caa\u0cbe\u0cb3\u0ccd\u0caf",
+          "operator": "Department of Education",
+          "school": "primary"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6349268338,
+        "lat": 12.9264405,
+        "lon": 77.6000111,
+        "tags": {
+          "addr:place": "Gurappana Palya",
+          "amenity": "school",
+          "isced:level": "2",
+          "name": "Saint Anthony Higher Primary School",
+          "name:kn": "\u0cb8\u0cc6\u0c82\u0c9f\u0ccd\u200c \u0c85\u0c82\u0ca5\u0ccb\u0ca8\u0cbf \u0cb9\u0cbf\u0cb0\u0cbf\u0caf \u0caa\u0ccd\u0cb0\u0cbe\u0ca5\u0cae\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6 \u0c97\u0cc1\u0cb0\u0caa\u0ccd\u0caa\u0ca8\u0caa\u0cbe\u0cb3\u0ccd\u0caf",
+          "operator": "Pvt. Aided",
+          "school": "primary"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6349293094,
+        "lat": 12.9315109,
+        "lon": 77.5994396,
+        "tags": {
+          "addr:place": "Tilak Nagar",
+          "amenity": "school",
+          "isced:level": "2",
+          "name": "GHPS Tilak Nagar",
+          "name:kn": "\u0cb8\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0cbf \u0cb9\u0cbf\u0cb0\u0cbf\u0caf \u0caa\u0ccd\u0cb0\u0cbe\u0ca5\u0cae\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6 \u0ca4\u0cbf\u0cb2\u0c95\u0ccd \u0ca8\u0c97\u0cb0",
+          "operator": "Department of Education",
+          "school": "primary"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6349326162,
+        "lat": 12.9179833,
+        "lon": 77.5903119,
+        "tags": {
+          "addr:place": "Jayanagar",
+          "amenity": "school",
+          "isced:level": "2",
+          "name": "Kumarans HPS Jayanagar",
+          "name:kn": "\u0c95\u0cc1\u0cae\u0cbe\u0cb0\u0ca8\u0ccd\u0cb8\u0ccd \u0cb9\u0cbf\u0cb0\u0cbf\u0caf \u0caa\u0ccd\u0cb0\u0cbe\u0ca5\u0cae\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6 \u0c9c\u0caf\u0ca8\u0c97\u0cb0",
+          "operator": "Pvt. Aided",
+          "school": "primary"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6349346578,
+        "lat": 12.933863,
+        "lon": 77.5910009,
+        "tags": {
+          "addr:place": "Byrasandra",
+          "amenity": "school",
+          "isced:level": "2",
+          "name": "GHPS Byrasandra",
+          "name:kn": "\u0cb8\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0cbf \u0cb9\u0cbf\u0cb0\u0cbf\u0caf \u0caa\u0ccd\u0cb0\u0cbe\u0ca5\u0cae\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6 \u0cac\u0cc8\u0cb0\u0cb8\u0c82\u0ca6\u0ccd\u0cb0",
+          "operator": "Department of Education",
+          "school": "primary"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6349356487,
+        "lat": 12.9329465,
+        "lon": 77.5918045,
+        "tags": {
+          "addr:place": "Byrasandra",
+          "amenity": "school",
+          "isced:level": "2",
+          "name": "GHPS(U) Byrasandra",
+          "name:kn": "\u0cb8\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0cbf \u0cb9\u0cbf\u0cb0\u0cbf\u0caf \u0caa\u0ccd\u0cb0\u0cbe\u0ca5\u0cae\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6 (\u0caf\u0cc1) \u0cac\u0cc8\u0cb0\u0cb8\u0c82\u0ca6\u0ccd\u0cb0",
+          "operator": "Department of Education",
+          "school": "primary"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6349390139,
+        "lat": 12.9308366,
+        "lon": 77.5882379,
+        "tags": {
+          "addr:place": "Yadiyur",
+          "amenity": "school",
+          "isced:level": "2",
+          "name": "Tejaswini KHPS Yadiyur",
+          "name:kn": "\u0ca4\u0cc7\u0c9c\u0cb8\u0ccd\u0cb5\u0cbf\u0ca8\u0cbf \u0c95\u0ca8\u0ccd\u0ca8\u0ca1 \u0cb9\u0cbf\u0cb0\u0cbf\u0caf \u0caa\u0ccd\u0cb0\u0cbe\u0ca5\u0cae\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6 \u0caf\u0ca1\u0cbf\u0caf\u0cc2\u0cb0\u0cc1",
+          "operator": "Pvt. Aided",
+          "school": "primary"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6349412964,
+        "lat": 12.9306021,
+        "lon": 77.589132,
+        "tags": {
+          "amenity": "school",
+          "isced:level": "2",
+          "name": "Adarsh KHPS",
+          "name:kn": "\u0c86\u0ca6\u0cb0\u0ccd\u0cb6\u0ccd \u0c95\u0ca8\u0ccd\u0ca8\u0ca1 \u0cb9\u0cbf\u0cb0\u0cbf\u0caf \u0caa\u0ccd\u0cb0\u0cbe\u0ca5\u0cae\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6",
+          "operator": "Pvt. Aided",
+          "school": "primary"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6349430485,
+        "lat": 12.9339884,
+        "lon": 77.5906546,
+        "tags": {
+          "addr:place": "Byrasandra",
+          "amenity": "school",
+          "isced:level": "2",
+          "name": "Shree Sangameshwara KHPS Byrasandra",
+          "name:kn": "\u0cb6\u0ccd\u0cb0\u0cc0 \u0cb8\u0c82\u0c97\u0cae\u0cc7\u0cb6\u0ccd\u0cb5\u0cb0 \u0c95\u0ca8\u0ccd\u0ca8\u0ca1 \u0cb9\u0cbf\u0cb0\u0cbf\u0caf \u0caa\u0ccd\u0cb0\u0cbe\u0ca5\u0cae\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6 \u0cac\u0cc8\u0cb0\u0cb8\u0c82\u0ca6\u0ccd\u0cb0",
+          "operator": "Pvt. Aided",
+          "school": "primary"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6349491619,
+        "lat": 12.9458038,
+        "lon": 77.5884207,
+        "tags": {
+          "addr:place": "Lalbhag Siddapur",
+          "amenity": "school",
+          "isced:level": "2",
+          "name": "GHPS Lalbhag Siddapur",
+          "name:kn": "\u0cb8\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0cbf \u0cb9\u0cbf\u0cb0\u0cbf\u0caf \u0caa\u0ccd\u0cb0\u0cbe\u0ca5\u0cae\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6 \u0cb2\u0cbe\u0cb2\u0ccd\u0cad\u0cbe\u0c97\u0ccd \u0cb8\u0cbf\u0ca6\u0ccd\u0ca6\u0cbe\u0caa\u0cc1\u0cb0",
+          "operator": "Department of Education",
+          "school": "primary"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6432710293,
+        "lat": 12.9074747,
+        "lon": 77.5731279,
+        "tags": {
+          "code": "JPN",
+          "layer": "1",
+          "lit": "yes",
+          "name": "Jaya Prakash Nagar",
+          "name:kn": "\u0c9c\u0cc6\u0caa\u0cbf \u0ca8\u0c97\u0cb0",
+          "name:ml": "\u0d1c\u0d46 \u0d2a\u0d3f \u0d28\u0d17\u0d7c",
+          "name:ta": "\u0b9c\u0bc7 \u0baa\u0bbf \u0ba8\u0b95\u0bb0\u0bcd",
+          "network": "Namma Metro",
+          "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+          "operator": "Bangalore Metro Rail Corporation Limited",
+          "platforms": "2",
+          "public_transport": "station",
+          "public_transport:version": "2",
+          "railway": "station",
+          "shelter": "yes",
+          "short_name": "J P Nagar",
+          "station": "subway",
+          "subway": "yes",
+          "website": "https://english.brmc.co.in",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6432710294,
+        "lat": 12.9152208,
+        "lon": 77.573598,
+        "tags": {
+          "code": "BSNK",
+          "layer": "1",
+          "lit": "yes",
+          "name": "Banashankari",
+          "name:kn": "\u0cac\u0ca8\u0cb6\u0c82\u0c95\u0cb0\u0cbf",
+          "name:ml": "\u0d2c\u0d28\u0d36\u0d19\u0d4d\u0d15\u0d30\u0d3f",
+          "name:ta": "\u0baa\u0ba9\u0b9a\u0b99\u0bcd\u0b95\u0bb0\u0bbf",
+          "network": "Namma Metro",
+          "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+          "operator": "Bangalore Metro Rail Corporation Limited",
+          "platforms": "2",
+          "public_transport": "station",
+          "public_transport:version": "2",
+          "railway": "station",
+          "ref": "BSNK",
+          "shelter": "yes",
+          "station": "subway",
+          "subway": "yes",
+          "website": "https://english.brmc.co.in",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6432710295,
+        "lat": 12.9215807,
+        "lon": 77.5802015,
+        "tags": {
+          "alt_name": "RV Road metro station",
+          "code": "RVR",
+          "layer": "1",
+          "lit": "yes",
+          "name": "Rashtreeya Vidyalaya Road",
+          "name:en": "Rashtreeya Vidyalaya Road",
+          "name:kn": "\u0cb0\u0cbe\u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cc0\u0caf \u0cb5\u0cbf\u0ca6\u0ccd\u0caf\u0cbe\u0cb2\u0caf \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "name:ml": "\u0d30\u0d3e\u0d37\u0d4d\u0d1f\u0d4d\u0d30\u0d40\u0d2f \u0d35\u0d3f\u0d26\u0d4d\u0d2f\u0d3e\u0d32\u0d2f \u0d31\u0d4b\u0d21\u0d4d",
+          "name:ta": "\u0bb0\u0bbe\u0bb7\u0bcd\u0b9f\u0bcd\u0bb0\u0bc0\u0baf \u0bb5\u0bbf\u0ba4\u0bcd\u0baf\u0bbe\u0bb2\u0baf\u0bbe \u0b9a\u0bbe\u0bb2\u0bc8",
+          "network": "Namma Metro",
+          "network:wikidata": "Q279343",
+          "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+          "operator": "Bangalore Metro Rail Corporation Limited",
+          "platforms": "4",
+          "public_transport": "station",
+          "railway": "station",
+          "ref": "RVR",
+          "shelter": "yes",
+          "station": "subway",
+          "subway": "yes",
+          "website": "https://english.brmc.co.in",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6432710296,
+        "lat": 12.9295069,
+        "lon": 77.5801439,
+        "tags": {
+          "code": "JYN",
+          "layer": "1",
+          "lit": "yes",
+          "name": "Jayanagar",
+          "name:hi": "\u091c\u092f\u093e\u0928\u0917\u0930",
+          "name:kn": "\u0c9c\u0caf\u0ca8\u0c97\u0cb0",
+          "name:ml": "\u0d1c\u0d2f\u0d28\u0d17\u0d7c",
+          "name:ta": "\u0b9c\u0bc6\u0baf\u0bbe\u0ba8\u0b95\u0bb0\u0bcd",
+          "network": "Namma Metro",
+          "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+          "operator": "Bangalore Metro Rail Corporation Limited",
+          "platforms": "2",
+          "public_transport": "station",
+          "public_transport:version": "2",
+          "railway": "station",
+          "shelter": "yes",
+          "station": "subway",
+          "subway": "yes",
+          "website": "https://english.brmc.co.in",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6432710297,
+        "lat": 12.9382573,
+        "lon": 77.5800556,
+        "tags": {
+          "code": "SECE",
+          "layer": "1",
+          "lit": "yes",
+          "name": "South End Circle",
+          "name:kn": "\u0ca4\u0cbf.\u0ca8\u0c82.\u0cb6\u0ccd\u0cb0\u0cc0 \u0cb5\u0cc3\u0ca4\u0ccd\u0ca4",
+          "name:ml": "\u0d38\u0d57\u0d24\u0d4d\u0d24\u0d4d \u0d0e\u0d7b\u0d21\u0d4d \u0d38\u0d7c\u0d15\u0d4d\u0d15\u0d3f\u0d7e",
+          "name:ta": "\u0b9a\u0bb5\u0bc1\u0ba4\u0bcd \u0b8e\u0ba9\u0bcd\u0b9f\u0bc1 \u0b9a\u0bb0\u0bcd\u0b95\u0bbf\u0bb3\u0bcd",
+          "network": "Namma Metro",
+          "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+          "operator": "Bangalore Metro Rail Corporation Limited",
+          "platforms": "2",
+          "public_transport": "station",
+          "public_transport:version": "2",
+          "railway": "station",
+          "shelter": "yes",
+          "station": "subway",
+          "subway": "yes",
+          "website": "https://english.brmc.co.in",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6432710298,
+        "lat": 12.9465265,
+        "lon": 77.580016,
+        "tags": {
+          "code": "LBGH",
+          "layer": "1",
+          "lit": "yes",
+          "name": "Lalbagh",
+          "name:hi": "\u0932\u093e\u0932\u092c\u093e\u0917\u093c",
+          "name:kn": "\u0cb2\u0cbe\u0cb2\u0ccd \u0cac\u0cbe\u0c97\u0ccd",
+          "name:ml": "\u0d32\u0d3e\u0d7d\u0d2c\u0d3e\u0d17\u0d4d",
+          "name:ta": "\u0bb2\u0bbe\u0bb2\u0bcd\u0baa\u0bbe\u0b95\u0bcd",
+          "network": "Namma Metro",
+          "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+          "operator": "Bangalore Metro Rail Corporation Limited",
+          "platforms": "2",
+          "public_transport": "station",
+          "public_transport:version": "2",
+          "railway": "station",
+          "ref": "LBGH",
+          "shelter": "yes",
+          "station": "subway",
+          "subway": "yes",
+          "website": "https://english.brmc.co.in",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6432710299,
+        "lat": 12.9505266,
+        "lon": 77.5736898,
+        "tags": {
+          "code": "NLC",
+          "layer": "1",
+          "lit": "yes",
+          "name": "National College",
+          "name:kn": "\u0ca8\u0ccd\u0caf\u0cbe\u0cb6\u0ca8\u0cb2\u0ccd \u0c95\u0cbe\u0cb2\u0cc7\u0c9c\u0cc1",
+          "name:ml": "\u0d28\u0d3e\u0d37\u0d23\u0d7d \u0d15\u0d4b\u0d33\u0d47\u0d1c\u0d4d",
+          "name:ta": "\u0ba8\u0bc7\u0bb7\u0ba9\u0bb2\u0bcd \u0b95\u0bb2\u0bcd\u0bb2\u0bc2\u0bb0\u0bbf",
+          "network": "Namma Metro",
+          "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+          "operator": "Bangalore Metro Rail Corporation Limited",
+          "platforms": "2",
+          "public_transport": "station",
+          "public_transport:version": "2",
+          "railway": "station",
+          "shelter": "yes",
+          "station": "subway",
+          "subway": "yes",
+          "website": "https://english.brmc.co.in",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6852266953,
+        "lat": 12.9158516,
+        "lon": 77.5593919,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Padmanabhanagar, Bengaluru",
+          "addr:postcode": "560070",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Yogananda Multi Speciality Hospital",
+          "name:kn": "\u0caf\u0ccb\u0c97\u0ca8\u0c82\u0ca6 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6937814427,
+        "lat": 12.9376087,
+        "lon": 77.5666429,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "#118, 5 Th Main , 7Th Cross, N R Colony , Bull Temple Road",
+          "addr:postcode": "560019",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Balaji Hospital and Gastroenterology Center",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6937898160,
+        "lat": 12.9497745,
+        "lon": 77.5802779,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "#53/1 (45), Shalini,Susheela Road,Lalbagh Upparahalli ( Lalbagh West Gate)",
+          "addr:postcode": "560004",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "South City Hospital, Bengaluru Urban",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6938708338,
+        "lat": 12.9215013,
+        "lon": 77.5655432,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "No 154, 17 Th Main, 29 Th Cross, Near Bnm Institution",
+          "addr:postcode": "560070",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Sri Krishna Hospital",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6938727983,
+        "lat": 12.9256932,
+        "lon": 77.5773127,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "256/14, Kanakapura Main Road, 7th Block, Jayanagar",
+          "addr:postcode": "560082",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare:speciality": "ophthalmology",
+          "name": "Nethradhama Superspeciality Eye Hospital, Jayanagar",
+          "operator:type": "private",
+          "source": "OpenGovernmentData",
+          "website": "https://www.nethradhama.org/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6938741378,
+        "lat": 12.9122295,
+        "lon": 77.5994906,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "C K Emerald, No-10,N S Palya Kaveriappa Industrial Area, Bannergatta Road",
+          "addr:postcode": "560076",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Dr Agarwals Eye Hospital Ltd",
+          "operator": "Dr. Agarwal's Eye Hospital",
+          "operator:type": "private",
+          "operator:wikidata": "Q17052044",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6938775854,
+        "lat": 12.9406698,
+        "lon": 77.5644596,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "No.10/4 & 10/5, 3Road Main Road, Hanumanthanagar",
+          "addr:postcode": "560019",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Vishwabharathi Hospital Pvt. Ltd",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6938775855,
+        "lat": 12.9404548,
+        "lon": 77.5578493,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "No 519/34, 2nd Cross 10Th Main, Bsk 1st Stage Banashankari",
+          "addr:postcode": "560050",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Sunetra Eye Hospital, Bengaluru Urban",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6938775856,
+        "lat": 12.9253299,
+        "lon": 77.5711893,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "No. 39, 8Th B Main Raod, Bsk 2nd Stage",
+          "addr:postcode": "560070",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Sri Vivekananda Sevashrama",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6938775857,
+        "lat": 12.9276382,
+        "lon": 77.568896,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "# 39, 17Thc Cross, 8Thb Main, Banashankari Ii Stage",
+          "addr:postcode": "560070",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Saraswathi Hospital",
+          "name:kn": "\u0cb8\u0cb0\u0cb8\u0ccd\u0cb5\u0ca4\u0cbf \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6938777910,
+        "lat": 12.9386321,
+        "lon": 77.5944105,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Hosur Road",
+          "addr:postcode": "560029",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "email": "rmo@nimhans.kar.nic.in;ms@nimhans.kar.nic.in",
+          "healthcare": "hospital",
+          "name": "National Institute of Mental Health and Neuro Sciences",
+          "operator:type": "government",
+          "short_name": "NIMHANS",
+          "source": "OpenGovernmentData",
+          "website": "https://nimhans.ac.in/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6938863247,
+        "lat": 12.917589,
+        "lon": 77.5948906,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "#942, 28Th Main, 9Th Block,Jayanagar",
+          "addr:postcode": "560039",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "check_date": "2025-12-06",
+          "healthcare": "hospital",
+          "name": "Shekhar Hospital, Jayanagar",
+          "name:kn": "\u0cb6\u0cc7\u0c96\u0cb0 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6938876210,
+        "lat": 12.9103393,
+        "lon": 77.5732398,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Plot No.2(A-2) A Type Bbmp No.57-64-2, Shivana Arcade",
+          "addr:postcode": "560078",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Vasan Eye Care Hospital, Sarakki",
+          "operator:type": "private",
+          "source": "OpenGovernmentData",
+          "website": "http://www.vasaneye.in/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6938912267,
+        "lat": 12.9255233,
+        "lon": 77.5937748,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "No.1156, 26th Main, 4th `T` Block, Jayanagar (Opposite 4th `T` BlockBus Depot)",
+          "addr:postcode": "560041",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "email": "info@sunayanaeyehospital.com",
+          "healthcare": "hospital",
+          "name": "Sunayana Eye Hospital",
+          "operator:type": "private",
+          "source": "OpenGovernmentData",
+          "website": "https://sunayanaeyehospital.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6938995621,
+        "lat": 12.9163994,
+        "lon": 77.5847384,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "909, 47Th Cross, 9Thmain, 5Th Block, Opposite Adarshapalace Apts And Near Raghavendra Matha, Jayanagar",
+          "addr:postcode": "560041",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Dr Kamini Rao Hospital(A Unit Of Bacc Health Care Pvt Ltd)",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6944138103,
+        "lat": 12.9489406,
+        "lon": 77.5949925,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "56, 8Th Cross, Wilson Garden",
+          "addr:postcode": "560027",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Karthik Hospital, Bengaluru Urban",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6944256037,
+        "lat": 12.9514854,
+        "lon": 77.5703564,
+        "tags": {
+          "addr:city": "Bangaluru",
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "No. 16, 3Road Cross, Shankarpuram",
+          "addr:housenumber": "16",
+          "addr:postcode": "560004",
+          "addr:state": "Karnataka",
+          "addr:street": "3rd Cross Road",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Popular Hospital",
+          "operator": "Dr Lingham Murali",
+          "operator:type": "private",
+          "source": "local knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6944290483,
+        "lat": 12.9144587,
+        "lon": 77.6003156,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "# 33, Bannerghatta Road (Service Road), B.T.M.Layout B.T.M. Layout 2nd Stage",
+          "addr:postcode": "560076",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Sri Sai Ram Hospital - Bangalore",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6944392363,
+        "lat": 12.938853,
+        "lon": 77.5786096,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "9, Patalamma Temple Street, Basavanagudi",
+          "addr:postcode": "560004",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Av Hospital",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6944507652,
+        "lat": 12.9403012,
+        "lon": 77.5764705,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "1,Dewan N, Madhava Rao Road, Basavanagudi",
+          "addr:postcode": "560004",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Gunasheela Surgical and Maternity Hospital",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6944507653,
+        "lat": 12.9207314,
+        "lon": 77.5736019,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "#3/2, 27Th Cross, Banashankari 2nd Stage,Near Brigade Software Park",
+          "addr:postcode": "560070",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Excel Care Hospital",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6944507654,
+        "lat": 12.9292015,
+        "lon": 77.5819811,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "No 28&29, 7Th Main Diagnal Road, Jayanagar 4Th Blook",
+          "addr:postcode": "560011",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Vasan Eye Care Hospital, Jayanagar",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6944507655,
+        "lat": 12.9271389,
+        "lon": 77.579028,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "#240, 32nd Cross, 7 Th Block",
+          "addr:postcode": "560001",
+          "addr:state": "Karnataka",
+          "addr:subdistrict": "Jayanagar",
+          "amenity": "hospital",
+          "email": "shridhar@hitechkidneystonehospital.org; suresh@hitechkidneystonehospital.org",
+          "healthcare:speciality": "Dornier AlphaLithotripsy Treatment; X-Rays; US Scan; Urologist Consultation",
+          "name": "Hi Tech Kidney Stone Hospital",
+          "operator:type": "private",
+          "source": "OpenGovernmentData",
+          "website": "http://www.hitechkidneystonehospital.org/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6944507660,
+        "lat": 12.9242515,
+        "lon": 77.573217,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "2269, 22nd Cross K R Road, K.R.Road",
+          "addr:postcode": "560070",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Dr. Vidyananda's Surgery and Dia Centre",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6944525392,
+        "lat": 12.9356703,
+        "lon": 77.6079905,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "#11, Krishna Nagar Industrial Layout, D.R.C.Post,Near Christ College,Hosur",
+          "addr:postcode": "560029",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Prasad Eye Hospital, Bengaluru Urban",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6944578930,
+        "lat": 12.9188948,
+        "lon": 77.6058905,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "No.53, 3Road Main Road, Opposite To Maruti Layout, B.T.M Layout 1st Stage",
+          "addr:postcode": "560029",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Kareem E.N.T and Multispeciality Centre",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6944888150,
+        "lat": 12.9496114,
+        "lon": 77.5790786,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "37, M.N. Krishna Rao Road, Opp Lalbagh West Gate",
+          "addr:postcode": "560004",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Jyothi The Lasik Vision Centre",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6945010490,
+        "lat": 12.9067079,
+        "lon": 77.5849275,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "No. 4, Sarakki Industrial Estate, 3Road Phase, J.P.Nagar, Bannerghatta Road",
+          "addr:postcode": "560076",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "North Star Maternity and Nursing Home",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6947556032,
+        "lat": 12.9074269,
+        "lon": 77.5716318,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "11/2 8Th Cross, Gangadhar Nagar 100 Ring Road, J.P Nagar Post",
+          "addr:postcode": "560078",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "R.R. Hospital and Trauma Centre",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6947750361,
+        "lat": 12.9162753,
+        "lon": 77.5589544,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "No. 113, 4Th Cross, R. K. Layout, Padmanabhanagar",
+          "addr:postcode": "560070",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Hillside Hospital",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6950124308,
+        "lat": 12.9543465,
+        "lon": 77.5755649,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "506, Aswathankatte Road V V Puram",
+          "addr:postcode": "560004",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Venkateswara Hospital, Bengaluru Urban",
+          "name:kn": "\u0cb5\u0cc6\u0c82\u0c95\u0c9f\u0cc7\u0cb6\u0ccd\u0cb5\u0cb0 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7287518232,
+        "lat": 12.9215014,
+        "lon": 77.5836333,
+        "tags": {
+          "bench": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "loc_name": "JAYANAGARA 5TH BLOCK",
+          "name": "Jayanagara 38th Cross",
+          "name:en": "Jayanagara 38th Cross",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7576958033,
+        "lat": 12.9405198,
+        "lon": 77.5794387,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Basavanagudi, Bengaluru",
+          "addr:postcode": "560004",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Bangaluru Unani Hospital",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7576958037,
+        "lat": 12.953049,
+        "lon": 77.574203,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "S.S. Temple Street, V V Puram, Bengaluru",
+          "addr:postcode": "560004",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Medcare Hospital",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7576958039,
+        "lat": 12.9417439,
+        "lon": 77.5601782,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "50 Feet Road, Basavanagadi, Banashankari, Bengaluru",
+          "addr:postcode": "560019",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Sumanjara Hospital",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7576958045,
+        "lat": 12.945591,
+        "lon": 77.5712865,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "DVG Road, Gandhi Bazaar, Basavanagudi, Bengaluru",
+          "addr:postcode": "560004",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Mitralaya Hospital",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7576958060,
+        "lat": 12.940404,
+        "lon": 77.5580361,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "SBM Colony, Banashankari, Bengaluru",
+          "addr:postcode": "560050",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Verna Hospital",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7576958065,
+        "lat": 12.945944,
+        "lon": 77.567404,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Bull Temple Road, Hanumanthnagar, Bengaluru",
+          "addr:postcode": "560019",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Shekhar Hospital",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7576958068,
+        "lat": 12.9415883,
+        "lon": 77.5641917,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Hanumanthnagar, Banashankari, Bengaluru",
+          "addr:postcode": "560019",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Jeevini Sarvodaya Hospital",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7576958078,
+        "lat": 12.939882,
+        "lon": 77.573989,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Krishna Rajendra Road, Basavanagudi, Bengaluru",
+          "addr:postcode": "560004",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Khincha Orthopaedic Centre",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7576958080,
+        "lat": 12.948971,
+        "lon": 77.563543,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "RK Mutt Layout, Gavipura, Kempegowda Nagar, Bengaluru",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Parameshwari Hospital",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7576958089,
+        "lat": 12.9434996,
+        "lon": 77.5796583,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Basavanagudi, Bengaluru",
+          "addr:postcode": "560004",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trinity Hospital and Heart Foundation",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7576958093,
+        "lat": 12.9420276,
+        "lon": 77.575634,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "M N Krishna Rao Park Road, Basavanagudi, Bengaluru",
+          "addr:postcode": "560070",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "fixme": "incorrect location",
+          "healthcare": "hospital",
+          "name": "Matha Pitha Hospital",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7576958117,
+        "lat": 12.9479647,
+        "lon": 77.5696395,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Vanivilas Road, Gandhi Bazaar, Basavanagudi, Bengaluru",
+          "addr:postcode": "560004",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Swastik Eye Hospital",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7576958118,
+        "lat": 12.9458294,
+        "lon": 77.5799015,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Rashtriya Vidyalaya Road, Basavanagudi, Bengaluru",
+          "addr:postcode": "560004",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Dave Gray Hospital",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7579924711,
+        "lat": 12.925461,
+        "lon": 77.609021,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Maruti Nagar, Brindavan Nagar, BTM Layout, Bengaluru",
+          "addr:postcode": "560029",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Lavis Hospital",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7579924715,
+        "lat": 12.9215119,
+        "lon": 77.5724702,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Banashankari, Bengaluru",
+          "addr:postcode": "560070",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Sevakshetra Hospital",
+          "name:kn": "\u0cb8\u0cc7\u0cb5\u0cbe\u0c95\u0ccd\u0cb7\u0cc7\u0ca4\u0ccd\u0cb0 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7579924731,
+        "lat": 12.9136262,
+        "lon": 77.6045369,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:floor": "3",
+          "addr:full": "BTM, Bengaluru",
+          "addr:postcode": "560076",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "check_date": "2023-12-27",
+          "emergency": "no",
+          "healthcare": "hospital",
+          "internet_access": "no",
+          "level": "3",
+          "name": "Marigold Hospital",
+          "operator:type": "private",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "source": "Local Knowledge",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7579924732,
+        "lat": 12.9334096,
+        "lon": 77.5622345,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Vidyapeeta Layout, Basavanagudi, Bengaluru",
+          "addr:postcode": "560050",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Bharathi Hospitals",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7579924744,
+        "lat": 12.924153,
+        "lon": 77.565797,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Banashankari, Bengaluru",
+          "addr:postcode": "560070",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Devagiri Hospital",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7579924753,
+        "lat": 12.9159348,
+        "lon": 77.6034098,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Bannerghatta Main Road, BTM, Bengaluru",
+          "addr:postcode": "560076",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Pothys Hospital",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7579924754,
+        "lat": 12.916234,
+        "lon": 77.593019,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "J.P. Nagar, Bengaluru",
+          "addr:postcode": "560078",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Center for Liver Disease Hospital",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7579924762,
+        "lat": 12.920651,
+        "lon": 77.5746118,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Jayanagar, Bengaluru",
+          "addr:postcode": "560082",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Sahasra Hospital",
+          "name:kn": "\u0cb8\u0cb9\u0cb8\u0ccd\u0cb0 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7579924766,
+        "lat": 12.9265183,
+        "lon": 77.6090995,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Brindavan Nagar, S.G. Palya, Bengaluru",
+          "addr:postcode": "560029",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Health India Hospital",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7579924768,
+        "lat": 12.9202202,
+        "lon": 77.5772991,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Jayanagar, Bengaluru",
+          "addr:postcode": "560070",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Shanti Hospital",
+          "name:kn": "\u0cb6\u0cbe\u0c82\u0ca4\u0cbf \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7579924780,
+        "lat": 12.916885,
+        "lon": 77.585258,
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "TMC Layout, Jayanagar, Bengaluru",
+          "addr:postcode": "560011",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Apollo Cradle Maternity & Children's Hospital",
+          "source": "Local Knowledge",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7829006597,
+        "lat": 12.9167333,
+        "lon": 77.5999762,
+        "tags": {
+          "construction": "station",
+          "disused:railway": "stop",
+          "name": "Jayadeva Interchange (u/c)",
+          "network": "Namma Metro",
+          "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+          "operator": "Bangalore Metro Rail Corporation Limited",
+          "public_transport": "stop_position",
+          "railway": "stop",
+          "station": "subway",
+          "subway": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8776646948,
+        "lat": 12.9128623,
+        "lon": 77.5714903,
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:housenumber": "64/2, Sarakki Main Rd, Sarakki Nagar,",
+          "addr:postcode": "560078",
+          "addr:street": "4th Cross Road",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "physiotherapy;physiotherapist",
+          "name": "Healing Hands Advanced Physiotherapy Clinic",
+          "operator": "www.hhphysio.com",
+          "operator:type": "private"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8873805759,
+        "lat": 12.9288444,
+        "lon": 77.5828703,
+        "tags": {
+          "amenity": "hospital",
+          "name": "Narayan Multispeciality clinic"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9276855256,
+        "lat": 12.9395279,
+        "lon": 77.586437,
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "clinic"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9611168916,
+        "lat": 12.9236698,
+        "lon": 77.5783575,
+        "tags": {
+          "amenity": "school",
+          "name": "FAME India"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9730853893,
+        "lat": 12.9355966,
+        "lon": 77.5971575,
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Kidwai Cancer Institute Radiation Block"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9906332345,
+        "lat": 12.9167319,
+        "lon": 77.59993,
+        "tags": {
+          "construction": "station",
+          "disused:railway": "stop",
+          "name": "Jayadeva Interchange (u/c)",
+          "network": "Namma Metro",
+          "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+          "operator": "Bangalore Metro Rail Corporation Limited",
+          "public_transport": "stop_position",
+          "railway": "stop",
+          "station": "subway",
+          "subway": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9909079217,
+        "lat": 12.9428948,
+        "lon": 77.5859861,
+        "tags": {
+          "amenity": "school",
+          "name": "Sri Sharada Nursery and Public School"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10282136621,
+        "lat": 12.9325103,
+        "lon": 77.5802162,
+        "tags": {
+          "bench": "yes",
+          "bin": "yes",
+          "bus": "yes",
+          "highway": "bus_stop",
+          "lit": "yes",
+          "name": "Nanda Talkies",
+          "name:en": "Nanda Talkies",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11295071515,
+        "lat": 12.9400516,
+        "lon": 77.5954768,
+        "tags": {
+          "amenity": "hospital",
+          "check_date": "2023-10-28",
+          "healthcare": "hospital",
+          "name": "NIMHANS Department Of Psychiatric and Neuro Rehabilitation",
+          "operator:type": "government",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11295217457,
+        "lat": 12.9396498,
+        "lon": 77.5967825,
+        "tags": {
+          "amenity": "hospital",
+          "check_date": "2023-10-28",
+          "healthcare": "hospital",
+          "healthcare:speciality": "neurology",
+          "name": "Nimhans Mr-pet Center",
+          "operator:type": "government",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11295246682,
+        "lat": 12.9402037,
+        "lon": 77.5954721,
+        "tags": {
+          "amenity": "hospital",
+          "check_date": "2023-10-28",
+          "healthcare": "hospital",
+          "name": "NIMHANS Physiotherapy Center",
+          "operator:type": "government",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11303711371,
+        "lat": 12.906071,
+        "lon": 77.5869281,
+        "tags": {
+          "amenity": "hospital",
+          "check_date": "2023-11-01",
+          "healthcare": "hospital",
+          "level": "0;1;2",
+          "name": "Cadabam's Hospitals",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11342900894,
+        "lat": 12.9225341,
+        "lon": 77.5837833,
+        "tags": {
+          "bench": "yes",
+          "bus": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "Jayanagar 38th Cross",
+          "name:en": "Jayanagar 38th Cross",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11342900895,
+        "lat": 12.9285179,
+        "lon": 77.5843951,
+        "tags": {
+          "area": "yes",
+          "bench": "yes",
+          "bus": "yes",
+          "covered": "yes",
+          "departures_board": "yes",
+          "highway": "bus_stop",
+          "name": "Jayanagar TTMC",
+          "name:en": "Jayanagar TTMC",
+          "network": "BMTC",
+          "network:wikidata": "Q3345039",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11813227397,
+        "lat": 12.9075935,
+        "lon": 77.5707809,
+        "tags": {
+          "amenity": "hospital",
+          "name": "Bengaluru City Hospital"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12462551337,
+        "lat": 12.9358102,
+        "lon": 77.5801653,
+        "tags": {
+          "bench": "yes",
+          "bus": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "South End Circle",
+          "name:en": "South End Circle",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12462601105,
+        "lat": 12.9287715,
+        "lon": 77.580345,
+        "tags": {
+          "highway": "bus_stop",
+          "name": "Jayanagara Metro Station",
+          "name:en": "Jayanagara Metro Station",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12462601107,
+        "lat": 12.9216804,
+        "lon": 77.5801411,
+        "tags": {
+          "bus": "yes",
+          "highway": "bus_stop",
+          "name": "RV Road Metro Station",
+          "name:en": "RV Road Metro Station",
+          "network": "BMTC",
+          "network:wikidata": "Q3345039",
+          "operator": "BMTC",
+          "public_transport": "platform"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12491787298,
+        "lat": 12.9237961,
+        "lon": 77.5836829,
+        "tags": {
+          "alt_name": "Telephone Exchange, Jayanagara 4Th Block",
+          "bench": "yes",
+          "bin": "no",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "lit": "yes",
+          "name": "Jayanagara Telephone Exchange",
+          "name:en": "Jayanagara Telephone Exchange",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12492581443,
+        "lat": 12.9238842,
+        "lon": 77.5836803,
+        "tags": {
+          "alt_name": "Telephone Exchange, Jayanagara 4Th Block",
+          "bench": "yes",
+          "bin": "no",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "lit": "yes",
+          "name": "Jayanagara Telephone Exchange",
+          "name:en": "Jayanagara Telephone Exchange",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12917084092,
+        "lat": 12.9296701,
+        "lon": 77.5764082,
+        "tags": {
+          "amenity": "hospital",
+          "name": "AMC Multispeciality Hospital"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12917084115,
+        "lat": 12.9308067,
+        "lon": 77.5764424,
+        "tags": {
+          "bench": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "Yediyuru",
+          "name:en": "Yediyuru",
+          "name:kn": "\u0caf\u0ca1\u0cbf\u0caf\u0cc2\u0cb0\u0cc1",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12917084117,
+        "lat": 12.9307772,
+        "lon": 77.5779987,
+        "tags": {
+          "bench": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "Jayanagar 6th Block",
+          "name:en": "Jayanagar 6th Block",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12917084119,
+        "lat": 12.9309387,
+        "lon": 77.5784004,
+        "tags": {
+          "bench": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "Jayanagar 6th Block",
+          "name:en": "Jayanagar 6th Block",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12917084123,
+        "lat": 12.9301531,
+        "lon": 77.5763445,
+        "tags": {
+          "bench": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "Yediyur",
+          "name:en": "Yediyur",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12995318310,
+        "lat": 12.9405054,
+        "lon": 77.5848675,
+        "tags": {
+          "amenity": "hospital",
+          "check_date": "2025-07-12",
+          "healthcare": "hospital",
+          "name": "Big Hospitals"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13020103081,
+        "lat": 12.9274788,
+        "lon": 77.5835475,
+        "tags": {
+          "bench": "yes",
+          "highway": "bus_stop",
+          "name": "Jayanagar TTMC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13179755394,
+        "lat": 12.9374832,
+        "lon": 77.5849872,
+        "tags": {
+          "bench": "yes",
+          "bus": "yes",
+          "departures_board": "realtime",
+          "highway": "bus_stop",
+          "name": "Jayanagar 2nd Block",
+          "name:kn": "\u0c9c\u0caf\u0ca8\u0c97\u0cb0 \u0ce8\u0ca8\u0cc7 \u0cac\u0ccd\u0cb2\u0cbe\u0c95\u0ccd",
+          "network": "BMTC",
+          "network:wikidata": "Q3345039",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13342657831,
+        "lat": 12.9324686,
+        "lon": 77.5802162,
+        "tags": {
+          "bench": "yes",
+          "bin": "yes",
+          "bus": "yes",
+          "highway": "bus_stop",
+          "lit": "yes",
+          "name": "Nanda Talkies",
+          "name:en": "Nanda Talkies",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13342657832,
+        "lat": 12.9357161,
+        "lon": 77.5801626,
+        "tags": {
+          "bench": "yes",
+          "bus": "yes",
+          "covered": "yes",
+          "highway": "bus_stop",
+          "name": "South End Circle",
+          "name:en": "South End Circle",
+          "network": "BMTC",
+          "operator": "BMTC",
+          "public_transport": "platform",
+          "shelter": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13485444597,
+        "lat": 12.9232168,
+        "lon": 77.5763801,
+        "tags": {
+          "amenity": "school",
+          "education": "school",
+          "name": "Knowledgeum Academy"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13817067479,
+        "lat": 12.9061361,
+        "lon": 77.5868707,
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:district": "Bengaluru Urban",
+          "addr:housenumber": "#281,Ground Floor,Krishna Towers",
+          "addr:postcode": "560078",
+          "addr:street": "15th Cross, 5th Phase",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "proctology;hernia;piles;fissure;fistula;varicose_veins;pilonidal_sinus",
+          "name": "Healing Hands Clinic - J.P Nagar, Bengaluru",
+          "opening_hours": "24/7",
+          "website": "https://www.healinghandsclinic.co.in/bengaluru-location/piles-fistula-hospital-in-jp-nagar/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14081349501,
+        "lat": 12.9356344,
+        "lon": 77.580888,
+        "tags": {
+          "addr:housenumber": "238",
+          "addr:postcode": "560067",
+          "addr:street": "Patalamma Temple Road",
+          "amenity": "school",
+          "name": "Allen B5",
+          "opening_hours": "Mo-Su 09:00-20:00"
+        }
+      },
+      {
+        "type": "way",
+        "id": 15802611,
+        "center": {
+          "lat": 12.9421447,
+          "lon": 77.5753387
+        },
+        "tags": {
+          "heritage": "2",
+          "heritage:operator": "nmma",
+          "heritage:website": "https://nmma.nic.in/nmma/exploreBuiltState.do?state=29",
+          "leisure": "park",
+          "name": "MN Krishna Rao Park",
+          "name:kn": "\u0c95\u0cc3\u0cb7\u0ccd\u0ca3 \u0cb0\u0cbe\u0cb5 \u0c89\u0ca6\u0ccd\u0caf\u0cbe\u0ca8",
+          "ref:nmma": "KR20010688"
+        }
+      },
+      {
+        "type": "way",
+        "id": 27791264,
+        "center": {
+          "lat": 12.9193523,
+          "lon": 77.5853001
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Putha Narasimhachar Park",
+          "name:etymology:wikidata": "Q7117564"
+        }
+      },
+      {
+        "type": "way",
+        "id": 32258435,
+        "center": {
+          "lat": 12.9114199,
+          "lon": 77.5850249
+        },
+        "tags": {
+          "addr:city": "bangalore",
+          "addr:housenumber": "CA-37",
+          "addr:postcode": "560078",
+          "addr:street": "24th Main Road, 1st Phase, J P Nagar",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "landuse": "hospital",
+          "name": "Aster RV Hospital",
+          "phone": "08046414641",
+          "source": "justdial",
+          "website": "https://www.asterhospitals.in/hospitals/aster-rv-bangalore"
+        }
+      },
+      {
+        "type": "way",
+        "id": 32424606,
+        "center": {
+          "lat": 12.9205319,
+          "lon": 77.5825157
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Rainwater Harvesting Theme Park",
+          "official_name": "Sir M Vishweshwaraya Park Rain Water Harvesting Theme Park",
+          "official_name:etymology:wikidata": "Q741700",
+          "operator": "BWSSB",
+          "start_date": "2010-03-21"
+        }
+      },
+      {
+        "type": "way",
+        "id": 32424881,
+        "center": {
+          "lat": 12.9248876,
+          "lon": 77.5822898
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Brindavana Park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 32425217,
+        "center": {
+          "lat": 12.9211481,
+          "lon": 77.5898414
+        },
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 32426890,
+        "center": {
+          "lat": 12.936326,
+          "lon": 77.5857155
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Madhavan Park",
+          "name:kn": "\u0cae\u0cbe\u0ca7\u0cb5\u0ca8\u0ccd \u0c89\u0ca6\u0ccd\u0caf\u0cbe\u0ca8\u0cb5\u0ca8"
+        }
+      },
+      {
+        "type": "way",
+        "id": 40629064,
+        "center": {
+          "lat": 12.943131,
+          "lon": 77.5743868
+        },
+        "tags": {
+          "alt_name": "Government School",
+          "amenity": "school",
+          "name": "Karnataka Public School",
+          "name:kn": "\u0cb8\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0cbf \u0cb6\u0cbe\u0cb2\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 40629074,
+        "center": {
+          "lat": 12.9398471,
+          "lon": 77.584306
+        },
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 40629075,
+        "center": {
+          "lat": 12.9387001,
+          "lon": 77.5859
+        },
+        "tags": {
+          "addr:postcode": "560011",
+          "addr:street": "Jayanagar 1st Block",
+          "amenity": "school",
+          "name": "Rani Sarla Devi School",
+          "name:kn": "\u0cb0\u0cbe\u0ca3\u0cbf \u0cb8\u0cb0\u0cb3\u0cbe\u0ca6\u0cc7\u0cb5\u0cbf \u0cb6\u0cbe\u0cb2\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 40631131,
+        "center": {
+          "lat": 12.9261175,
+          "lon": 77.592549
+        },
+        "tags": {
+          "addr:district": "Mysore",
+          "addr:full": "Near Balodhyana school Mysore, Jayanagara town Mysore, Jayanagara Main Road Mysore",
+          "addr:postcode": "570014",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "contact:phone": "0821-2461158",
+          "healthcare": "hospital",
+          "name": "Jayanagar General Hospital",
+          "name:kn": "\u0cb8\u0c82\u0c9c\u0caf\u0ccd \u0c97\u0cbe\u0c82\u0ca7\u0cbf \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "operator:type": "government",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "way",
+        "id": 40631651,
+        "center": {
+          "lat": 12.9251084,
+          "lon": 77.5957927
+        },
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 40631652,
+        "center": {
+          "lat": 12.9251027,
+          "lon": 77.594732
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Vishnuvardhan Park",
+          "name:etymology:wikidata": "Q2097394",
+          "name:kn": "\u0cb5\u0cbf\u0cb7\u0ccd\u0ca3\u0cc1\u0cb5\u0cb0\u0ccd\u0ca7\u0ca8 \u0c89\u0ca6\u0ccd\u0caf\u0cbe\u0ca8\u0cb5\u0ca8"
+        }
+      },
+      {
+        "type": "way",
+        "id": 40631657,
+        "center": {
+          "lat": 12.9383683,
+          "lon": 77.5899069
+        },
+        "tags": {
+          "amenity": "hospital",
+          "comment": "land reserved for building hospitals",
+          "healthcare": "hospital",
+          "name": "Hospital Complex"
+        }
+      },
+      {
+        "type": "way",
+        "id": 40678727,
+        "center": {
+          "lat": 12.918526,
+          "lon": 77.599265
+        },
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Jayanagar 9Th Block, B.G. Road, Banglore",
+          "addr:postcode": "560041",
+          "addr:state": "Karnataka",
+          "addr:street": "Bannerghatta Road",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "cardiology",
+          "name": "Sri Jayadeva Institute Of Cardiology",
+          "name:kn": "\u0c9c\u0caf\u0ca6\u0cc7\u0cb5 \u0cb9\u0cc3\u0ca6\u0ccd\u0cb0\u0ccb\u0c97 \u0cb8\u0c82\u0cb8\u0ccd\u0ca5\u0cc6",
+          "name:ta": "\u0bb8\u0bcd\u0bb0\u0bc0 \u0b9c\u0bc6\u0baf\u0ba4\u0bc7\u0bb5\u0bbe \u0b87\u0bb0\u0bc1\u0ba4\u0baf \u0bae\u0bb0\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb5\u0bae\u0ba9\u0bc8",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "way",
+        "id": 55675141,
+        "center": {
+          "lat": 12.9288196,
+          "lon": 77.5876667
+        },
+        "tags": {
+          "amenity": "school",
+          "name": "Vivekananda School",
+          "name:etymology:wikidata": "Q47478",
+          "name:kn": "\u0cb5\u0cbf\u0cb5\u0cc7\u0c95\u0cbe\u0ca8\u0c82\u0ca6 \u0cb6\u0cbe\u0cb2\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 118411722,
+        "center": {
+          "lat": 12.9110143,
+          "lon": 77.5797725
+        },
+        "tags": {
+          "addr:city": "bangalore",
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "No 21, 9Th Cross, B-78 Jp Nagar",
+          "addr:housenumber": "21",
+          "addr:postcode": "560078",
+          "addr:state": "Karnataka",
+          "addr:street": "9th Cross Road, Phase 1, Sarakki Layout, JP Nagar",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Rajshekhar Hospital",
+          "name:kn": "\u0cb0\u0cbe\u0c9c\u0cb6\u0cc7\u0c96\u0cb0 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "phone": "080 4252 7555",
+          "source": "OpenGovernmentData",
+          "website": "https://www.rajshekarhospital.com/"
+        }
+      },
+      {
+        "type": "way",
+        "id": 130871138,
+        "center": {
+          "lat": 12.9336401,
+          "lon": 77.5892339
+        },
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 130989412,
+        "center": {
+          "lat": 12.944254,
+          "lon": 77.5865828
+        },
+        "tags": {
+          "amenity": "school",
+          "name": "PTA School",
+          "name:kn": "\u0caa\u0cbf\u0c9f\u0cbf\u0c8e \u0cb6\u0cbe\u0cb2\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 132910904,
+        "center": {
+          "lat": 12.9257824,
+          "lon": 77.5679732
+        },
+        "tags": {
+          "addr:housename": "Sri Aurobindo Memorial School",
+          "addr:postcode": "560070",
+          "amenity": "school",
+          "name": "Sri Aurobindo Memorial School",
+          "name:etymology:wikidata": "Q192207"
+        }
+      },
+      {
+        "type": "way",
+        "id": 133134239,
+        "center": {
+          "lat": 12.9183752,
+          "lon": 77.5871824
+        },
+        "tags": {
+          "description": "Storm Water Drain",
+          "layer": "-1",
+          "name": "K209",
+          "tunnel": "culvert",
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 133268648,
+        "center": {
+          "lat": 12.928652,
+          "lon": 77.5726993
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Uma Maheshwara park",
+          "name:kn": "\u0c89\u0cae\u0cbe \u0cae\u0cb9\u0cc7\u0cb6\u0ccd\u0cb5\u0cb0\u0cbf \u0c89\u0ca6\u0ccd\u0caf\u0cbe\u0ca8\u0cb5\u0ca8"
+        }
+      },
+      {
+        "type": "way",
+        "id": 133951786,
+        "center": {
+          "lat": 12.9164637,
+          "lon": 77.5796155
+        },
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "VR Layout, J. P. Nagar, Bengaluru",
+          "addr:postcode": "560078",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Rajalakshmi Multispeciality Hospital",
+          "name:kn": "\u0cb0\u0cbe\u0c9c\u0cbe\u0c9c\u0cbf\u0ca8\u0c97\u0cb0 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 202799608,
+        "center": {
+          "lat": 12.9411323,
+          "lon": 77.5808612
+        },
+        "tags": {
+          "amenity": "school",
+          "name": "Bangalore Higher Secondary School (BHSS)",
+          "name:kn": "\u0cac\u0cc6\u0c82\u0c97\u0cb3\u0cc2\u0cb0\u0cc1 \u0caa\u0ccd\u0cb0\u0ccc\u0ca1 \u0cb6\u0cbe\u0cb2\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 239738408,
+        "center": {
+          "lat": 12.936526,
+          "lon": 77.5981388
+        },
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Dr.M.H Marigowda Road",
+          "addr:postcode": "560 029",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "check_date": "2026-04-08",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "oncology",
+          "name": "Kidwai Memorial Institute of Oncology",
+          "name:etymology:wikidata": "Q7282619",
+          "operator:type": "private",
+          "source": "OpenGovernmentData",
+          "website": "https://www.kidwai.kar.nic.in/",
+          "wikidata": "Q6405058",
+          "wikipedia": "en:Kidwai Memorial Institute of Oncology"
+        }
+      },
+      {
+        "type": "way",
+        "id": 259487871,
+        "center": {
+          "lat": 12.9173301,
+          "lon": 77.5851028
+        },
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "#523, 10th Main,45th Cross, 5th Block, Jayanagar",
+          "addr:housename": "523",
+          "addr:postcode": "560041",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "building": "yes",
+          "email": "admin@sksh.com",
+          "healthcare": "hospital",
+          "name": "Shri Krishna Sevashrama Hospital",
+          "name:kn": "\u0cb6\u0ccd\u0cb0\u0cc0\u0c95\u0ccd\u0cb7\u0cc7\u0ca4\u0ccd\u0cb0 \u0cb8\u0cc7\u0cb5\u0cbe\u0cb6\u0ccd\u0cb0\u0cae \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "operator:type": "private",
+          "phone": "+918022441631",
+          "source": "OpenGovernmentData",
+          "website": "http://www.sks-hospital.org/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 296669392,
+        "center": {
+          "lat": 12.9251618,
+          "lon": 77.5913106
+        },
+        "tags": {
+          "landuse": "recreation_ground",
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 306826547,
+        "center": {
+          "lat": 12.9294355,
+          "lon": 77.564005
+        },
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "Banashankari, Bengaluru",
+          "addr:postcode": "560070",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "building": "hospital",
+          "name": "Pro MED Hospital",
+          "name:kn": "\u0caa\u0ccd\u0cb0\u0ccb\u0cae\u0cc6\u0ca1\u0ccd\u200c \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "way",
+        "id": 306861065,
+        "center": {
+          "lat": 12.9363683,
+          "lon": 77.5843165
+        },
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "21/2, 14th Cross, 3rd Block, Jayanagar",
+          "addr:postcode": "560011",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "building": "yes",
+          "building:levels": "6",
+          "email": "customercarebengaluru@apollohospitals.com",
+          "healthcare": "hospital",
+          "healthcare:speciality": "Cardiac surgery; General and Gastro-intestinal surgery; Gynecology; Pediatric surgery; Thoracic surgery; Urology; Colorectal surgery; Cancer surgery; Orthopedics; Neurosurgery and Ear; Nose and Throat surgery",
+          "name": "Apollo Speciality Hospital",
+          "name:kn": "\u0c85\u0caa\u0ccb\u0cb2\u0ccb \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "operator:type": "private",
+          "source": "OpenGovernmentData",
+          "website": "https://www.apollohospitals.com/"
+        }
+      },
+      {
+        "type": "way",
+        "id": 307097150,
+        "center": {
+          "lat": 12.9216723,
+          "lon": 77.5721649
+        },
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "B 70, 27Th Cross Banashankari 2nd Stage Banashankari",
+          "addr:postcode": "560070",
+          "addr:state": "Karnataka",
+          "addr:street": "27th Cross",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Sevakshetra Hospital, Bengaluru Urban",
+          "name:kn": "\u0cb8\u0cc7\u0cb5\u0cbe\u0c95\u0ccd\u0cb7\u0cc7\u0ca4\u0ccd\u0cb0 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "way",
+        "id": 307097420,
+        "center": {
+          "lat": 12.924838,
+          "lon": 77.5692815
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "DV Gundappa Park",
+          "name:etymology:wikidata": "Q5203844"
+        }
+      },
+      {
+        "type": "way",
+        "id": 307098232,
+        "center": {
+          "lat": 12.9253024,
+          "lon": 77.5774064
+        },
+        "tags": {
+          "addr:street": "Kanakapura Road",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "name": "Netradhama Hospital",
+          "name:kn": "\u0ca8\u0cc7\u0ca4\u0ccd\u0cb0\u0ca7\u0cbe\u0cae \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 333052556,
+        "center": {
+          "lat": 12.9103373,
+          "lon": 77.6004789
+        },
+        "tags": {
+          "amenity": "hospital",
+          "building": "yes",
+          "healthcare": "hospital",
+          "name": "Dr. Agarwal's Eye Hospital",
+          "operator": "Dr. Agarwal's Eye Hospital",
+          "operator:type": "private",
+          "operator:wikidata": "Q17052044"
+        }
+      },
+      {
+        "type": "way",
+        "id": 334493050,
+        "center": {
+          "lat": 12.9356389,
+          "lon": 77.5935945
+        },
+        "tags": {
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Sanjay Gandhi Accident and Trauma Hospital",
+          "name:etymology:wikidata": "Q730045",
+          "name:kn": "\u0cb8\u0c82\u0c9c\u0caf \u0c97\u0cbe\u0c82\u0ca7\u0cbf \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 334493056,
+        "center": {
+          "lat": 12.9357711,
+          "lon": 77.5939433
+        },
+        "tags": {
+          "amenity": "hospital",
+          "building": "yes",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Sanjay Gandhi Accident and Trauma Hospital",
+          "name:etymology:wikidata": "Q730045",
+          "name:kn": "\u0cb8\u0c82\u0c9c\u0caf \u0c97\u0cbe\u0c82\u0ca7\u0cbf \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 338317081,
+        "center": {
+          "lat": 12.9424073,
+          "lon": 77.5855394
+        },
+        "tags": {
+          "addr:city": "Bangalore",
+          "addr:street": "Ashoka Pilla Circle",
+          "amenity": "school",
+          "name": "Parikrama",
+          "name:kn": "\u0caa\u0ccd\u0cb0\u0ca6\u0c95\u0ccd\u0cb7\u0cbf\u0ca3\u0cc6",
+          "website": "https://www.parikrmafoundation.org/"
+        }
+      },
+      {
+        "type": "way",
+        "id": 347074890,
+        "center": {
+          "lat": 12.9462857,
+          "lon": 77.5947772
+        },
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "17, Dr.M.H.Mari Gowda Road, Opp Wilson Garden",
+          "addr:postcode": "560027",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "Neuro Psychiatry; Neuro Surgery; Oncology; Orthopaedics; Joint Replacements; General Surgery",
+          "name": "Abhaya Hospital",
+          "name:kn": "\u0c85\u0cad\u0caf \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "operator:type": "private",
+          "source": "OpenGovernmentData",
+          "website": "https://www.abhayahospital.org/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 347113528,
+        "center": {
+          "lat": 12.9194536,
+          "lon": 77.5838939
+        },
+        "tags": {
+          "amenity": "hospital",
+          "building": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "ophthalmology",
+          "name": "Tirumalai Eye Clinic",
+          "website": "https://www.tirumalaieyeclinic.com/"
+        }
+      },
+      {
+        "type": "way",
+        "id": 347120748,
+        "center": {
+          "lat": 12.9265095,
+          "lon": 77.5808392
+        },
+        "tags": {
+          "addr:city": "Bengaluru",
+          "addr:district": "Bengaluru Urban",
+          "addr:housenumber": "175",
+          "addr:postcode": "560011",
+          "addr:street": "5th Main Road",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general;emergency",
+          "name": "Shashank Clinic",
+          "operator": "Dr. Satish",
+          "operator:type": "public"
+        }
+      },
+      {
+        "type": "way",
+        "id": 347167749,
+        "center": {
+          "lat": 12.9491888,
+          "lon": 77.5968148
+        },
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "BBMP Maternity Hospital",
+          "name:kn": "\u0cb8\u0cb0\u0c95\u0cbe\u0cb0\u0cbf \u0cb9\u0cc6\u0cb0\u0cbf\u0c97\u0cc6 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 347187836,
+        "center": {
+          "lat": 12.9279948,
+          "lon": 77.5894064
+        },
+        "tags": {
+          "amenity": "hospital",
+          "building": "yes",
+          "name": "ESI Hospital",
+          "name:kn": "\u0c87\u0c8e\u0cb8\u0ccd\u0c90 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 347533784,
+        "center": {
+          "lat": 12.9285064,
+          "lon": 77.5879817
+        },
+        "tags": {
+          "amenity": "school",
+          "name": "National Public School Jayanagar",
+          "name:kn": "\u0cb0\u0cbe\u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cc0\u0caf \u0cb8\u0cbe\u0cb0\u0ccd\u0cb5\u0c9c\u0ca8\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6 \u0c9c\u0caf\u0ca8\u0c97\u0cb0"
+        }
+      },
+      {
+        "type": "way",
+        "id": 349542323,
+        "center": {
+          "lat": 12.9184936,
+          "lon": 77.5959747
+        },
+        "tags": {
+          "addr:city": "Bengaluru",
+          "addr:street": "East End Main Road",
+          "addr:suburb": "Jayanagar 9th Block",
+          "alt_name": "GHS Jayanagar 9th Block",
+          "amenity": "school",
+          "building": "school",
+          "building:levels": "3",
+          "capacity": "180",
+          "max_age": "16",
+          "min_age": "13",
+          "name": "Government High School",
+          "name:kn": "\u0cb8\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0cbf \u0caa\u0ccd\u0cb0\u0ccc\u0ca2 \u0cb6\u0cbe\u0cb2\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 351326759,
+        "center": {
+          "lat": 12.9262236,
+          "lon": 77.5775108
+        },
+        "tags": {
+          "amenity": "hospital",
+          "building": "yes",
+          "name": "Deepak Hospital"
+        }
+      },
+      {
+        "type": "way",
+        "id": 362907846,
+        "center": {
+          "lat": 12.9378191,
+          "lon": 77.5714966
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Shamanna Park",
+          "name:kn": "\u0cb6\u0cbe\u0cae\u0ca3\u0ccd\u0ca3 \u0c89\u0ca6\u0ccd\u0caf\u0cbe\u0ca8\u0cb5\u0ca8"
+        }
+      },
+      {
+        "type": "way",
+        "id": 393754906,
+        "center": {
+          "lat": 12.9363182,
+          "lon": 77.5797481
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Prakruthi Vana"
+        }
+      },
+      {
+        "type": "way",
+        "id": 393754907,
+        "center": {
+          "lat": 12.9185593,
+          "lon": 77.5799789
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Laxman Rao Park",
+          "name:kn": "\u0cb2\u0c95\u0ccd\u0cb7\u0ccd\u0cae\u0ca3 \u0cb0\u0cbe\u0cb5\u0ccd \u0c89\u0ca6\u0ccd\u0caf\u0cbe\u0ca8"
+        }
+      },
+      {
+        "type": "way",
+        "id": 442048030,
+        "center": {
+          "lat": 12.9278986,
+          "lon": 77.599855
+        },
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "#44, 54, 30th Cross Rd, Bannerughatta Approach Road Layout, 4th T Block East, Tilak Nagar, Jayanagar,",
+          "addr:postcode": "560041",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "email": "infojnr@sagarhospitals.in",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Sagar Hospitals",
+          "name:kn": "\u0cb8\u0cbe\u0c97\u0cb0\u0ccd \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "operator:type": "private",
+          "phone": "08042888888",
+          "source": "OpenGovernmentData",
+          "website": "https://www.sagarhospitals.in/"
+        }
+      },
+      {
+        "type": "way",
+        "id": 442048031,
+        "center": {
+          "lat": 12.9078674,
+          "lon": 77.5651623
+        },
+        "tags": {
+          "amenity": "hospital",
+          "building": "hospital",
+          "name": "Sagar Hospital",
+          "name:kn": "\u0cb8\u0cbe\u0c97\u0cb0 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "opening_hours": "Mo-Su 00:00-23:00"
+        }
+      },
+      {
+        "type": "way",
+        "id": 496821816,
+        "center": {
+          "lat": 12.9377267,
+          "lon": 77.5697859
+        },
+        "tags": {
+          "amenity": "hospital",
+          "building": "yes",
+          "healthcare": "hospital",
+          "name": "Government Maternity Hospital",
+          "name:kn": "\u0cb8\u0cb0\u0c95\u0cbe\u0cb0\u0cbf \u0cb9\u0cc6\u0cb0\u0cbf\u0c97\u0cc6 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 511623036,
+        "center": {
+          "lat": 12.9213666,
+          "lon": 77.5892011
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Nandanvan Childrens play Park",
+          "note": "Paid Entry"
+        }
+      },
+      {
+        "type": "way",
+        "id": 514073943,
+        "center": {
+          "lat": 12.9301152,
+          "lon": 77.5923438
+        },
+        "tags": {
+          "layer": "-1",
+          "name": "K207",
+          "tunnel": "culvert",
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 521592163,
+        "center": {
+          "lat": 12.925358,
+          "lon": 77.5940216
+        },
+        "tags": {
+          "amenity": "school",
+          "name": "Sudarshan Vidya Mandir",
+          "name:kn": "\u0cb8\u0cc1\u0ca6\u0cb0\u0ccd\u0cb6\u0ca8 \u0cb5\u0cbf\u0ca6\u0ccd\u0caf\u0cbe \u0cae\u0c82\u0ca6\u0cbf\u0cb0"
+        }
+      },
+      {
+        "type": "way",
+        "id": 549373054,
+        "center": {
+          "lat": 12.9496516,
+          "lon": 77.5803074
+        },
+        "tags": {
+          "amenity": "hospital",
+          "building": "yes",
+          "healthcare": "hospital",
+          "name": "South City Hospital"
+        }
+      },
+      {
+        "type": "way",
+        "id": 639010019,
+        "center": {
+          "lat": 12.9492019,
+          "lon": 77.5977936
+        },
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "35, Siddiah Road, Wilson Garden",
+          "addr:postcode": "560027",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "building": "hospital",
+          "healthcare": "hospital",
+          "name": "Agadi Hospital",
+          "name:kn": "\u0c85\u0c97\u0ca1\u0cbf \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "way",
+        "id": 687319732,
+        "center": {
+          "lat": 12.9413364,
+          "lon": 77.5674679
+        },
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "618, Sri Mallikarjuna Swamy Temple St, N.R. Colony",
+          "addr:postcode": "560019",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "BMS Hospital",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "way",
+        "id": 687319737,
+        "center": {
+          "lat": 12.9400098,
+          "lon": 77.5677654
+        },
+        "tags": {
+          "addr:street": "Bull Temple Road",
+          "amenity": "school",
+          "name": "APS Public School",
+          "name:kn": "\u0c8e\u0caa\u0cbf\u0c8e\u0cb8\u0ccd \u0caa\u0cac\u0ccd\u0cb2\u0cbf\u0c95\u0ccd \u0cb6\u0cbe\u0cb2\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 780479741,
+        "center": {
+          "lat": 12.9341696,
+          "lon": 77.575485
+        },
+        "tags": {
+          "highway": "primary",
+          "name": "Kanakapura Road",
+          "name:etymology:wikidata": "Q2019137",
+          "name:kn": "\u0c95\u0ca8\u0c95\u0caa\u0cc1\u0cb0 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "smoothness": "good"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1044521119,
+        "center": {
+          "lat": 12.9225104,
+          "lon": 77.5755219
+        },
+        "tags": {
+          "addr:street": "Kanakapura Road",
+          "amenity": "school",
+          "name": "JSS Composite PU College",
+          "name:kn": "\u0c9c\u0cc6\u0c8e\u0cb8\u0ccd\u0c8e\u0cb8\u0ccd \u0cb8\u0c82\u0caf\u0cc1\u0c95\u0ccd\u0ca4 \u0caa\u0ca6\u0cb5\u0cbf\u0caa\u0cc2\u0cb0\u0ccd\u0cb5 \u0c95\u0cbe\u0cb2\u0cc7\u0c9c\u0cc1"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1148415183,
+        "center": {
+          "lat": 12.9235184,
+          "lon": 77.5762865
+        },
+        "tags": {
+          "highway": "primary",
+          "name": "Kanakapura Road",
+          "name:etymology:wikidata": "Q2019137",
+          "name:kn": "\u0c95\u0ca8\u0c95\u0caa\u0cc1\u0cb0 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "oneway": "yes",
+          "smoothness": "good"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1148415188,
+        "center": {
+          "lat": 12.922174,
+          "lon": 77.5753883
+        },
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "name": "Kanakapura Road",
+          "name:etymology:wikidata": "Q2019137",
+          "name:kn": "\u0c95\u0ca8\u0c95\u0caa\u0cc1\u0cb0 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "oneway": "yes",
+          "smoothness": "good",
+          "surface": "concrete"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1148415190,
+        "center": {
+          "lat": 12.9235161,
+          "lon": 77.5761812
+        },
+        "tags": {
+          "highway": "primary",
+          "name": "Kanakapura Road",
+          "name:etymology:wikidata": "Q2019137",
+          "name:kn": "\u0c95\u0ca8\u0c95\u0caa\u0cc1\u0cb0 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "oneway": "yes",
+          "smoothness": "good"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1148415191,
+        "center": {
+          "lat": 12.9221369,
+          "lon": 77.575292
+        },
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "name": "Kanakapura Road",
+          "name:etymology:wikidata": "Q2019137",
+          "name:kn": "\u0c95\u0ca8\u0c95\u0caa\u0cc1\u0cb0 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "oneway": "yes",
+          "smoothness": "good",
+          "surface": "concrete"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1148415193,
+        "center": {
+          "lat": 12.9276798,
+          "lon": 77.5763486
+        },
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "name": "Kanakapura Road",
+          "name:etymology:wikidata": "Q2019137",
+          "name:kn": "\u0c95\u0ca8\u0c95\u0caa\u0cc1\u0cb0 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "oneway": "yes",
+          "smoothness": "good",
+          "surface": "concrete"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1203712570,
+        "center": {
+          "lat": 12.9435585,
+          "lon": 77.5811993
+        },
+        "tags": {
+          "layer": "-1",
+          "name": "K111",
+          "tunnel": "yes",
+          "waterway": "drain"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1206377083,
+        "center": {
+          "lat": 12.9439927,
+          "lon": 77.5745175
+        },
+        "tags": {
+          "amenity": "school",
+          "name": "Sri Chaitanya Techno School"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1215829536,
+        "center": {
+          "lat": 12.9301855,
+          "lon": 77.5804388
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Laxman Rao Park",
+          "name:kn": "\u0cb2\u0c95\u0ccd\u0cb7\u0ccd\u0cae\u0ca3 \u0cb0\u0cbe\u0cb5\u0ccd \u0c89\u0ca6\u0ccd\u0caf\u0cbe\u0ca8"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1215829539,
+        "center": {
+          "lat": 12.9297767,
+          "lon": 77.5798656
+        },
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1215829547,
+        "center": {
+          "lat": 12.9269755,
+          "lon": 77.580471
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Laxman Rao Park",
+          "name:kn": "\u0cb2\u0c95\u0ccd\u0cb7\u0ccd\u0cae\u0ca3 \u0cb0\u0cbe\u0cb5\u0ccd \u0c89\u0ca6\u0ccd\u0caf\u0cbe\u0ca8"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1215829550,
+        "center": {
+          "lat": 12.9279879,
+          "lon": 77.5798822
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Laxman Rao Park",
+          "name:kn": "\u0cb2\u0c95\u0ccd\u0cb7\u0ccd\u0cae\u0ca3 \u0cb0\u0cbe\u0cb5\u0ccd \u0c89\u0ca6\u0ccd\u0caf\u0cbe\u0ca8"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1215829551,
+        "center": {
+          "lat": 12.9280271,
+          "lon": 77.5804724
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Laxman Rao Park",
+          "name:kn": "\u0cb2\u0c95\u0ccd\u0cb7\u0ccd\u0cae\u0ca3 \u0cb0\u0cbe\u0cb5\u0ccd \u0c89\u0ca6\u0ccd\u0caf\u0cbe\u0ca8"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1215829552,
+        "center": {
+          "lat": 12.9253436,
+          "lon": 77.5799075
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Laxman Rao Park",
+          "name:kn": "\u0cb2\u0c95\u0ccd\u0cb7\u0ccd\u0cae\u0ca3 \u0cb0\u0cbe\u0cb5\u0ccd \u0c89\u0ca6\u0ccd\u0caf\u0cbe\u0ca8"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1215829553,
+        "center": {
+          "lat": 12.9249386,
+          "lon": 77.580506
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Laxman Rao Park",
+          "name:kn": "\u0cb2\u0c95\u0ccd\u0cb7\u0ccd\u0cae\u0ca3 \u0cb0\u0cbe\u0cb5\u0ccd \u0c89\u0ca6\u0ccd\u0caf\u0cbe\u0ca8"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1215829554,
+        "center": {
+          "lat": 12.9226147,
+          "lon": 77.5805398
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Laxman Rao Park",
+          "name:kn": "\u0cb2\u0c95\u0ccd\u0cb7\u0ccd\u0cae\u0ca3 \u0cb0\u0cbe\u0cb5\u0ccd \u0c89\u0ca6\u0ccd\u0caf\u0cbe\u0ca8"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1215829555,
+        "center": {
+          "lat": 12.9208445,
+          "lon": 77.5805542
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Laxman Rao Park",
+          "name:kn": "\u0cb2\u0c95\u0ccd\u0cb7\u0ccd\u0cae\u0ca3 \u0cb0\u0cbe\u0cb5\u0ccd \u0c89\u0ca6\u0ccd\u0caf\u0cbe\u0ca8"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1215829556,
+        "center": {
+          "lat": 12.9187696,
+          "lon": 77.5805559
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Laxman Rao Park",
+          "name:kn": "\u0cb2\u0c95\u0ccd\u0cb7\u0ccd\u0cae\u0ca3 \u0cb0\u0cbe\u0cb5\u0ccd \u0c89\u0ca6\u0ccd\u0caf\u0cbe\u0ca8"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1217375998,
+        "center": {
+          "lat": 12.9162232,
+          "lon": 77.5890247
+        },
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "JP Nagar, Bengaluru",
+          "addr:postcode": "560078",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Jnana Sanjeevini",
+          "name:kn": "\u0c9c\u0ccd\u0c9e\u0cbe\u0ca8 \u0cb8\u0c82\u0c9c\u0cc0\u0cb5\u0cbf\u0ca8\u0cbf",
+          "source": "Local Knowledge"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1219764563,
+        "center": {
+          "lat": 12.9313575,
+          "lon": 77.5759588
+        },
+        "tags": {
+          "highway": "primary",
+          "name": "Kanakapura Road",
+          "name:etymology:wikidata": "Q2019137",
+          "name:kn": "\u0c95\u0ca8\u0c95\u0caa\u0cc1\u0cb0 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "note": "Dual carriage",
+          "oneway": "yes",
+          "smoothness": "good"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1219764566,
+        "center": {
+          "lat": 12.9308661,
+          "lon": 77.5761911
+        },
+        "tags": {
+          "highway": "primary",
+          "name": "Kanakapura Road",
+          "name:etymology:wikidata": "Q2019137",
+          "name:kn": "\u0c95\u0ca8\u0c95\u0caa\u0cc1\u0cb0 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "note": "Dual carriage",
+          "oneway": "yes",
+          "smoothness": "good"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1219764579,
+        "center": {
+          "lat": 12.9271889,
+          "lon": 77.5766277
+        },
+        "tags": {
+          "highway": "primary",
+          "lanes": "2",
+          "name": "Kanakapura Road",
+          "name:etymology:wikidata": "Q2019137",
+          "name:kn": "\u0c95\u0ca8\u0c95\u0caa\u0cc1\u0cb0 \u0cb0\u0cb8\u0ccd\u0ca4\u0cc6",
+          "oneway": "yes",
+          "smoothness": "good",
+          "surface": "concrete"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1242203386,
+        "center": {
+          "lat": 12.9264548,
+          "lon": 77.5981235
+        },
+        "tags": {
+          "addr:street": "Bannerghatta Road",
+          "amenity": "school",
+          "check_date": "2025-12-06",
+          "landuse": "education",
+          "name": "Lourdes Convent School"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1242203388,
+        "center": {
+          "lat": 12.9273113,
+          "lon": 77.5981297
+        },
+        "tags": {
+          "addr:street": "Bannerghatta Road",
+          "amenity": "school",
+          "check_date": "2025-12-06",
+          "landuse": "education",
+          "name": "Carmel Convent School",
+          "name:kn": "\u0c95\u0cbe\u0cb0\u0ccd\u0cae\u0cc6\u0cb2\u0ccd \u0c95\u0cbe\u0ca8\u0ccd\u0cb5\u0cc6\u0c82\u0c9f\u0ccd \u0cb6\u0cbe\u0cb2\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1242203428,
+        "center": {
+          "lat": 12.9304859,
+          "lon": 77.5954162
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Byrasandra Lake Park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1256457833,
+        "center": {
+          "lat": 12.9273417,
+          "lon": 77.5865998
+        },
+        "tags": {
+          "amenity": "school",
+          "name": "Geeta HPS",
+          "name:kn": "\u0c97\u0cc0\u0ca4 \u0cb9\u0cbf\u0cb0\u0cbf\u0caf \u0caa\u0ccd\u0cb0\u0cbe\u0ca5\u0cae\u0cbf\u0c95 \u0cb6\u0cbe\u0cb2\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1257327546,
+        "center": {
+          "lat": 12.9478274,
+          "lon": 77.5924806
+        },
+        "tags": {
+          "alt_name": "Truelife Maha Bodhi Hospital",
+          "amenity": "hospital",
+          "name": "Brains Super Speciality Hospital",
+          "official_name": "Maha Bodhi Mallige Hospital",
+          "old_name": "Mallige Hospital",
+          "old_name:kn": "\u0cae\u0cb2\u0ccd\u0cb2\u0cbf\u0c97\u0cc6 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1272455789,
+        "center": {
+          "lat": 12.942394,
+          "lon": 77.5772006
+        },
+        "tags": {
+          "amenity": "school",
+          "name": "The Kenmore English School"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1298074067,
+        "center": {
+          "lat": 12.9447394,
+          "lon": 77.5964164
+        },
+        "tags": {
+          "amenity": "hospital",
+          "name": "Safa Medicure Hospital"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1307949928,
+        "center": {
+          "lat": 12.9538911,
+          "lon": 77.5711462
+        },
+        "tags": {
+          "addr:district": "Bengaluru Urban",
+          "addr:full": "1st Cross, Shankarapuram, Basavanagudi",
+          "addr:postcode": "560004",
+          "addr:state": "Karnataka",
+          "addr:street": "DV Gundappa Road",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Rangadore Memorial Hospital",
+          "source": "OpenGovernmentData",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1350390235,
+        "center": {
+          "lat": 12.9372378,
+          "lon": 77.5814124
+        },
+        "tags": {
+          "amenity": "school"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1395462320,
+        "center": {
+          "lat": 12.9241003,
+          "lon": 77.5845748
+        },
+        "tags": {
+          "addr:place": "Jayanagar",
+          "amenity": "school",
+          "isced:level": "2",
+          "name": "MES School 4th Blk Jayanagar",
+          "name:kn": "\u0c8e\u0c82.\u0c87.\u0c8e\u0cb8\u0ccd\u200c \u0cb6\u0cbe\u0cb2\u0cc6 \u0cea\u0ca8\u0cc7 \u0cac\u0ccd\u0cb2\u0cbe\u0c95\u0ccd \u0c9c\u0caf\u0ca8\u0c97\u0cb0",
+          "operator": "Department of Education",
+          "school": "primary",
+          "toilets:wheelchair": "yes",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1395462321,
+        "center": {
+          "lat": 12.9238748,
+          "lon": 77.5845741
+        },
+        "tags": {
+          "amenity": "school",
+          "name": "Holy Christ English School",
+          "name:kn": "\u0cb9\u0cca\u0cb2\u0cbf \u0c95\u0ccd\u0cb0\u0cc8\u0cb8\u0ccd\u0c9f\u0ccd \u0c86\u0c82\u0c97\u0ccd\u0cb2 \u0cb6\u0cbe\u0cb2\u0cc6",
+          "toilets:wheelchair": "yes",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1395462349,
+        "center": {
+          "lat": 12.9271061,
+          "lon": 77.576658
+        },
+        "tags": {
+          "addr:district": "Bengaluru Rural",
+          "addr:full": "7Th Main, 4Th Cross, Kanakpura Main Road , Bangalore North",
+          "addr:postcode": "560082",
+          "addr:state": "Karnataka",
+          "amenity": "hospital",
+          "name": "Yadiyuru Maternity Hospital",
+          "name:kn": "\u0caf\u0ca1\u0cbf\u0caf\u0cc2\u0cb0\u0cc1 \u0cb9\u0cc6\u0cb0\u0cbf\u0c97\u0cc6 \u0c86\u0cb8\u0ccd\u0caa\u0ca4\u0ccd\u0cb0\u0cc6",
+          "source": "OpenGovernmentData"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1395462350,
+        "center": {
+          "lat": 12.9267938,
+          "lon": 77.5772972
+        },
+        "tags": {
+          "amenity": "hospital",
+          "name": "Ayurveda Prathisthana Hospital"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1395462356,
+        "center": {
+          "lat": 12.9265671,
+          "lon": 77.5767178
+        },
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1395462357,
+        "center": {
+          "lat": 12.9266105,
+          "lon": 77.5761191
+        },
+        "tags": {
+          "amenity": "school",
+          "name": "Holy Saint High School"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1395462368,
+        "center": {
+          "lat": 12.9306191,
+          "lon": 77.5758617
+        },
+        "tags": {
+          "amenity": "school",
+          "name": "Government Kannada Primary School, Yediyur"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1395462379,
+        "center": {
+          "lat": 12.9305812,
+          "lon": 77.57892
+        },
+        "tags": {
+          "addr:place": "Yadiyur",
+          "amenity": "school",
+          "full_name": "Ram Krishna Swantantranada School",
+          "isced:level": "2",
+          "landuse": "education",
+          "name": "RKS Yediyur",
+          "name:kn": "\u0c86\u0cb0\u0ccd.\u0c95\u0cc6.\u0c8e\u0cb8\u0ccd \u0caf\u0ca1\u0cbf\u0caf\u0cc2\u0cb0\u0cc1",
+          "operator": "Department of Education",
+          "school": "primary"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1432018658,
+        "center": {
+          "lat": 12.9438635,
+          "lon": 77.5969221
+        },
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Vignan Hospital",
+          "website": "https://bidsinstitution.com/"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1545024787,
+        "center": {
+          "lat": 12.9356086,
+          "lon": 77.5730995
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Smt. Komala Ramachandra Park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1545024827,
+        "center": {
+          "lat": 12.9336757,
+          "lon": 77.57867
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Ambedkar Park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1558732617,
+        "center": {
+          "lat": 12.9356193,
+          "lon": 77.5797489
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Shri Ranadheera Kanteerava Park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1558732628,
+        "center": {
+          "lat": 12.9333889,
+          "lon": 77.5798338
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Chaitanya Children's Playground"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1558732629,
+        "center": {
+          "lat": 12.9345613,
+          "lon": 77.5797501
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "Shri Ranadheera Kanteerava Park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1560963287,
+        "center": {
+          "lat": 12.9172262,
+          "lon": 77.5905607
+        },
+        "tags": {
+          "amenity": "school"
+        }
+      },
+      {
+        "type": "relation",
+        "id": 9362927,
+        "center": {
+          "lat": 12.9336198,
+          "lon": 77.5766852
+        },
+        "tags": {
+          "name": "Yediyur Lake",
+          "name:kn": "\u0caf\u0ca1\u0cbf\u0caf\u0cc2\u0cb0\u0cc1 \u0c95\u0cc6\u0cb0\u0cc6",
+          "natural": "water",
+          "type": "multipolygon",
+          "water": "lake"
+        }
+      },
+      {
+        "type": "relation",
+        "id": 21390340,
+        "center": {
+          "lat": 12.9362943,
+          "lon": 77.579696
+        },
+        "tags": {
+          "natural": "water",
+          "type": "multipolygon",
+          "water": "pond"
+        }
+      }
+    ]
+  }
+}
