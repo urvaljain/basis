@@ -9,7 +9,12 @@
 
 import type { Corpus, EvalReport, Finding, GeocodeCandidate, Health, PageDetail } from "./types";
 
-const BASE = process.env.NEXT_PUBLIC_API_URL ?? "";
+/**
+ * Always relative. `next.config.mjs` rewrites `/api/*` to the real API origin server-side,
+ * so the browser only ever sees one origin and CORS never becomes load-bearing in
+ * production. See the comment in next.config.mjs.
+ */
+const BASE = "";
 
 export interface Ok<T> {
   ok: true;

@@ -26,8 +26,8 @@ The Dockerfile's build context is the **repository root**, not `backend/` — it
 
    | Variable | Value |
    |---|---|
-   | `ALLOWED_ORIGINS` | your Vercel production URL, e.g. `https://basis.vercel.app` |
-   | `ALLOW_ORIGIN_REGEX` | `https://.*\.vercel\.app` — covers per-commit preview deploys |
+   | `ALLOWED_ORIGINS` | your Vercel production URL, e.g. `https://basis.vercel.app`. Optional — the frontend proxies server-side, so this only matters for direct API callers |
+   | `ALLOW_ORIGIN_REGEX` | `https://.*\.vercel\.app` — optional, same reason |
    | `ANTHROPIC_API_KEY` | *optional.* Without it the API runs in extractive mode, which is a supported mode |
 
    `PORT` is supplied by Railway; the container reads it.
@@ -44,21 +44,36 @@ the port opens. The healthcheck timeout is set to 120 s to accommodate that.
 
 1. **vercel.com → Add New → Project → import `urvaljain/basis`**
 2. Set **Root Directory** to `frontend`. Vercel detects Next.js from there.
-3. Under **Environment Variables**, set `NEXT_PUBLIC_API_URL` to the Railway URL from above
-   (no trailing slash).
+3. Under **Environment Variables**, add **one** variable:
+
+   | Key | Value |
+   |---|---|
+   | `API_ORIGIN` | your Railway URL, no trailing slash — e.g. `https://basis-production.up.railway.app` |
+
+   Note it is `API_ORIGIN`, **not** `NEXT_PUBLIC_API_URL`. It is read by the Next.js server
+   when proxying, so it is never exposed to the browser and never baked into the bundle.
+
+   On the import screen, "Environment Variables" is a collapsed section below
+   *Build and Output Settings*. If you have already deployed without it:
+   **Project → Settings → Environment Variables → Add**, then
+   **Deployments → ⋯ → Redeploy** on the newest deployment.
+
 4. Deploy.
 
-`next.config.mjs` proxies `/api/*` to `NEXT_PUBLIC_API_URL`, so the browser sees one origin
-and CORS is only a fallback rather than the primary path.
+`next.config.mjs` rewrites `/api/*` to `API_ORIGIN` server-side, so the browser only ever
+sees the Vercel origin. **CORS is therefore not load-bearing** — a wrong `ALLOWED_ORIGINS`
+on Railway cannot break the deployed app. The API keeps its CORS config for anyone calling
+it directly.
 
 ---
 
 ## Order matters
 
-Deploy the **backend first**. The frontend needs its URL, and the backend needs the
-frontend's origin for `ALLOWED_ORIGINS` — so the sequence is: deploy backend → generate
-domain → deploy frontend with that URL → come back and set `ALLOWED_ORIGINS` to the Vercel
-domain.
+Deploy the **backend first** — the frontend needs its URL as `API_ORIGIN`.
+
+The reverse dependency is now optional: because the frontend proxies server-side, you do
+*not* have to come back and set `ALLOWED_ORIGINS` for the app to work. Set it only if you
+want direct browser access to the API from another origin.
 
 ---
 

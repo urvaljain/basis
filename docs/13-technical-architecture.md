@@ -164,7 +164,9 @@ store. The corpus ships in the image. Measured: **49 MB RSS** loaded and indexed
 ingest at startup, **~1.5 ms** per search.
 
 Environment: `ANTHROPIC_API_KEY` or `OPENAI_API_KEY` (optional — extractive mode needs
-neither), `BASIS_MODEL` (optional), `NEXT_PUBLIC_API_URL` on the frontend.
+neither), `BASIS_MODEL` (optional), and `API_ORIGIN` on the frontend — a server-side
+variable, so the API origin is never baked into the client bundle and the browser only ever
+sees the Next.js origin.
 
 The one deployment caveat: **page rasterisation needs PyMuPDF**. Without it the unreadable
 surface degrades to a placeholder instead of the actual page — which would remove the single
