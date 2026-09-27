@@ -39,7 +39,7 @@ Neither the system nor the reader can tell.
 ## Quick start
 
 ```bash
-# backend — ingests the corpus at startup (~15s)
+# backend — ingests the corpus at startup (~6.5s)
 cd backend
 python -m venv venv && venv/Scripts/activate      # macOS/Linux: source venv/bin/activate
 pip install -r requirements.txt
@@ -253,6 +253,7 @@ docs/            thesis · scope · non-goals · agent architecture · data sour
 | [`10-data-sources.md`](docs/10-data-sources.md) | Every source, licence and limitation — and what is absent |
 | [`11-ai-evaluation.md`](docs/11-ai-evaluation.md) | Results, what the harness caught, what it cannot tell you |
 | [`14-decision-log.md`](docs/14-decision-log.md) | Decisions, reversals and falsified assumptions |
+| [`DEPLOY.md`](DEPLOY.md) | Deploying the two services, and the caveats that come with them |
 
 ---
 

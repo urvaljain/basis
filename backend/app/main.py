@@ -2,9 +2,9 @@
 
 The corpus is ingested once at startup and held in memory. That is a deliberate choice for
 this slice rather than an oversight: the document is 7.5 MB and yields ~1,000 chunks, the
-index is a few hundred kilobytes, and a single process serves it in ~30 ms. Introducing
-Postgres and pgvector here would add a deployment dependency, a migration story and a
-network hop in exchange for capability this scope does not use.
+index is a few hundred kilobytes, and a single process serves a search in ~1.5 ms at 49 MB
+resident. Introducing Postgres and pgvector here would add a deployment dependency, a
+migration story and a network hop in exchange for capability this scope does not use.
 
 ``docs/13-technical-architecture.md`` records the threshold at which that stops being true —
 multiple corpora, multiple tenants, or a corpus large enough that startup ingestion becomes
@@ -14,6 +14,7 @@ noticeable.
 from __future__ import annotations
 
 import logging
+import os
 import time
 from contextlib import asynccontextmanager
 from pathlib import Path
@@ -39,10 +40,37 @@ from app.providers.llm import get_llm
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 logger = logging.getLogger("basis")
 
-ROOT = Path(__file__).resolve().parents[2]
-CORPUS_PATH = ROOT / "data" / "corpus" / "bengaluru-rmp-2031-vol6-zoning-regulations.pdf"
-PAGE_IMAGE_DIR = ROOT / "data" / "corpus" / "rmp2031-pages"
-EVAL_RESULTS = ROOT / "data" / "eval" / "results.json"
+
+def _find_data_dir() -> Path:
+    """Locate the data directory, which sits at a different depth in the container.
+
+    Locally the layout is ``<repo>/backend/app/main.py`` with data at ``<repo>/data``. The
+    image flattens that to ``/app/app/main.py`` with data at ``/app/data``, so a fixed
+    ``parents[2]`` resolves to ``/`` and every corpus path silently points at nothing.
+
+    Walking up to find the directory handles both, and `BASIS_DATA_DIR` overrides it for any
+    layout neither anticipates. Failing loudly here is deliberate: a missing corpus makes
+    every answer wrong rather than absent, and that is far worse than refusing to boot.
+    """
+    if override := os.getenv("BASIS_DATA_DIR"):
+        return Path(override).resolve()
+
+    here = Path(__file__).resolve()
+    for parent in here.parents:
+        candidate = parent / "data" / "corpus"
+        if candidate.is_dir():
+            return parent / "data"
+
+    raise RuntimeError(
+        f"Could not locate the data directory from {here}. Set BASIS_DATA_DIR to the "
+        f"directory containing corpus/ and fixtures/."
+    )
+
+
+DATA_DIR = _find_data_dir()
+CORPUS_PATH = DATA_DIR / "corpus" / "bengaluru-rmp-2031-vol6-zoning-regulations.pdf"
+PAGE_IMAGE_DIR = DATA_DIR / "corpus" / "rmp2031-pages"
+EVAL_RESULTS = DATA_DIR / "eval" / "results.json"
 
 CORPUS_TITLE = "Revised Master Plan for Bengaluru 2031 (Draft) — Volume 6: Zoning Regulations"
 CORPUS_SOURCE_URL = "https://data.opencity.in/dataset/bda-revised-master-plan-2031"
@@ -114,12 +142,20 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+# Origins come from the environment in deployment, with localhost always permitted so a
+# developer never has to set anything to run this. `ALLOWED_ORIGINS` is a comma-separated
+# list; `ALLOW_ORIGIN_REGEX` covers Vercel's per-deployment preview URLs, which are generated
+# per commit and cannot be enumerated in advance.
+_LOCAL_ORIGINS = ["http://localhost:3000", "http://127.0.0.1:3000"]
+_configured = [o.strip() for o in os.getenv("ALLOWED_ORIGINS", "").split(",") if o.strip()]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=[*_LOCAL_ORIGINS, *_configured],
+    allow_origin_regex=os.getenv("ALLOW_ORIGIN_REGEX") or None,
     allow_credentials=False,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST", "DELETE", "OPTIONS"],
+    allow_headers=["Content-Type"],
 )
 
 

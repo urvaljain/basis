@@ -55,8 +55,8 @@ argument fails quietly.
 | Layer | Chose | Over | Why |
 |---|---|---|---|
 | Retrieval | BM25, hand-implemented (~30 lines) | embeddings / vector DB | Questions are lexical; gradeable with no model; can surface *which terms matched* |
-| Index | In-memory, built at startup (~15 s) | Postgres + pgvector | 7.5 MB corpus, ~1,088 chunks, ~30 ms queries. One fewer deployment dependency |
-| Geometry | Shapely + haversine | PostGIS | Every operation is point-buffer and distance |
+| Index | In-memory, built at startup (6.5 s) | Postgres + pgvector | 7.5 MB corpus, 1,088 chunks, 49 MB RSS, ~1.5 ms queries. One fewer deployment dependency |
+| Geometry | Hand-written haversine (~8 lines) | PostGIS / Shapely | Every operation is point-to-point distance. Shapely was declared early and never imported — it has been removed |
 | Orchestration | Plain `asyncio.gather` | LangChain / LangGraph | Static DAG, ~40 lines |
 | Cache | In-process TTL + verbatim disk fixtures | Redis | A cache tier is a service that can fail during the demo it was meant to protect |
 | LLM | Provider abstraction + `NullLLM` | Direct SDK | Extractive mode is a supported mode, not a broken state |
@@ -130,12 +130,12 @@ Every failure mode below was hit during development, not anticipated.
 
 | | |
 |---|---|
-| Corpus ingest (startup) | ~15 s, once |
+| Corpus ingest (startup) | 6.5 s, once |
 | Analysis, providers cached | **14–46 ms** |
 | Analysis, cold providers | 2–4 s |
 | Three-site comparison | ~85 ms |
 | Document upload, 206 pages | ~14 s |
-| Retrieval over 1,088 chunks | < 5 ms |
+| Retrieval over 1,088 chunks | ~1.5 ms |
 
 ---
 
@@ -159,8 +159,9 @@ binary in the repository.
 
 Frontend → Vercel. Backend → Railway or Fly.io.
 
-Requirements are modest and deliberately so: one process, ~200 MB resident with the corpus
-loaded, no database, no Redis, no object store. The corpus ships in the image.
+Requirements are modest and deliberately so: one process, no database, no Redis, no object
+store. The corpus ships in the image. Measured: **49 MB RSS** loaded and indexed, **6.5 s**
+ingest at startup, **~1.5 ms** per search.
 
 Environment: `ANTHROPIC_API_KEY` or `OPENAI_API_KEY` (optional — extractive mode needs
 neither), `BASIS_MODEL` (optional), `NEXT_PUBLIC_API_URL` on the frontend.
