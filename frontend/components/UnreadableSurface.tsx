@@ -59,9 +59,24 @@ export function UnreadableSurface({ spots }: { spots: BlindSpot[] }) {
   );
 }
 
+/**
+ * Which page to open on.
+ *
+ * The first page of a scanned annexure is very often a cover or a blank separator — page 106
+ * of this corpus, the first page of the 23-page TDR instrument, is entirely blank. Opening
+ * there shows the reader a white rectangle and undersells the point entirely.
+ *
+ * The middle of a run is reliably substantive content. For a one or two page gap there is
+ * nothing to choose, so it starts at the beginning.
+ */
+function defaultPage(spot: BlindSpot): number {
+  if (spot.page_count <= 2) return spot.page_start;
+  return spot.page_start + Math.floor(spot.page_count / 2);
+}
+
 function SpotDetail({ spot }: { spot: BlindSpot }) {
   const [open, setOpen] = useState(false);
-  const [page, setPage] = useState(spot.page_start);
+  const [page, setPage] = useState(() => defaultPage(spot));
 
   const pages = Array.from(
     { length: spot.page_end - spot.page_start + 1 },

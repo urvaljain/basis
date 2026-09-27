@@ -20,8 +20,9 @@ out/
 !.env.example
 
 # Generated artefacts
-data/corpus/*-pages/        # page images render on demand
-backend/app/eval/__pycache__/
+# Page images are rendered on demand and cached; regenerable, and large.
+data/corpus/*-pages/
+/tmp/basis-uploads/
 
 # OS
 .DS_Store
