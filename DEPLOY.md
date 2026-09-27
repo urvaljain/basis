@@ -13,8 +13,14 @@ The Dockerfile's build context is the **repository root**, not `backend/` — it
 `backend/app` and `data/`, because the corpus ships inside the image.
 
 1. **railway.app → New Project → Deploy from GitHub repo → `urvaljain/basis`**
-2. Railway reads `backend/railway.json` and builds `backend/Dockerfile`. Leave the root
-   directory as the repository root.
+2. Railway reads **`railway.json` at the repository root** and builds `backend/Dockerfile`
+   with the repo root as the build context.
+
+   **Leave the root directory unset.** If Railway offers "Set root directory to `backend`",
+   decline it — the Dockerfile copies `backend/app` *and* `data/`, so a `backend/` context
+   cannot see the corpus. (An earlier version of this file put `railway.json` inside
+   `backend/`, where Railway does not look for it; the build then fell back to Railpack and
+   failed with "Railpack failed to prepare the build".)
 3. Under **Settings → Networking**, click **Generate Domain**. Note the URL.
 4. Under **Variables**, set:
 

@@ -1,0 +1,25 @@
+# Keep the build context small and the image reproducible.
+# The context is the repository root, because the corpus in data/ ships in the image.
+
+**/node_modules
+**/.next
+**/venv
+**/.venv
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+
+frontend/
+docs/
+.git/
+.github/
+.claude/
+
+# Rendered page images are regenerated on first request; shipping them would add ~100 MB.
+data/corpus/*-pages/
+
+**/.env
+**/.env.*
+!**/.env.example
