@@ -82,7 +82,7 @@ to evidence, assumptions and sources."**
 
 ---
 
-## 2. The founder, and what his background predicts he will judge
+## 2. The founder's background, and what it says about the domain
 
 Naveen Baskaran N — Founder & CEO, Planso.
 Sources: [LinkedIn](https://in.linkedin.com/in/naveen-baskaran),
