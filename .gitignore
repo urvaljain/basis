@@ -27,3 +27,7 @@ data/corpus/*-pages/
 # OS
 .DS_Store
 Thumbs.db
+
+# Personal outreach drafts and application strategy. Kept locally, never published:
+# the repo is public and the person it concerns may read it.
+docs/18-founder-outreach.md

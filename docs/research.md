@@ -96,23 +96,23 @@ Sources: [LinkedIn](https://in.linkedin.com/in/naveen-baskaran),
   Head of Key Account Management (India) → Global Head.
 - Now founder/CEO, Planso Intelligence Private Limited (Bangalore; team 1–10 per Wellfound).
 
-**The inference I draw, flagged as inference:** he is not primarily an ML researcher. He
-spent years as the customer-facing owner at HyperVerge, an AI identity-verification company
-selling into banks and regulated finance. In that business the hardest part of the sale is
-never model accuracy — it is *whether a compliance function will accept a decision an AI
-made*. He will have sat in rooms where a good model lost because it could not show its work.
+**What this background suggests about the domain, flagged as inference.** HyperVerge sells AI
+identity verification into banks and regulated finance. In that business the hardest part of
+adoption is rarely model accuracy — it is whether a compliance function will accept a decision
+an AI made. Basis is aimed at a structurally similar problem: an output that has to survive
+review by someone professionally accountable for it.
 
-Consequence for us: **he has seen trust theatre and he will recognise it.** A confidence
-badge whose number no measurement produced will read to him as a lie, not a feature. A
-"sources" panel that names a document without pinpointing the passage will read as
-unfinished. This raises the bar on the evidence layer specifically — it is the part of the
-product he is most qualified to audit and most likely to poke at.
+That is the useful read here, and it is about the problem rather than about any individual.
+It sets a specific bar for the evidence layer: a confidence badge whose number no measurement
+produced is not a feature, and a "sources" panel naming a document without pinpointing the
+passage is not a citation. Anyone who has sold AI into a regulated workflow will test those
+two things first, because they are where such products usually fail.
 
-His public activity skews to industry events (`#fibac2025`, `#gff`, `#regtech`) —
-customer-facing, not thought-leadership essays. I found **no long-form public product
-writing by him [unverified — may exist behind LinkedIn's login wall]**, so I will not
-pretend to have read his philosophy. The website *is* the philosophy document, and it is
-unusually well written, which suggests he wrote or closely edited it.
+I found **no long-form public product writing by the founder [unverified — may exist behind
+LinkedIn's login wall]**, so I have not tried to reconstruct a personal philosophy. The
+website is the primary statement of intent, and it is unusually precise — the three-step decay
+of evidence in §1 is a sharper articulation of the problem than most of the competitor
+material.
 
 ---
 
